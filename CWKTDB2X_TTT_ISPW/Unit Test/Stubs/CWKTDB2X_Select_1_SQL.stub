@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_Select_1_SQL.stub" nextCalltoken="30003" stubtype="SQL" target="Select" token="30000">
+  <stub:description>Created: 24/10/2018 18:52:12</stub:description>
+  <stub:stubdata id="0" name="Select">
+    <stub:interface>../Interfaces/CWKTDB2X_Select_1_in_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Select_1_in_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Select_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Select_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Select_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F0F0F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Select_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output0.arg0.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:sqlResults>
+      <stub:result id="1" name="Select">
+        <stub:interface>../Interfaces/CWKTDB2X_Select_1_out_NUMBER_OF_EMPLOYEES.interface#Unit%20Test/Interfaces/CWKTDB2X_Select_1_out_NUMBER_OF_EMPLOYEES.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Select_NUMBER-OF-EMPLOYEES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Select_NUMBER-OF-EMPLOYEES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Select_NUMBER-OF-EMPLOYEES.listructure#NUMBER_OF_EMPLOYEES" id="arg0.NUMBER_OF_EMPLOYEES">
+            <properties:properties>
+              <properties:property name="value" type="string">00000000</properties:property>
+            </properties:properties>
+          </stub:data>
+          <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Select_NUMBER-OF-EMPLOYEES.listructure#NUMBER_OF_EMPLOYEES.NUMBER_OF_EMPLOYEES" id="output1.arg0.NUMBER_OF_EMPLOYEES.NUMBER_OF_EMPLOYEES" offset="0"/>
+        </stub:output>
+        <stub:sqlStatus>
+          <stub:statement type="Select">
+            <stub:text>      *****EXEC SQL SELECT COUNT(*)
+      *****         INTO :NUMBER-OF-EMPLOYEES
+      *****        FROM FBRCCV0_DEMO_TAB1
+      *****        WHERE EMP_NUM > :EMP-NUM
+      *****END-EXEC.
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00404400001E43574B54444232581AA41F2104FDF540000937CFB79037CFDFB037CFDFEC04B800E7000003B50000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101F0000437CFD05837CFD4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+            <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537CFB81837CFD4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30002">
+            <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1C1F4F1C6F2F1F0F4C6C4C6F5F4F0FFC3E5D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Select">
+        <stub:text>      *****EXEC SQL SELECT COUNT(*)
+      *****         INTO :NUMBER-OF-EMPLOYEES
+      *****        FROM FBRCCV0_DEMO_TAB1
+      *****        WHERE EMP_NUM > :EMP-NUM
+      *****END-EXEC.
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404400001E43574B54444232581AA41F2104FDF540000937CFB79037CFDFB037CFDFEC04B800E7000003B50000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101F0000437CFD05837CFD4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537CFB81837CFD4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30001">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1C1F4F1C6F2F1F0F4C6C4C6F5F4F0FFC3E5D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>
