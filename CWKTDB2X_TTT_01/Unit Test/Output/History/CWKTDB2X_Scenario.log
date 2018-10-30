@@ -1,15 +1,12 @@
 
 ***************** Output from TTTRUNNR *****************
 
- CEE3740I The following messages pertain to the system default run-time options.
- CEE3768I The system default for the run-time option DEBUG could not be overridden.
- CEE3768I The system default for the run-time option TEST could not be overridden.
  CEE3608I The following messages pertain to the invocation command run-time options.
  CEE3613I The run-time option NOSTAE appeared in the options string.
  CEE3631I One or more settings of the run-time options STAE or SPIE were mapped to TRAP.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2018-10-26 09:39.35��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2018-10-30 15:27.32��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWKTDB2X
  STTR014I Processing test scenario CWKTDB2X
@@ -50,7 +47,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2018297, Length = 40
+  IDRU: Creation Date = 2018302, Length = 40
    data = c3e7c3e6d2e3c4c2f2e7073270fb8db819d55dd3611a138878121a7a000000000000000000000000
    program = CWKTDB2X, ddio(26) = FBRCCV0.DEMO.SOURCE.SHRDIR
  ---closeW---entry
@@ -64,9 +61,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 72, rs = <0X83000800>.
- --->>>class_offset: 00005F7C
- --->>>element_offset: 00005F7C
+  getD: rc, count = 143, rs = <0X83000800>.
+ --->>>class_offset: 0000446C
+ --->>>element_offset: 0000446C
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -78,7 +75,7 @@
  token: 00000000, 0
  assertYN: Y
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 3EB55028
+ ---SUBPGM---exit  newSubPgm: 3E8EF028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
@@ -554,7 +551,7 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 72, rs = <0X83000800>.
+  getD: rc, count = 143, rs = <0X83000800>.
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -566,9 +563,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  getD: rc, count = 72, rs = <0X83000800>.
- --->>>class_offset: 00005F78
- --->>>element_offset: 00005F78
+  getD: rc, count = 143, rs = <0X83000800>.
+ --->>>class_offset: 00004468
+ --->>>element_offset: 00004468
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
@@ -585,14 +582,14 @@
  SELECT COUNT(*) INTO :NUMBER-OF-EMPLOYEES FROM FBRCCV0_DEMO_TAB1 WHERE EMP_NUM > :EMP-NUM
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98274C  stmt: 3EAFAF36  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
+ release: 3E78FB44  stmt: 3E898F36  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98274C  stmt: 3EAFAF36  stmtLength: 00000059
+ release: 3E78FB44  stmt: 3E898F36  stmtLength: 00000059
  token: 00007530
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 3EC17028
+ ---DB2SQL---exit  Sel newStatement: 3E9B1028
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -665,14 +662,14 @@
  ROLLBACK
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98274C  stmt: 3EAFB267  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
+ release: 3E78FB44  stmt: 3E899267  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98274C  stmt: 3EAFB267  stmtLength: 00000008
+ release: 3E78FB44  stmt: 3E899267  stmtLength: 00000008
  token: 000186A0
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 3EC17660
+ ---DB2SQL---exit  Sel newStatement: 3E9B1660
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -701,14 +698,14 @@
  OPEN EMPLOYEE_CURSOR
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98274C  stmt: 3EAFB4DE  stmtLength: 00000014  crsrName: 3E97D358  crsrLength: 0000000F
+ release: 3E78FB44  stmt: 3E8994DE  stmtLength: 00000014  crsrName: 3E78D2C0  crsrLength: 0000000F
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98274C  stmt: 3EAFB4DE  stmtLength: 00000014
+ release: 3E78FB44  stmt: 3E8994DE  stmtLength: 00000014
  token: 0000EA60
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Csr newStatement: 3EC17A50
+ ---DB2SQL---exit  Csr newStatement: 3E9B1A50
  ---DB2PLIST---entry
  ---Csr setPlist---entry
  new OFC
@@ -4704,14 +4701,14 @@
  , :WA-EMP-STREET , :WA-EMP-CITY , :WA-EMP-STATE , :WA-EMP-ZIP , :HIREDATE , :HOURS , :RATE )
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98274C  stmt: 3EAFB761  stmtLength: 00000124  crsrName: 00000000  crsrLength: 00000000
+ release: 3E78FB44  stmt: 3E899761  stmtLength: 00000124  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98274C  stmt: 3EAFB761  stmtLength: 00000124
+ release: 3E78FB44  stmt: 3E899761  stmtLength: 00000124
  token: 00011170
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 3EC18268
+ ---DB2SQL---exit  Sel newStatement: 3E9B2268
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -4928,14 +4925,14 @@
  MP-NUM
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98274C  stmt: 3EAFBAF4  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
+ release: 3E78FB44  stmt: 3E899AF4  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98274C  stmt: 3EAFBAF4  stmtLength: 0000006A
+ release: 3E78FB44  stmt: 3E899AF4  stmtLength: 0000006A
  token: 00013880
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 3EC1A9F0
+ ---DB2SQL---exit  Sel newStatement: 3E9B49F0
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -5053,8 +5050,8 @@
  ---sqlHVComp---exit: 0
  ---findSQLcall---exit: 0
  ---storeHVsIn---entry
- sqlDAin: 1050438064, sqlN: 1, HVsIn size: 1
-   sqlDAin size:0010 addr:3E9C69B0
+ sqlDAin: 1050422704, sqlN: 1, HVsIn size: 1
+   sqlDAin size:0010 addr:3E9C2DB0
  ---setData---entry
  dataType: 452
  rowsAffected: 0 mLength: 5
@@ -5068,16 +5065,16 @@
  ---copySQLCA---entry
  ---copySQLCA---exit
  ---copyHVsOut---entry
- sqlDAout: 1050438124, sqlN: 1, HVsOut size: 1
- iA in DA: 1050435296
+ sqlDAout: 1050422764, sqlN: 1, HVsOut size: 1
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---Sel doCall---exit: 0
  ---DONONCUR---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: -1
  ---nextSubCallTemp---exit: 0
@@ -5176,43 +5173,43 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 0
  ---nextSubCallTemp---exit: 1
@@ -5281,8 +5278,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 1050435728, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:3E9C6090
+ sqlDAin: 1050420368, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:3E9C2490
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5408,43 +5405,43 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 1
  ---nextSubCallTemp---exit: 2
@@ -5513,8 +5510,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 1050435728, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:3E9C6090
+ sqlDAin: 1050420368, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:3E9C2490
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5640,43 +5637,43 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 2
  ---nextSubCallTemp---exit: 3
@@ -5745,8 +5742,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 1050435728, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:3E9C6090
+ sqlDAin: 1050420368, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:3E9C2490
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5872,43 +5869,43 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 3
  ---nextSubCallTemp---exit: 4
@@ -5977,8 +5974,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 1050435728, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:3E9C6090
+ sqlDAin: 1050420368, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:3E9C2490
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6104,43 +6101,43 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 4
  ---nextSubCallTemp---exit: 5
@@ -6209,8 +6206,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 1050435728, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:3E9C6090
+ sqlDAin: 1050420368, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:3E9C2490
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6336,43 +6333,43 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 5
  ---nextSubCallTemp---exit: 6
@@ -6441,8 +6438,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 1050435728, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:3E9C6090
+ sqlDAin: 1050420368, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:3E9C2490
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6568,34 +6565,34 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -6639,8 +6636,8 @@
  statementlength: 292
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1050437496, sqlN: 11, HVsIn size: 11
-   sqlDAin size:0010 addr:3E9C6778
+ sqlDAin: 1050422136, sqlN: 11, HVsIn size: 11
+   sqlDAin size:0010 addr:3E9C2B78
  ---setData---entry
  dataType: 452
  rowsAffected: 0 mLength: 5
@@ -6748,9 +6745,9 @@
  ---Sel doCall---exit: 0
  ---DONONCUR---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---doCall---entry
- parmlist: X'3886C228'
+ parmlist: X'386311D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 6
  ---nextSubCallTemp---exit: 7
@@ -6801,8 +6798,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1050435944, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3E9C6168
+ sqlDAin: 1050420584, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9C2568
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6935,34 +6932,34 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1050436800, sqlN: 14, HVsOut size: 14
- iA in DA: 1050427944
+ sqlDAout: 1050421440, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050412584
  bitFlag 0
- iA in DA: 1050427946
+ iA in DA: 1050412586
  bitFlag 0
- iA in DA: 1050427948
+ iA in DA: 1050412588
  bitFlag 0
- iA in DA: 1050427950
+ iA in DA: 1050412590
  bitFlag 0
- iA in DA: 1050427952
+ iA in DA: 1050412592
  bitFlag 0
- iA in DA: 1050427954
+ iA in DA: 1050412594
  bitFlag 0
- iA in DA: 1050427956
+ iA in DA: 1050412596
  bitFlag 0
- iA in DA: 1050427958
+ iA in DA: 1050412598
  bitFlag 0
- iA in DA: 1050427960
+ iA in DA: 1050412600
  bitFlag 0
- iA in DA: 1050427962
+ iA in DA: 1050412602
  bitFlag 0
- iA in DA: 1050427964
+ iA in DA: 1050412604
  bitFlag 0
- iA in DA: 1050427966
+ iA in DA: 1050412606
  bitFlag 0
- iA in DA: 1050427968
+ iA in DA: 1050412608
  bitFlag 0
- iA in DA: 1050435296
+ iA in DA: 1050419936
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
