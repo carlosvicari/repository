@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 24/10/2018 16:02:38-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 05/11/2018 10:23:13-->
 <interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWKTDB2X_RPTFILE_EMP_TOTAL_DTL.interface">
   <interface:description></interface:description>
   <interface:argument listructure="../Structures/CWKTDB2X_RPTFILE_EMP-TOTAL-DTL.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMP-TOTAL-DTL.listructure">

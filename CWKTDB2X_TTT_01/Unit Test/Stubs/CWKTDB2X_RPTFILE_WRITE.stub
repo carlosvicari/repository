@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_RPTFILE_WRITE.stub" stubtype="QSAM WRITE" target="RPTFILE" token="90000">
-  <stub:description>Created: 24/10/2018 16:02:10</stub:description>
+  <stub:description>Created: 05/11/2018 10:22:47</stub:description>
   <stub:stubdata id="0" name="RPTFILE">
     <stub:interface>../Interfaces/CWKTDB2X_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWKTDB2X_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_BLANK-LINE.listructure">
@@ -57,7 +57,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#EMPLOYEE_HDR1" id="arg0.EMPLOYEE_HDR1">
         <properties:properties>
-          <properties:property name="value" type="string">40D9E4D540C4C1E3C54040F1F061F2F461F1F840404040404040C5D4D7D3D6E8C5C540C3D6D4D7C5D5E2C1E3C9D6D540D9C5D7D6D9E3404040404040404040404040404040404040D7C1C7C5404040F1</properties:property>
+          <properties:property name="value" type="string">40D9E4D540C4C1E3C54040F1F161F0F561F1F840404040404040C5D4D7D3D6E8C5C540C3D6D4D7C5D5E2C1E3C9D6D540D9C5D7D6D9E3404040404040404040404040404040404040D7C1C7C5404040F1</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#EMPLOYEE_HDR1.FILLER0" id="output3.arg0.EMPLOYEE_HDR1.FILLER0" offset="0"/>
@@ -83,16 +83,16 @@
         <checkconditions:expectation assert="=" type="string">RUN DATE</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.EMP_RUN_MM">
-        <checkconditions:expression>BigDecimalCreator.make('10').compareTo(result.arg0.EMPLOYEE_HDR1.EMP_RUN_MM) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">10</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('11').compareTo(result.arg0.EMPLOYEE_HDR1.EMP_RUN_MM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">11</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.FILLER2">
         <checkconditions:expression>'/' eq result.arg0.EMPLOYEE_HDR1.FILLER2</checkconditions:expression>
         <checkconditions:expectation assert="=" type="string">/</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.EMP_RUN_DD">
-        <checkconditions:expression>BigDecimalCreator.make('24').compareTo(result.arg0.EMPLOYEE_HDR1.EMP_RUN_DD) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">24</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('5').compareTo(result.arg0.EMPLOYEE_HDR1.EMP_RUN_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.FILLER3">
         <checkconditions:expression>'/' eq result.arg0.EMPLOYEE_HDR1.FILLER3</checkconditions:expression>
@@ -685,7 +685,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40D4C1D9C3C9C140E2E4D3D3C9E5C1D540C5C1E2E340404040C8404040F0F461F0F561F9F3404040F2F540404040F1F2F04BF0F04040F7F24BF0F04040404040404040F04BF0F0404040F1F9F24BF0F0</properties:property>
+          <properties:property name="value" type="string">40D4C1D9C3C9C140E2E4D3D3C9E5C1D540C5C1E2E340404040C8404040F0F461F0F561F9F3404040F2F540404040F1F2F04BF0F04040F1F84BF0F04040404040404040F04BF0F0404040F1F3F84BF0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL.FILLER0" id="output12.arg0.EMPLOYEE_DTL.FILLER0" offset="0"/>
@@ -781,8 +781,8 @@
         <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output12.arg0.EMPLOYEE_DTL.EMP_DTL_OT">
-        <checkconditions:expression>BigDecimalCreator.make('72.00').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_OT) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">72.00</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('18.00').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_OT) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">18.00</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output12.arg0.EMPLOYEE_DTL.FILLER7">
         <checkconditions:expression>'' eq result.arg0.EMPLOYEE_DTL.FILLER7</checkconditions:expression>
@@ -797,8 +797,8 @@
         <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output12.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL">
-        <checkconditions:expression>BigDecimalCreator.make('192.00').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">192.00</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('138.00').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">138.00</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
@@ -1051,7 +1051,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40E2C1D4E4C5D340C1C4C4C1D4E2404040E6C5E2E340404040C8404040F0F161F0F261F8F6404040F3F240404040F1F1F04BF0F04040F3F34BF0F04040404040404040F04BF0F0404040F1F4F34BF0F0</properties:property>
+          <properties:property name="value" type="string">40E2C1D4E4C5D340C1C4C4C1D4E2404040E6C5E2E340404040C8404040F0F161F0F261F8F6404040F3F240404040F1F1F04BF0F0404040F84BF2F54040404040404040F04BF0F0404040F1F1F84BF2F5</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL.FILLER0" id="output15.arg0.EMPLOYEE_DTL.FILLER0" offset="0"/>
@@ -1147,8 +1147,8 @@
         <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output15.arg0.EMPLOYEE_DTL.EMP_DTL_OT">
-        <checkconditions:expression>BigDecimalCreator.make('33.00').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_OT) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">33.00</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('8.25').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_OT) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">8.25</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output15.arg0.EMPLOYEE_DTL.FILLER7">
         <checkconditions:expression>'' eq result.arg0.EMPLOYEE_DTL.FILLER7</checkconditions:expression>
@@ -1163,8 +1163,8 @@
         <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output15.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL">
-        <checkconditions:expression>BigDecimalCreator.make('143.00').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">143.00</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('118.25').compareTo(result.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">118.25</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
@@ -1190,7 +1190,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_EMP-TOTAL-DTL.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMP-TOTAL-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL" id="arg0.EMP_TOTAL_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40404040E3D6E3C1D340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F1F5F8F64BF7F5</properties:property>
+          <properties:property name="value" type="string">40404040E3D6E3C1D340404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040F1F5F0F84BF0F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_RPTFILE_EMP-TOTAL-DTL.listructure#EMP_TOTAL_DTL.FILLER0" id="output17.arg0.EMP_TOTAL_DTL.FILLER0" offset="0"/>
@@ -1212,8 +1212,8 @@
         <checkconditions:expectation assert="=" type="string"></checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output17.arg0.EMP_TOTAL_DTL.EMP_GRAND_TOTAL">
-        <checkconditions:expression>BigDecimalCreator.make('1586.75').compareTo(result.arg0.EMP_TOTAL_DTL.EMP_GRAND_TOTAL) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">1586.75</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('1508.00').compareTo(result.arg0.EMP_TOTAL_DTL.EMP_GRAND_TOTAL) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1508.00</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
     </stub:checkconditions>
   </stub:stubdata>
