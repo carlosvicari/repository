@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 3, 2018 4:10:50 PM-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 5, 2018 6:18:33 AM-->
 <testsuites>
   <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" tests="4">
     <testcase classname="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" name="00001: Check for PARM_LTH"/>
@@ -14,7 +14,7 @@
     <testcase classname="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00003: TODAYS_DATE">
       <failure>TODAYS_DATE failed
 
-Actual Value:    181103
+Actual Value:    181105
 
 Expected Value:  181024</failure>
     </testcase>
