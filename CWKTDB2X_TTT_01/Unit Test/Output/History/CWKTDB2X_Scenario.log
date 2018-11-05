@@ -1,0 +1,22 @@
+
+***************** Output from TTTRUNNR *****************
+
+ CEE3740I The following messages pertain to the system default run-time options.
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.
+ CEE3768I The system default for the run-time option TEST could not be overridden.
+ CEE3608I The following messages pertain to the invocation command run-time options.
+ CEE3613I The run-time option NOSTAE appeared in the options string.
+ CEE3631I One or more settings of the run-time options STAE or SPIE were mapped to TRAP.
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 2018091307484653-0400 on 2018-11-05 07:33.52����������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������),DEBUG(ON)
+ CEE3501S The module CWKTDB2X was not found.
+          From compile unit TTTRUNNR at entry point TTTRUNNR at compile unit offset -37858E96 at entry offset -37858E96
+           at address 0011216A.
+
+***************** Output from TTOUT *****************
+
+  2018-11-05 07:33:52 TT>> INITCOBL >>>TR>>>ENTRY --->
+  2018-11-05 07:33:52 TT>> INITCOBL >>>TR>>>EXIT RC = 00000000
+  2018-11-05 07:33:52 TT>> TTT@INIT >>>TR>>>EXIT RC = 00000000
