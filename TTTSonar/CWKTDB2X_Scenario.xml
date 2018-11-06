@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 6, 2018 3:02:52 PM-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 6, 2018 3:19:46 PM-->
 <testExecutions version="1">
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00001: Check for PARM_LTH"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00002: Check for PARM_DATA"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00003: Check for GRAND_TOTAL"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00003: Check for GRAND_TOTAL">
+      <failure message="Check for GRAND_TOTAL failed">Check for GRAND_TOTAL failed
+
+Actual Value:    1586
+
+Expected Value:  1508</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00004: Check for TOTAL_RECORD"/>
   </file>
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub">
@@ -180,11 +186,23 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00015: Check for FILLER5"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00017: Check for FILLER6"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00018: Check for EMP_DTL_OT">
+      <failure message="Check for EMP_DTL_OT failed">Check for EMP_DTL_OT failed
+
+Actual Value:    72.00
+
+Expected Value:  18.00</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00019: Check for FILLER7"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00013: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    192.00
+
+Expected Value:  138.00</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00014: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00014: RPTFILE assertion.00002: Check for EMP_DTL_NAME"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00014: RPTFILE assertion.00003: Check for FILLER1"/>
@@ -246,16 +264,34 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00015: Check for FILLER5"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00016: Check for EMP_DTL_WAGES"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00017: Check for FILLER6"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00018: Check for EMP_DTL_OT"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00018: Check for EMP_DTL_OT">
+      <failure message="Check for EMP_DTL_OT failed">Check for EMP_DTL_OT failed
+
+Actual Value:    33.00
+
+Expected Value:  8.25</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00019: Check for FILLER7"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00020: Check for EMP_DTL_COMM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00021: Check for FILLER8"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00016: RPTFILE assertion.00022: Check for EMP_DTL_TOTAL">
+      <failure message="Check for EMP_DTL_TOTAL failed">Check for EMP_DTL_TOTAL failed
+
+Actual Value:    143.00
+
+Expected Value:  118.25</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00017: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00001: Check for FILLER0"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00002: Check for FILLER1"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00003: Check for FILLER2"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL">
+      <failure message="Check for EMP_GRAND_TOTAL failed">Check for EMP_GRAND_TOTAL failed
+
+Actual Value:    1586.75
+
+Expected Value:  1508.00</failure>
+    </testCase>
   </file>
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Insert_1_SQL.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00001: Check for EMP_NUM"/>
@@ -304,7 +340,13 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00043: 'Open' assertion.Open"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00044: 'Fetch' assertion.Fetch"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00002: Check for OVERTIME">
+      <failure message="Check for OVERTIME failed">Check for OVERTIME failed
+
+Actual Value:    72.00
+
+Expected Value:  18.00</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00003: Check for COMM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00046: 'Close' assertion.Close"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00047: 'Open' assertion.Open"/>
@@ -316,7 +358,13 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00051: 'Open' assertion.Open"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00052: 'Fetch' assertion.Fetch"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00002: Check for OVERTIME">
+      <failure message="Check for OVERTIME failed">Check for OVERTIME failed
+
+Actual Value:    33.00
+
+Expected Value:  8.25</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00003: Check for COMM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00054: 'Close' assertion.Close"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00055: 'Open' assertion.Open"/>
