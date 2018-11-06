@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 05/11/2018 10:39:52-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 6, 2018 7:19:57 AM-->
 <testExecutions version="1">
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00001: Check for PARM_LTH"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00002: Check for PARM_DATA"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00003: Check for GRAND_TOTAL"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00004: Check for TOTAL_RECORD"/>
   </file>
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00001: END_OF_MONTH_SW"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00002: YRS_OF_SERVICE"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: TODAYS_DATE"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: TODAYS_DATE">
+      <failure message="TODAYS_DATE failed">TODAYS_DATE failed
+
+Actual Value:    181106
+
+Expected Value:  181105</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion.00001: END_OF_MONTH_SW"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion.00002: YRS_OF_SERVICE"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion.00003: TODAYS_DATE"/>
@@ -55,7 +61,7 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion.00005: WA_EMP_HIRE_MM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion.00006: WA_EMP_HIRE_DD"/>
   </file>
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_RPTFILE_WRITE.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_RPTFILE_WRITE.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00001: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00002: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00003: RPTFILE assertion.00001: Check for BLANK_LINE"/>
@@ -257,13 +263,13 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00003: Check for FILLER2"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL"/>
   </file>
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Select_1_SQL.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Select_1_SQL.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_Select_1_SQL'.00027: 'Select' assertion.Select"/>
   </file>
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_ROLLBACK_1_SQL.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_ROLLBACK_1_SQL.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_ROLLBACK_1_SQL'.00028: 'ROLLBACK' assertion.ROLLBACK"/>
   </file>
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00029: 'Open' assertion.Open"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00030: 'Fetch' assertion.Fetch"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00001: Check for WAGES"/>
@@ -308,7 +314,7 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00058: 'Delete' assertion.Delete"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00059: 'Close' assertion.Close"/>
   </file>
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Insert_1_SQL.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Insert_1_SQL.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00001: Check for EMP_NUM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00002: Check for WA_EMP_TYPE"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00003: Check for REGION"/>
@@ -321,7 +327,7 @@
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00010: Check for HOURS"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00011: Check for RATE"/>
   </file>
-  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Update_1_SQL.stub">
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Update_1_SQL.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00001: Check for WAGES"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00002: Check for OVERTIME"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00003: Check for COMM"/>
