@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 6, 2018 7:19:57 AM-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 6, 2018 3:02:52 PM-->
 <testExecutions version="1">
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00001: Check for PARM_LTH"/>
@@ -11,13 +11,7 @@
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00001: END_OF_MONTH_SW"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00002: YRS_OF_SERVICE"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: TODAYS_DATE">
-      <failure message="TODAYS_DATE failed">TODAYS_DATE failed
-
-Actual Value:    181106
-
-Expected Value:  181105</failure>
-    </testCase>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: TODAYS_DATE"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion.00001: END_OF_MONTH_SW"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion.00002: YRS_OF_SERVICE"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion.00003: TODAYS_DATE"/>
@@ -263,57 +257,6 @@ Expected Value:  181105</failure>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00003: Check for FILLER2"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_WRITE.00018: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL"/>
   </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Select_1_SQL.stub">
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_Select_1_SQL'.00027: 'Select' assertion.Select"/>
-  </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_ROLLBACK_1_SQL.stub">
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_ROLLBACK_1_SQL'.00028: 'ROLLBACK' assertion.ROLLBACK"/>
-  </file>
-  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub">
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00029: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00030: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00002: Check for OVERTIME"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00003: Check for COMM"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00032: 'Close' assertion.Close"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00033: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00034: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00007: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00007: Update assertion.00002: Check for OVERTIME"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00007: Update assertion.00003: Check for COMM"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00036: 'Close' assertion.Close"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00037: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00038: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00011: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00011: Update assertion.00002: Check for OVERTIME"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00011: Update assertion.00003: Check for COMM"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00040: 'Close' assertion.Close"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00041: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00042: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00002: Check for OVERTIME"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00003: Check for COMM"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00044: 'Close' assertion.Close"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00045: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00046: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion.00002: Check for OVERTIME"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion.00003: Check for COMM"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00048: 'Close' assertion.Close"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00049: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00050: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00001: Check for WAGES"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00002: Check for OVERTIME"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00003: Check for COMM"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00052: 'Close' assertion.Close"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00053: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00054: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00055: 'Close' assertion.Close"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00056: 'Open' assertion.Open"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00057: 'Fetch' assertion.Fetch"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00058: 'Delete' assertion.Delete"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00059: 'Close' assertion.Close"/>
-  </file>
   <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Insert_1_SQL.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00001: Check for EMP_NUM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00002: Check for WA_EMP_TYPE"/>
@@ -332,5 +275,56 @@ Expected Value:  181105</failure>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00002: Check for OVERTIME"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00003: Check for COMM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00004: Check for EMP_NUM"/>
+  </file>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_ROLLBACK_1_SQL.stub">
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_ROLLBACK_1_SQL'.00029: 'ROLLBACK' assertion.ROLLBACK"/>
+  </file>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_Select_1_SQL.stub">
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_Select_1_SQL'.00030: 'Select' assertion.Select"/>
+  </file>
+  <file path="C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_TTT_CC_SONAR_JOB\CWKTDB2X_TTT_01\Unit Test\Stubs\CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub">
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00031: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00032: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00001: Check for WAGES"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00003: Check for COMM"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00034: 'Close' assertion.Close"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00035: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00036: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00007: Update assertion.00001: Check for WAGES"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00007: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00007: Update assertion.00003: Check for COMM"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00038: 'Close' assertion.Close"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00039: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00040: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00011: Update assertion.00001: Check for WAGES"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00011: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00011: Update assertion.00003: Check for COMM"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00042: 'Close' assertion.Close"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00043: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00044: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00001: Check for WAGES"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion.00003: Check for COMM"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00046: 'Close' assertion.Close"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00047: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00048: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion.00001: Check for WAGES"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion.00003: Check for COMM"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00050: 'Close' assertion.Close"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00051: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00052: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00001: Check for WAGES"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00002: Check for OVERTIME"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion.00003: Check for COMM"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00054: 'Close' assertion.Close"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00055: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00056: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00057: 'Close' assertion.Close"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00058: 'Open' assertion.Open"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00059: 'Fetch' assertion.Fetch"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00060: 'Delete' assertion.Delete"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00061: 'Close' assertion.Close"/>
   </file>
 </testExecutions>
