@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_RPTFILE_WRITE.stub" stubtype="QSAM WRITE" target="RPTFILE" token="90000">
-  <stub:description>Created: 05/11/2018 10:22:47</stub:description>
+  <stub:description>Created: 06/11/2018 17:39:30</stub:description>
   <stub:stubdata id="0" name="RPTFILE">
     <stub:interface>../Interfaces/CWKTDB2X_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWKTDB2X_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_BLANK-LINE.listructure">
@@ -57,7 +57,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#EMPLOYEE_HDR1" id="arg0.EMPLOYEE_HDR1">
         <properties:properties>
-          <properties:property name="value" type="string">40D9E4D540C4C1E3C54040F1F161F0F561F1F840404040404040C5D4D7D3D6E8C5C540C3D6D4D7C5D5E2C1E3C9D6D540D9C5D7D6D9E3404040404040404040404040404040404040D7C1C7C5404040F1</properties:property>
+          <properties:property name="value" type="string">40D9E4D540C4C1E3C54040F1F161F0F661F1F840404040404040C5D4D7D3D6E8C5C540C3D6D4D7C5D5E2C1E3C9D6D540D9C5D7D6D9E3404040404040404040404040404040404040D7C1C7C5404040F1</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#EMPLOYEE_HDR1.FILLER0" id="output3.arg0.EMPLOYEE_HDR1.FILLER0" offset="0"/>
@@ -91,8 +91,8 @@
         <checkconditions:expectation assert="=" type="string">/</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.EMP_RUN_DD">
-        <checkconditions:expression>BigDecimalCreator.make('5').compareTo(result.arg0.EMPLOYEE_HDR1.EMP_RUN_DD) eq 0</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="number">5</checkconditions:expectation>
+        <checkconditions:expression>BigDecimalCreator.make('6').compareTo(result.arg0.EMPLOYEE_HDR1.EMP_RUN_DD) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">6</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#output3.arg0.EMPLOYEE_HDR1.FILLER3">
         <checkconditions:expression>'/' eq result.arg0.EMPLOYEE_HDR1.FILLER3</checkconditions:expression>

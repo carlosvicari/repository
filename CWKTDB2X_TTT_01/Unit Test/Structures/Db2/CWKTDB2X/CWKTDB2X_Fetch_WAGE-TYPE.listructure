@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 05/11/2018 10:21:47-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 06/11/2018 17:38:29-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
   <listructure:struct id="WAGE_TYPE" name="WAGE_TYPE">
     <properties:properties>
