@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.2.1.v20180920-0235_707?>
-<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 16, 2018 2:10:17 PM-->
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 16, 2018 2:13:34 PM-->
 <testsuites>
   <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" tests="4">
     <testcase classname="CWKTDB2X_TTT_01.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" name="00001: Check for PARM_LTH"/>
