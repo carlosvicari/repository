@@ -26,7 +26,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F1F1F2F6</properties:property>
+          <properties:property name="value" type="string">F1F8F1F1F2F8</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="input0.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -85,8 +85,8 @@
         <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
       <checkconditions:simpleCheckcondition refData="#input0.arg2.TODAYS_DATE.TODAYS_DATE">
-        <checkconditions:expression>'181126' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
-        <checkconditions:expectation assert="=" type="string">181126</checkconditions:expectation>
+        <checkconditions:expression>'181128' eq result.arg2.TODAYS_DATE.TODAYS_DATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">181128</checkconditions:expectation>
       </checkconditions:simpleCheckcondition>
     </stub:inputDataCheckconditions>
   </stub:stubdata>
