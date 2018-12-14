@@ -1,15 +1,12 @@
 
 ***************** Output from TTTRUNNR *****************
 
- CEE3740I The following messages pertain to the system default run-time options.
- CEE3768I The system default for the run-time option DEBUG could not be overridden.
- CEE3768I The system default for the run-time option TEST could not be overridden.
  CEE3608I The following messages pertain to the invocation command run-time options.
  CEE3613I The run-time option NOSTAE appeared in the options string.
  CEE3631I One or more settings of the run-time options STAE or SPIE were mapped to TRAP.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2018-11-05 07:54.54��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2018-12-05 14:39.11��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWKTDB2X
  STTR014I Processing test scenario CWKTDB2X
@@ -44,7 +41,7 @@
  ---closeW---exit
  ---BNDTARGT---exit
  ---BNDHOOK---entry
- --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = CWKTDATE
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = CWKTDATE , offset = 00000000
  ---openW_includeName---entry
  --->>>moduleName = CWKTDB2X
   openW: rc = 0, rs = <0X00000000>.
@@ -64,7 +61,7 @@
  token: 00000000, 0
  assertYN: Y
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 3EA41028
+ ---SUBPGM---exit  newSubPgm: 3E920028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
@@ -88,6 +85,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -98,6 +102,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -108,6 +119,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -118,9 +136,17 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
@@ -144,6 +170,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -154,6 +187,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -164,6 +204,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -174,12 +221,21 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
@@ -203,6 +259,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -213,6 +276,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -223,6 +293,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -233,15 +310,25 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
@@ -265,6 +352,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -275,6 +369,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -285,6 +386,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -295,18 +403,29 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
@@ -330,6 +449,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -340,6 +466,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -350,6 +483,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -360,6 +500,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---addSubCall---entry
@@ -381,6 +528,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -391,6 +545,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -401,6 +562,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -411,24 +579,37 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
+ deleting AVsIn
  deleting AVsOut
  ---~subCall---exit
  ---~subCall---entry
@@ -452,6 +633,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -462,6 +650,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -472,6 +667,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -482,6 +684,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---addSubCall---entry
@@ -503,6 +712,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -513,6 +729,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -523,6 +746,13 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---SUBOUT---entry
  ---addOutArg---entry
  ---setData---entry
@@ -533,20 +763,28 @@
  ---addAvOut---exit
  ---addOutArg---exit
  ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
  ---BNDHOOK---entry
- --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = DSNHLIR
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = DSNHLIR  , offset = 00000000
  ---openW_includeName---entry
  --->>>moduleName = CWKTDB2X
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
   getD: rc, count = 143, rs = <0X83000800>.
+ --->>>element not found
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDHOOK---exit
  ---BNDHOOK---entry
- --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = DSNHLI
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = DSNHLI   , offset = 00000000
  ---openW_includeName---entry
  --->>>moduleName = CWKTDB2X
   openW: rc = 0, rs = <0X00000000>.
@@ -567,14 +805,14 @@
  ROLLBACK
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98B0F4  stmt: 3E9EAF36  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
+ release: 3E7AD7CC  stmt: 3E7F9F36  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98B0F4  stmt: 3E9EAF36  stmtLength: 00000008
+ release: 3E7AD7CC  stmt: 3E7F9F36  stmtLength: 00000008
  token: 00015F90
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 3EBC1028
+ ---DB2SQL---exit  Sel newStatement: 3E9E2028
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -607,14 +845,14 @@
  SELECT COUNT(*) INTO :NUMBER-OF-EMPLOYEES FROM FBRCCV0_DEMO_TAB1 WHERE EMP_NUM > :EMP-NUM
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98B0F4  stmt: 3E9EB267  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
+ release: 3E7AD7CC  stmt: 3E7FA267  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98B0F4  stmt: 3E9EB267  stmtLength: 00000059
+ release: 3E7AD7CC  stmt: 3E7FA267  stmtLength: 00000059
  token: 00007530
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 3EBC1428
+ ---DB2SQL---exit  Sel newStatement: 3E9E2428
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -687,14 +925,14 @@
  OPEN EMPLOYEE_CURSOR
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98B0F4  stmt: 3E9EB52F  stmtLength: 00000014  crsrName: 3E98B468  crsrLength: 0000000F
+ release: 3E7AD7CC  stmt: 3E7FA52F  stmtLength: 00000014  crsrName: 3E7ADB40  crsrLength: 0000000F
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98B0F4  stmt: 3E9EB52F  stmtLength: 00000014
+ release: 3E7AD7CC  stmt: 3E7FA52F  stmtLength: 00000014
  token: 0000EA60
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Csr newStatement: 3EBC1A60
+ ---DB2SQL---exit  Csr newStatement: 3E9E2A60
  ---DB2PLIST---entry
  ---Csr setPlist---entry
  new OFC
@@ -3653,14 +3891,14 @@
  MP-NUM
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3E98B0F4  stmt: 3E9EB7B2  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
+ release: 3E7AD7CC  stmt: 3E7FA7B2  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3E98B0F4  stmt: 3E9EB7B2  stmtLength: 0000006A
+ release: 3E7AD7CC  stmt: 3E7FA7B2  stmtLength: 0000006A
  token: 00011170
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 3EBC3260
+ ---DB2SQL---exit  Sel newStatement: 3E9E4260
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -4274,8 +4512,8 @@
  ---sqlHVComp---exit: 0
  ---findSQLcall---exit: 0
  ---storeHVsIn---entry
- sqlDAin: 1052573848, sqlN: 1, HVsIn size: 1
-   sqlDAin size:0010 addr:3EBD0098
+ sqlDAin: 1050611864, sqlN: 1, HVsIn size: 1
+   sqlDAin size:0010 addr:3E9F1098
  ---setData---entry
  dataType: 452
  rowsAffected: 0 mLength: 5
@@ -4289,21 +4527,21 @@
  ---copySQLCA---entry
  ---copySQLCA---exit
  ---copyHVsOut---entry
- sqlDAout: 1052573908, sqlN: 1, HVsOut size: 1
- iA in DA: 1052571080
+ sqlDAout: 1050611924, sqlN: 1, HVsOut size: 1
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---Sel doCall---exit: 0
  ---DONONCUR---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: -1
  ---nextSubCallTemp---exit: 0
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -4397,48 +4635,48 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 0
  ---nextSubCallTemp---exit: 1
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -4484,8 +4722,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1052571728, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3EBCF850
+ sqlDAin: 1050609744, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9F0850
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -4592,48 +4830,48 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 1
  ---nextSubCallTemp---exit: 2
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -4679,8 +4917,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1052571728, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3EBCF850
+ sqlDAin: 1050609744, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9F0850
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -4787,48 +5025,48 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 2
  ---nextSubCallTemp---exit: 3
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -4874,8 +5112,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1052571728, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3EBCF850
+ sqlDAin: 1050609744, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9F0850
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -4982,48 +5220,48 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 3
  ---nextSubCallTemp---exit: 4
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -5069,8 +5307,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1052571728, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3EBCF850
+ sqlDAin: 1050609744, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9F0850
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5177,48 +5415,48 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 4
  ---nextSubCallTemp---exit: 5
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -5264,8 +5502,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1052571728, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3EBCF850
+ sqlDAin: 1050609744, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9F0850
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5372,48 +5610,48 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 5
  ---nextSubCallTemp---exit: 6
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -5459,8 +5697,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1052571728, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3EBCF850
+ sqlDAin: 1050609744, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9F0850
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5567,48 +5805,48 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---doCall---entry
- parmlist: X'3886C1D0'
+ parmlist: X'386441D0'
  ---nextSubCallTemp---entry
  stubbedCalls: 8, callTemp: 6
  ---nextSubCallTemp---exit: 7
  ---storeAVsInLive---entry
- Live size: 4, AVsOutSz size: 4
+ Live size: 4, AVsIn size: 4
  ---setData---entry
  cL: 1
  ---setData---exit
@@ -5654,8 +5892,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 1052571728, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:3EBCF850
+ sqlDAin: 1050609744, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:3E9F0850
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5762,34 +6000,34 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 1052572584, sqlN: 14, HVsOut size: 14
- iA in DA: 1052563800
+ sqlDAout: 1050610600, sqlN: 14, HVsOut size: 14
+ iA in DA: 1050601816
  bitFlag 0
- iA in DA: 1052563802
+ iA in DA: 1050601818
  bitFlag 0
- iA in DA: 1052563804
+ iA in DA: 1050601820
  bitFlag 0
- iA in DA: 1052563806
+ iA in DA: 1050601822
  bitFlag 0
- iA in DA: 1052563808
+ iA in DA: 1050601824
  bitFlag 0
- iA in DA: 1052563810
+ iA in DA: 1050601826
  bitFlag 0
- iA in DA: 1052563812
+ iA in DA: 1050601828
  bitFlag 0
- iA in DA: 1052563814
+ iA in DA: 1050601830
  bitFlag 0
- iA in DA: 1052563816
+ iA in DA: 1050601832
  bitFlag 0
- iA in DA: 1052563818
+ iA in DA: 1050601834
  bitFlag 0
- iA in DA: 1052563820
+ iA in DA: 1050601836
  bitFlag 0
- iA in DA: 1052563822
+ iA in DA: 1050601838
  bitFlag 0
- iA in DA: 1052563824
+ iA in DA: 1050601840
  bitFlag 0
- iA in DA: 1052571080
+ iA in DA: 1050609096
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
