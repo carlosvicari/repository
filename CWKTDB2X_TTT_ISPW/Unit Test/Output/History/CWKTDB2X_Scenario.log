@@ -6,7 +6,7 @@
  CEE3631I One or more settings of the run-time options STAE or SPIE were mapped to TRAP.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2018-12-05 14:39.11��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2018-12-14 08:47.27��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWKTDB2X
  STTR014I Processing test scenario CWKTDB2X
