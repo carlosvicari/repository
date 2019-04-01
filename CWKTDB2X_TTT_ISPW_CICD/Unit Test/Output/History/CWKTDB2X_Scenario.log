@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-03-08 11:15.29��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-03-15 10:14.22��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWKTDB2X
  STTR014I Processing test scenario CWKTDB2X
@@ -44,9 +44,9 @@
   openW: rc = 0, rs = <0X00000000>.
   includeName: rc = 0, rs = <0X00000000>.
  ---openW_includeName---exit
-  IDRU: Creation Date = 2019067, Length = 40
-   data = c3e7c3e6d2e3c4c2f2e709394bdb7a18007b8de019deaf0c5dec030b190000000000000000000000
-   program = CWKTDB2X, ddio(27) = SALESSUP.CCV1.DEV1.LOAD.SSD
+  IDRU: Creation Date = 2019070, Length = 40
+   data = c3e7c3e6d2e3c4c2f2e709394bdb7a18007b8de06a8401ef06e079bc000000000000000000000000
+   program = CWKTDB2X, ddio(26) = SALESSUP.CCV1.QA1.LOAD.SSD
  ---closeW---entry
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
