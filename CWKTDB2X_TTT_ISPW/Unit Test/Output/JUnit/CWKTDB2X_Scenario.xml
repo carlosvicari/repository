@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 08/03/2019 11:21:52-->
+<testsuites>
+  <testsuite errors="0" failures="4" name="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" tests="4">
+    <testcase classname="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" name="00001: Check for PARM_LTH">
+      <failure>Error encountered parsing field PARM_LTH
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" name="00002: Check for PARM_DATA">
+      <failure>Error encountered parsing field PARM_DATA
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" name="00003: Check for GRAND_TOTAL">
+      <failure>Error encountered parsing field GRAND_TOTAL
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+    <testcase classname="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" name="00004: Check for TOTAL_RECORD">
+      <failure>Error encountered parsing field TOTAL_RECORD
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testcase>
+  </testsuite>
+</testsuites>

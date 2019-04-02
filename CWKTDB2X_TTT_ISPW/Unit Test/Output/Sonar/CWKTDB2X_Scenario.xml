@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 08/03/2019 11:21:52-->
+<testExecutions version="1">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
+    <testCase duration="0" name="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00001: Check for PARM_LTH">
+      <failure message="Error encountered parsing field PARM_LTH">Error encountered parsing field PARM_LTH
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00002: Check for PARM_DATA">
+      <failure message="Error encountered parsing field PARM_DATA">Error encountered parsing field PARM_DATA
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00003: Check for GRAND_TOTAL">
+      <failure message="Error encountered parsing field GRAND_TOTAL">Error encountered parsing field GRAND_TOTAL
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+    <testCase duration="0" name="CWKTDB2X_TTT_ISPW.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00004: Check for TOTAL_RECORD">
+      <failure message="Error encountered parsing field TOTAL_RECORD">Error encountered parsing field TOTAL_RECORD
+
+Actual Value:    null
+
+Expected Value:  null</failure>
+    </testCase>
+  </file>
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub"/>
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW\Unit Test\Stubs\CWKTDB2X_RPTFILE_WRITE.stub"/>
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW\Unit Test\Stubs\CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub"/>
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW\Unit Test\Stubs\CWKTDB2X_Update_1_SQL.stub"/>
+</testExecutions>

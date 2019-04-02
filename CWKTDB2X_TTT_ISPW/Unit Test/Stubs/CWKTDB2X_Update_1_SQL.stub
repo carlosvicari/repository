@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub" nextCalltoken="70008" stubtype="SQL" target="Update" token="70000">
+  <stub:description>Created: 05/11/2018 10:47:59</stub:description>
+  <stub:stubdata id="0" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0095000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES.WAGES" id="output0.arg0.WAGES.WAGES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME.OVERTIME" id="output0.arg1.OVERTIME.OVERTIME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM.COMM" id="output0.arg2.COMM.COMM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F4F3F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output0.arg3.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.WAGES.WAGES">
+        <checkconditions:expression>BigDecimalCreator.make('950.00').compareTo(result.arg0.WAGES.WAGES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">950.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg1.OVERTIME.OVERTIME">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg1.OVERTIME.OVERTIME) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg2.COMM.COMM">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.COMM.COMM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg3.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'03431' eq result.arg3.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">03431</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A9926750B6F7908000537CFA79037CFC7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237CFA86037CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86437CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86837CFC4E0000040404040404040404040404040404040404040404040404040404040404001C4000537CFA81837CFC4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="70001">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1F9F9F2F6F7F5F0C2F6C6F7F9F0F8FFC3E6D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="1" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0075000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES.WAGES" id="output1.arg0.WAGES.WAGES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME.OVERTIME" id="output1.arg1.OVERTIME.OVERTIME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM.COMM" id="output1.arg2.COMM.COMM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F2F3</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output1.arg3.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output1.arg0.WAGES.WAGES">
+        <checkconditions:expression>BigDecimalCreator.make('750.00').compareTo(result.arg0.WAGES.WAGES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">750.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg1.OVERTIME.OVERTIME">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg1.OVERTIME.OVERTIME) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg2.COMM.COMM">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.COMM.COMM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output1.arg3.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'02523' eq result.arg3.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">02523</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A9926750B6F7908000537CFA79037CFC7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237CFA86037CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86437CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86837CFC4E0000040404040404040404040404040404040404040404040404040404040404001C4000537CFA81837CFC4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="70002">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1F9F9F2F6F7F5F0C2F6C6F7F9F0F8FFC3E6D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="2" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0100000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES.WAGES" id="output2.arg0.WAGES.WAGES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME.OVERTIME" id="output2.arg1.OVERTIME.OVERTIME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM.COMM" id="output2.arg2.COMM.COMM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output2.arg3.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output2.arg0.WAGES.WAGES">
+        <checkconditions:expression>BigDecimalCreator.make('1000.00').compareTo(result.arg0.WAGES.WAGES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1000.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg1.OVERTIME.OVERTIME">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg1.OVERTIME.OVERTIME) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg2.COMM.COMM">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.COMM.COMM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output2.arg3.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'01568' eq result.arg3.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">01568</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A9926750B6F7908000537CFA79037CFC7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237CFA86037CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86437CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86837CFC4E0000040404040404040404040404040404040404040404040404040404040404001C4000537CFA81837CFC4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="70003">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1F9F9F2F6F7F5F0C2F6C6F7F9F0F8FFC3E6D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="3" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0120000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES.WAGES" id="output3.arg0.WAGES.WAGES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0018000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME.OVERTIME" id="output3.arg1.OVERTIME.OVERTIME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM.COMM" id="output3.arg2.COMM.COMM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F4F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output3.arg3.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output3.arg0.WAGES.WAGES">
+        <checkconditions:expression>BigDecimalCreator.make('1200.00').compareTo(result.arg0.WAGES.WAGES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1200.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg1.OVERTIME.OVERTIME">
+        <checkconditions:expression>BigDecimalCreator.make('180.00').compareTo(result.arg1.OVERTIME.OVERTIME) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">180.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg2.COMM.COMM">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.COMM.COMM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output3.arg3.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'03241' eq result.arg3.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">03241</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A9926750B6F7908000537CFA79037CFC7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237CFA86037CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86437CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86837CFC4E0000040404040404040404040404040404040404040404040404040404040404001C4000537CFA81837CFC4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="70004">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1F9F9F2F6F7F5F0C2F6C6F7F9F0F8FFC3E6D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0101750C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES.WAGES" id="output4.arg0.WAGES.WAGES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME.OVERTIME" id="output4.arg1.OVERTIME.OVERTIME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM.COMM" id="output4.arg2.COMM.COMM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F4F3</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output4.arg3.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output4.arg0.WAGES.WAGES">
+        <checkconditions:expression>BigDecimalCreator.make('1017.50').compareTo(result.arg0.WAGES.WAGES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1017.50</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg1.OVERTIME.OVERTIME">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg1.OVERTIME.OVERTIME) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg2.COMM.COMM">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.COMM.COMM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output4.arg3.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'01343' eq result.arg3.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">01343</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A9926750B6F7908000537CFA79037CFC7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237CFA86037CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86437CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86837CFC4E0000040404040404040404040404040404040404040404040404040404040404001C4000537CFA81837CFC4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="70005">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1F9F9F2F6F7F5F0C2F6C6F7F9F0F8FFC3E6D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="5" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0110000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES.WAGES" id="output5.arg0.WAGES.WAGES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0008250C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME.OVERTIME" id="output5.arg1.OVERTIME.OVERTIME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM.COMM" id="output5.arg2.COMM.COMM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output5.arg3.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output5.arg0.WAGES.WAGES">
+        <checkconditions:expression>BigDecimalCreator.make('1100.00').compareTo(result.arg0.WAGES.WAGES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">1100.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg1.OVERTIME.OVERTIME">
+        <checkconditions:expression>BigDecimalCreator.make('82.50').compareTo(result.arg1.OVERTIME.OVERTIME) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">82.50</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg2.COMM.COMM">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.COMM.COMM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output5.arg3.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'02171' eq result.arg3.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">02171</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A9926750B6F7908000537CFA79037CFC7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237CFA86037CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86437CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86837CFC4E0000040404040404040404040404040404040404040404040404040404040404001C4000537CFA81837CFC4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="70006">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1F9F9F2F6F7F5F0C2F6C6F7F9F0F8FFC3E6D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="6" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0088000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES.WAGES" id="output6.arg0.WAGES.WAGES" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME.OVERTIME" id="output6.arg1.OVERTIME.OVERTIME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM.COMM" id="output6.arg2.COMM.COMM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output6.arg3.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output6.arg0.WAGES.WAGES">
+        <checkconditions:expression>BigDecimalCreator.make('880.00').compareTo(result.arg0.WAGES.WAGES) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">880.00</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output6.arg1.OVERTIME.OVERTIME">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg1.OVERTIME.OVERTIME) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output6.arg2.COMM.COMM">
+        <checkconditions:expression>BigDecimalCreator.make('0').compareTo(result.arg2.COMM.COMM) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">0</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output6.arg3.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'02175' eq result.arg3.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">02175</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A9926750B6F7908000537CFA79037CFC7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237CFA86037CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86437CFC4E0000040404040404040404040404040404040404040404040404040404040404001E4060237CFA86837CFC4E0000040404040404040404040404040404040404040404040404040404040404001C4000537CFA81837CFC4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="70007">
+        <stub:rawData>E2D8D3C3C140404000000088FFFFFCDB002FC4C2C3C3C3E6C3C34B4BC3E6D2E3C4C2F2E74BF1C1F9F9F2F6F7F5F0C2F6C6F7F9F0F8FFC3E6D2E3C4C2F2E7FFF0F34040404040404040404040404040404040404040404040C4E2D5E7C5D7D440FFFFFF050000000000000000FFFFFFFF00000000000000004040404040404040404040F5F1F0F0F2</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>
