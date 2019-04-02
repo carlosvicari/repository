@@ -23,9 +23,9 @@ ${TOTALTEST_JOBCARD}
 //* loadlib containing the COBOL runtime(CEE.SCEERUN), otherwise 
 //* it can be removed.
 //*
-//STEPLIB DD DISP=SHR,DSN=CPWR.MLCXnnn.SLCXLOAD
+//STEPLIB DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
 //*  where MLCXnnn is MLCX170 OR HIGHER
-//        DD DISP=SHR,DSN=<ADD LOADLIB CONTAINING COBOL TEST PROGRAM>
+//        DD DISP=SHR,DSN=CTS530.CICS.HCCAC013.LOADLIB.PDSE
 //*       DD DISP=SHR,DSN=<COBOL RUNTIME LOADLIB>
 //*
 //* The following lines will initialize storage to zeroes to avoid 
@@ -47,6 +47,6 @@ DEBUG(OFF)
 //BINRES DD DSN=${TOTALTEST_BINRES},DISP=OLD
 //*
 //*      Optionally add your custom DD statements
-//*DD1 DD DSN=HLQ.CUSTOM.TEST.LOAD,DISP=SHR
+//TTTKSDS  DD DISP=SHR,DSN=FBRCCV0.DEMO.KSDS.HRLY
 //SYSPRINT DD SYSOUT=*
 //*
