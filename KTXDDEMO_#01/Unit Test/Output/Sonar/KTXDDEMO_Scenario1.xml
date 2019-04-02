@@ -45,16 +45,22 @@
 
 Actual Value:    X'0000'
 
-Expected Value:  = X'4001'</failure>
+Expected Value:  = 0</failure>
     </testCase>
     <testCase duration="0" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion.00005: Check for WA_EMP_HIRE_MM">
       <failure message="Check for WA_EMP_HIRE_MM failed">Check for WA_EMP_HIRE_MM failed
 
 Actual Value:    X'0000'
 
-Expected Value:  = X'06F4'</failure>
+Expected Value:  = 0</failure>
     </testCase>
-    <testCase duration="0" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion.00006: Check for WA_EMP_HIRE_DD"/>
+    <testCase duration="0" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion.00006: Check for WA_EMP_HIRE_DD">
+      <failure message="Check for WA_EMP_HIRE_DD failed">Check for WA_EMP_HIRE_DD failed
+
+Actual Value:    X'0000'
+
+Expected Value:  = 0</failure>
+    </testCase>
     <testCase duration="0" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion.00001: Check for END_OF_MONTH_SW"/>
     <testCase duration="0" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion.00002: Check for YRS_OF_SERVICE"/>
     <testCase duration="0" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion.00003: Check for TODAYS_DATE"/>

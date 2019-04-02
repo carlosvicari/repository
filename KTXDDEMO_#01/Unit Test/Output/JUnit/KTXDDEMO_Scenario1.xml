@@ -36,7 +36,7 @@
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00031: Check for eibrldbk"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1" name="00032: Check for DFHCOMMAREA"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" tests="6">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" tests="6">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -45,18 +45,24 @@
 
 Actual Value:    X'0000'
 
-Expected Value:  = X'4001'</failure>
+Expected Value:  = 0</failure>
     </testcase>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM">
       <failure>Check for WA_EMP_HIRE_MM failed
 
 Actual Value:    X'0000'
 
-Expected Value:  = X'06F4'</failure>
+Expected Value:  = 0</failure>
     </testcase>
-    <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
+    <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00001: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD">
+      <failure>Check for WA_EMP_HIRE_DD failed
+
+Actual Value:    X'0000'
+
+Expected Value:  = 0</failure>
+    </testcase>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion" tests="12">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion" tests="12">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -64,7 +70,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00002: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00003: CWKTDATE assertion" tests="18">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00003: CWKTDATE assertion" tests="18">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00003: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00003: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00003: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -72,7 +78,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00003: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00003: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00004: CWKTDATE assertion" tests="24">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00004: CWKTDATE assertion" tests="24">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00004: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00004: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00004: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -80,7 +86,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00004: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00004: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00005: CWKTDATE assertion" tests="30">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00005: CWKTDATE assertion" tests="30">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00005: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00005: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00005: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -88,7 +94,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00005: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00005: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00006: CWKTDATE assertion" tests="36">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00006: CWKTDATE assertion" tests="36">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00006: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00006: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00006: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -96,7 +102,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00006: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00006: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00007: CWKTDATE assertion" tests="42">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00007: CWKTDATE assertion" tests="42">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00007: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00007: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00007: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -104,7 +110,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00007: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00007: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00008: CWKTDATE assertion" tests="48">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00008: CWKTDATE assertion" tests="48">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00008: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00008: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00008: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -112,7 +118,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00008: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00008: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00009: CWKTDATE assertion" tests="54">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00009: CWKTDATE assertion" tests="54">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00009: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00009: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00009: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -120,7 +126,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00009: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00009: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00010: CWKTDATE assertion" tests="60">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00010: CWKTDATE assertion" tests="60">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00010: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00010: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00010: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -128,7 +134,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00010: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00010: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00011: CWKTDATE assertion" tests="66">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00011: CWKTDATE assertion" tests="66">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00011: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00011: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00011: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -136,7 +142,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00011: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00011: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00012: CWKTDATE assertion" tests="72">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00012: CWKTDATE assertion" tests="72">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00012: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00012: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00012: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -144,7 +150,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00012: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00012: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00013: CWKTDATE assertion" tests="78">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00013: CWKTDATE assertion" tests="78">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00013: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00013: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00013: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -152,7 +158,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00013: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00013: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00014: CWKTDATE assertion" tests="84">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00014: CWKTDATE assertion" tests="84">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00014: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00014: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00014: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -160,7 +166,7 @@ Expected Value:  = X'06F4'</failure>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00014: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00014: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="2" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00015: CWKTDATE assertion" tests="90">
+  <testsuite errors="0" failures="3" name="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00015: CWKTDATE assertion" tests="90">
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00015: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00015: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="KTXDDEMO_#01.KTXDDEMO_Scenario1.00001: KTXDDEMOCase1.KTXDDEMO_CWKTDATE.00015: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
