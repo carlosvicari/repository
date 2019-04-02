@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL_01.stub" nextCalltoken="50002" stubtype="SQL" target="Insert" token="50000">
+  <stub:description>Created: 30/05/2018 18:17:18</stub:description>
+  <stub:stubdata id="0" name="Insert">
+    <stub:interface>../Interfaces/CWKTDB2X_Insert_1_RATE.interface#Unit%20Test/Interfaces/CWKTDB2X_Insert_1_RATE.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_EMP-NUM.listructure#EMP_NUM.EMP_NUM" id="output0.arg0.EMP_NUM.EMP_NUM" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-TYPE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-TYPE.listructure#WA_EMP_TYPE" id="arg1.WA_EMP_TYPE">
+        <properties:properties>
+          <properties:property name="value" type="string">C8</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-TYPE.listructure#WA_EMP_TYPE.WA_EMP_TYPE" id="output0.arg1.WA_EMP_TYPE.WA_EMP_TYPE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_REGION.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_REGION.listructure#REGION" id="arg2.REGION">
+        <properties:properties>
+          <properties:property name="value" type="string">0002</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_REGION.listructure#REGION.REGION" id="output0.arg2.REGION.REGION" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-NAME.listructure#WA_EMP_NAME" id="arg3.WA_EMP_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">D2C1E3C9C540E6C9D3D3C9C1D4E240</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-NAME.listructure#WA_EMP_NAME.WA_EMP_NAME" id="output0.arg3.WA_EMP_NAME.WA_EMP_NAME" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STREET.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STREET.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STREET.listructure#WA_EMP_STREET" id="arg4.WA_EMP_STREET">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F2F340D4C1C9D540E2E340404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STREET.listructure#WA_EMP_STREET.WA_EMP_STREET" id="output0.arg4.WA_EMP_STREET.WA_EMP_STREET" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-CITY.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-CITY.listructure#WA_EMP_CITY" id="arg5.WA_EMP_CITY">
+        <properties:properties>
+          <properties:property name="value" type="string">C3D6D3E4D4C2E4E2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-CITY.listructure#WA_EMP_CITY.WA_EMP_CITY" id="output0.arg5.WA_EMP_CITY.WA_EMP_CITY" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STATE.listructure#WA_EMP_STATE" id="arg6.WA_EMP_STATE">
+        <properties:properties>
+          <properties:property name="value" type="string">D6C8</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STATE.listructure#WA_EMP_STATE.WA_EMP_STATE" id="output0.arg6.WA_EMP_STATE.WA_EMP_STATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-ZIP.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-ZIP.listructure#WA_EMP_ZIP" id="arg7.WA_EMP_ZIP">
+        <properties:properties>
+          <properties:property name="value" type="string">F4F3F0F8F240404040</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-ZIP.listructure#WA_EMP_ZIP.WA_EMP_ZIP" id="output0.arg7.WA_EMP_ZIP.WA_EMP_ZIP" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HIREDATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F6F1F0F0F2</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HIREDATE.listructure#HIREDATE.HIREDATE" id="output0.arg8.HIREDATE.HIREDATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HOURS.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HOURS.listructure#HOURS" id="arg9.HOURS">
+        <properties:properties>
+          <properties:property name="value" type="string">032C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_HOURS.listructure#HOURS.HOURS" id="output0.arg9.HOURS.HOURS" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_RATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_RATE.listructure#RATE" id="arg10.RATE">
+        <properties:properties>
+          <properties:property name="value" type="string">0002750C</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_RATE.listructure#RATE.RATE" id="output0.arg10.RATE.RATE" offset="0"/>
+    </stub:output>
+    <stub:checkconditions>
+      <checkconditions:simpleCheckcondition refData="#output0.arg0.EMP_NUM.EMP_NUM">
+        <checkconditions:expression>'02175' eq result.arg0.EMP_NUM.EMP_NUM</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">02175</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg1.WA_EMP_TYPE.WA_EMP_TYPE">
+        <checkconditions:expression>'H' eq result.arg1.WA_EMP_TYPE.WA_EMP_TYPE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">H</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg2.REGION.REGION">
+        <checkconditions:expression>BigDecimalCreator.make('2').compareTo(result.arg2.REGION.REGION) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">2</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg3.WA_EMP_NAME.WA_EMP_NAME">
+        <checkconditions:expression>'KATIE WILLIAMS' eq result.arg3.WA_EMP_NAME.WA_EMP_NAME</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">KATIE WILLIAMS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg4.WA_EMP_STREET.WA_EMP_STREET">
+        <checkconditions:expression>'123 MAIN ST' eq result.arg4.WA_EMP_STREET.WA_EMP_STREET</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">123 MAIN ST</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg5.WA_EMP_CITY.WA_EMP_CITY">
+        <checkconditions:expression>'COLUMBUS' eq result.arg5.WA_EMP_CITY.WA_EMP_CITY</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">COLUMBUS</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg6.WA_EMP_STATE.WA_EMP_STATE">
+        <checkconditions:expression>'OH' eq result.arg6.WA_EMP_STATE.WA_EMP_STATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">OH</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg7.WA_EMP_ZIP.WA_EMP_ZIP">
+        <checkconditions:expression>'43082' eq result.arg7.WA_EMP_ZIP.WA_EMP_ZIP</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">43082</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg8.HIREDATE.HIREDATE">
+        <checkconditions:expression>'961002' eq result.arg8.HIREDATE.HIREDATE</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="string">961002</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg9.HOURS.HOURS">
+        <checkconditions:expression>BigDecimalCreator.make('32').compareTo(result.arg9.HOURS.HOURS) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">32</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+      <checkconditions:simpleCheckcondition refData="#output0.arg10.RATE.RATE">
+        <checkconditions:expression>BigDecimalCreator.make('27.50').compareTo(result.arg10.RATE.RATE) eq 0</checkconditions:expression>
+        <checkconditions:expectation assert="=" type="number">27.50</checkconditions:expectation>
+      </checkconditions:simpleCheckcondition>
+    </stub:checkconditions>
+    <stub:sqlStatus>
+      <stub:statement type="Insert">
+        <stub:text>      *****         EXEC SQL
+      *****            INSERT INTO FBRCCV0_DEMO_TAB1
+      *****            (
+      *****            EMP_NUM               ,
+      *****            WAGE_TYPE             ,
+      *****            REGION                ,
+      *****            FIRST_LAST_NAME       ,
+      *****            STREET_ADDR           ,
+      *****            CITY                  ,
+      *****            STATE                 ,
+      *****            ZIP                   ,
+      *****            HIREDATE              ,
+      *****            HOURS                 ,
+      *****            RATE   )
+      *****            VALUES (
+      *****           :EMP-NUM            ,
+      *****           :WA-EMP-TYPE     ,
+      *****           :REGION         ,
+      *****           :WA-EMP-NAME           ,
+      *****           :WA-EMP-STREET         ,
+      *****           :WA-EMP-CITY           ,
+      *****           :WA-EMP-STATE          ,
+      *****           :WA-EMP-ZIP            ,
+      *****           :HIREDATE              ,
+      *****           :HOURS                 ,
+      *****           :RATE           )
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581A8CFB830951C5F5000838305160383077900000000004B800E8000003800000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000001F4000B000B01C40005383051E838306EF8000040404040404040404040404040404040404040404040404040404040404001C4000138306A4538306EF8000040404040404040404040404040404040404040404040404040404040404001F40002383051EE38306EF8000040404040404040404040404040404040404040404040404040404040404001C4000F38306A4738306EF8000040404040404040404040404040404040404040404040404040404040404001C4000F38306A5638306EF8000040404040404040404040404040404040404040404040404040404040404001C4000838306A6538306EF8000040404040404040404040404040404040404040404040404040404040404001C4000238306A6D38306EF8000040404040404040404040404040404040404040404040404040404040404001C4000938306A6F38306EF8000040404040404040404040404040404040404040404040404040404040404001C400063830522438306EF8000040404040404040404040404040404040404040404040404040404040404001E402003830522A38306EF8000040404040404040404040404040404040404040404040404040404040404001E406023830522C38306EF80000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="50001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>
