@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 02/04/2019 12:57:15-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-NORTH.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_TS-QUEUE-NORTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_TS-QUEUE-NORTH.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_TS-QUEUE-NORTH.listructure#TS_QUEUE_NORTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-NORTH/KTXDDEMO_QUEUE_TS_TTT-NORTH_TS-QUEUE-NORTH.listructure#TS_QUEUE_NORTH.TS_QUEUE_NORTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 02/04/2019 16:42:53-->
+<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Unit%20Test/Suites/Default%20Suite%20Entry.testsuite">
+  <testsuite:testscenario>../Scenarios/KTXDDEMO_Scenario1.testscenario#Unit%20Test/Scenarios/KTXDDEMO_Scenario1.testscenario</testsuite:testscenario>
+</testsuite:testsuite>

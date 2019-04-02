@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 02/04/2019 12:57:42-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/KTXDDEMO_Scenario1.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="KTXDDEMO" encoding="1047" entrypoint="KTXDDEMO" id="Unit%20Test/Scenarios/KTXDDEMO_Scenario1.testscenario%23KTXDDEMOCase1" target="KTXDDEMO">
+      <testcase:description></testcase:description>
+      <testcase:ddiotype>NONE</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1548393599000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/KTXDDEMO.interface#Unit%20Test/Interfaces/KTXDDEMO.interface</testcase:interface>
+      <testcase:input listructure="../Structures/KTXDDEMO_dfheiblk.listructure#Unit%20Test/Structures/KTXDDEMO_dfheiblk.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/KTXDDEMO_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+          <properties:properties>
+            <properties:property name="value" type="string">0125606C0119092FD2E3E7C40001169CC3F1F0F90000000400007D00000000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0600000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:input listructure="../Structures/KTXDDEMO_DFHCOMMAREA.listructure#Unit%20Test/Structures/KTXDDEMO_DFHCOMMAREA.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/KTXDDEMO_DFHCOMMAREA.listructure#DFHCOMMAREA" id="arg1.DFHCOMMAREA">
+          <properties:properties>
+            <properties:property name="value" type="string"></properties:property>
+            <properties:property name="expectedValue" type="string"></properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/KTXDDEMO_CWKTDATE.stub#Unit%20Test/Stubs/KTXDDEMO_CWKTDATE.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_QUEUE_TS_TTT-NORTH.stub#Unit%20Test/Stubs/KTXDDEMO_QUEUE_TS_TTT-NORTH.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_QUEUE_TS_TTT-EAST.stub#Unit%20Test/Stubs/KTXDDEMO_QUEUE_TS_TTT-EAST.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_EXEC_CICS_RETURN1.stub#Unit%20Test/Stubs/KTXDDEMO_EXEC_CICS_RETURN1.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_EXEC_CICS_ASKTIME1.stub#Unit%20Test/Stubs/KTXDDEMO_EXEC_CICS_ASKTIME1.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_EXEC_CICS_FORMATTIME1.stub#Unit%20Test/Stubs/KTXDDEMO_EXEC_CICS_FORMATTIME1.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_EXEC_CICS_ASSIGN1.stub#Unit%20Test/Stubs/KTXDDEMO_EXEC_CICS_ASSIGN1.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_QUEUE_TS_TTT-TEMP.stub#Unit%20Test/Stubs/KTXDDEMO_QUEUE_TS_TTT-TEMP.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_QUEUE_TS_TTT-WEST.stub#Unit%20Test/Stubs/KTXDDEMO_QUEUE_TS_TTT-WEST.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_BMS_SEND_RECEIVE.stub#Unit%20Test/Stubs/KTXDDEMO_BMS_SEND_RECEIVE.stub</testcase:stub>
+        <testcase:stub>../Stubs/KTXDDEMO_QUEUE_TS_TTT-SOUTH.stub#Unit%20Test/Stubs/KTXDDEMO_QUEUE_TS_TTT-SOUTH.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>

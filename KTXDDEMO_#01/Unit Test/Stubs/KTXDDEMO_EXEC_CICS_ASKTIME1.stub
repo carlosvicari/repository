@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/KTXDDEMO_EXEC_CICS_ASKTIME1.stub" nextCalltoken="20002" stubtype="CICS" target="" token="20000">
+  <stub:description>Created: 02/04/2019 12:57:12</stub:description>
+  <stub:stubdata callToken="20001" id="0" name="EXEC CICS ASKTIME">
+    <stub:interface>../Interfaces/KTXDDEMO_EXEC_CICS_ASKTIME1.interface#Unit%20Test/Interfaces/KTXDDEMO_EXEC_CICS_ASKTIME1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_EXEC_CICS_ASKTIME1.interface#Unit%20Test/Interfaces/KTXDDEMO_EXEC_CICS_ASKTIME1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">4a028000078000000000000000f0f1f4f8f4404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_C-ABSTIME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_C-ABSTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_C-ABSTIME.listructure#C_ABSTIME" id="arg1.C_ABSTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">000000000000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">4a028000078000000000000000f0f1f4f8f4404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_C-ABSTIME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_C-ABSTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_C-ABSTIME.listructure#C_ABSTIME" id="arg1.C_ABSTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">003763198639354C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS ASKTIME">
+      <stub:text>      *EXEC CICS ASKTIME ABSTIME(C-ABSTIME) END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_ASKTIME1/KTXDDEMO_EXEC_CICS_ASKTIME1_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D4A020000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

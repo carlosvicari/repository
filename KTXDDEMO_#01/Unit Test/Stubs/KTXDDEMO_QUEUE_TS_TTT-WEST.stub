@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/KTXDDEMO_QUEUE_TS_TTT-WEST.stub" nextCalltoken="90008" stubtype="CICS" target="TTT-WEST        " token="90000">
+  <stub:description>Created: 02/04/2019 12:57:17</stub:description>
+  <stub:stubdata callToken="90001" id="0" name="EXEC CICS DELETEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS DELETEQ">
+      <stub:text>      *EXEC CICS DELETEQ TS
+      *     QNAME(TS-QUEUE-WEST)
+      *     RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0602000000000000000000000000000000000000000000E3E3E360E6C5E2E300000000000000000000000000000000000000002C0000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90002" id="1" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F9E2F4C4D6D5D5C140C2D9D6E6D540404040F340E2C1D540E3C8D6D4C1E2404040C3C1D4D7C2C5D3D3C3C1F9F5F1F3F3404040403000000FF5F5F5F5F0F0F04040F8F1F1F1F1F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F0F9F5F9E2F4C4D6D5D5C140C2D9D6E6D540404040F340E2C1D540E3C8D6D4C1E2404040C3C1D4D7C2C5D3D3C3C1F9F5F1F3F3404040403000000FF5F5F5F5F0F0F04040F8F1F1F1F1F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90003" id="2" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8C8F4E3C8D6D4C1E240D3D6D5C740404040F1F240D9C1C3C540E2E3D9C5C5E340E2C1D540D1D6E2C5C3C1F9F5F1F2F640404040F4F003000F4040404040404040F8F7F0F3F3F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8C8F4E3C8D6D4C1E240D3D6D5C740404040F1F240D9C1C3C540E2E3D9C5C5E340E2C1D540D1D6E2C5C3C1F9F5F1F2F640404040F4F003000F4040404040404040F8F7F0F3F3F14040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90004" id="3" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F3F6D4F4E2C1D440D4C9D3D3E2404040404040F1F340E2E4E3E3D6D540C2D3E5C440E6C1D3D5E4E34040C3C1F9F0F0F6F6404040402000000F404040404040404040F9F0F0F3F1F74040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F3F6D4F4E2C1D440D4C9D3D3E2404040404040F1F340E2E4E3E3D6D540C2D3E5C440E6C1D3D5E4E34040C3C1F9F0F0F6F6404040402000000F404040404040404040F9F0F0F3F1F74040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90005" id="4" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1C8F4E2C1D4E4C5D340C1C4C4C1D4E24040F9F0F040D3C9D5C3D6D3D540C3E340D9C5D5D640404040D5E5F8F2F4F3F340404040F4F200995F4040404040404040F8F6F0F1F0F24040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1C8F4E2C1D4E4C5D340C1C4C4C1D4E24040F9F0F040D3C9D5C3D6D3D540C3E340D9C5D5D640404040D5E5F8F2F4F3F340404040F4F200995F4040404040404040F8F6F0F1F0F24040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90006" id="5" name="EXEC CICS WRITEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F1F5E2F4D4C1D9D240D1D6C8D5E2D6D5404040F1F240C8D6C2C1D9E340D9D6C1C440D7C8D6C5D5C9E740C1E9F3F1F2F3F4404040405900000FF7F5F0F0F0F0F04040F8F2F0F9F3F04040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a02e0002780004100f0f1f2f7f1404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-CUR-QUEUE-NAME.listructure#TS_CUR_QUEUE_NAME" id="arg1.TS_CUR_QUEUE_NAME">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPLOYEE-WORK-AREA.listructure#EMPLOYEE_WORK_AREA" id="arg2.EMPLOYEE_WORK_AREA">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F1F5E2F4D4C1D9D240D1D6C8D5E2D6D5404040F1F240C8D6C2C1D9E340D9D6C1C440D7C8D6C5D5C9E740C1E9F3F1F2F3F4404040405900000FF7F5F0F0F0F0F04040F8F2F0F9F3F04040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_EMPOLYEE-RECORD-LENGTH.listructure#EMPOLYEE_RECORD_LENGTH" id="arg3.EMPOLYEE_RECORD_LENGTH">
+        <properties:properties>
+          <properties:property name="value" type="string">0050</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS WRITEQ">
+      <stub:text>      *EXEC CICS WRITEQ TS
+      *        QNAME(TS-CUR-QUEUE-NAME)
+      *        FROM(EMPLOYEE-WORK-AREA)
+      *        LENGTH (EMPOLYEE-RECORD-LENGTH)
+      *        RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0200000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+  <stub:stubdata callToken="90007" id="6" name="EXEC CICS DELETEQ">
+    <stub:interface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface#Unit%20Test/Interfaces/KTXDDEMO_QUEUE_TS_TTT-WEST.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0a0680002780002100f0f1f4f3f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_TS-QUEUE-WEST.listructure#TS_QUEUE_WEST" id="arg1.TS_QUEUE_WEST">
+        <properties:properties>
+          <properties:property name="value" type="string">E3E3E360E6C5E2E34040404040404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS DELETEQ">
+      <stub:text>      *EXEC CICS DELETEQ TS
+      *     QNAME(TS-QUEUE-WEST)
+      *     RESP(CICS-RESPONSE)
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_QUEUE_TS_TTT-WEST/KTXDDEMO_QUEUE_TS_TTT-WEST_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0600000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

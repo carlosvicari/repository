@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 02/04/2019 12:57:34-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/KTXDDEMO_BMS_SEND_RECEIVE.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0.CICS_GENERATED_CONSTANT_0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_CICS-GENERATED-CONSTANT-1.listructure#CICS_GENERATED_CONSTANT_1.CICS_GENERATED_CONSTANT_1">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_BLANK-LINE.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_BLANK-LINE.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_BLANK-LINE.listructure#BLANK_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_BLANK-LINE.listructure#BLANK_LINE.BLANK_LINE.FILLER0">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+  <interface:argument listructure="../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_LINE-LENGTH.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_LINE-LENGTH.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_LINE-LENGTH.listructure#LINE_LENGTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:numberType ../Structures/CICS/KTXDDEMO_BMS_SEND_RECEIVE/KTXDDEMO_BMS_SEND_RECEIVE_LINE-LENGTH.listructure#LINE_LENGTH.LINE_LENGTH">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>

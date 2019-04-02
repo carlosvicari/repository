@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/KTXDDEMO_EXEC_CICS_FORMATTIME1.stub" nextCalltoken="30002" stubtype="CICS" target="" token="30000">
+  <stub:description>Created: 02/04/2019 12:57:12</stub:description>
+  <stub:stubdata callToken="30001" id="0" name="EXEC CICS FORMATTIME">
+    <stub:interface>../Interfaces/KTXDDEMO_EXEC_CICS_FORMATTIME1.interface#Unit%20Test/Interfaces/KTXDDEMO_EXEC_CICS_FORMATTIME1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_EXEC_CICS_FORMATTIME1.interface#Unit%20Test/Interfaces/KTXDDEMO_EXEC_CICS_FORMATTIME1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">4a048883078883000000000000f0f1f4f8f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-ABSTIME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-ABSTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-ABSTIME.listructure#C_ABSTIME" id="arg1.C_ABSTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">003763198639354C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-DATE.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-DATE.listructure#C_DATE" id="arg5.C_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">60</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-TIME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-TIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-TIME.listructure#C_TIME" id="arg15.C_TIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">7A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">4a048883078883000000000000f0f1f4f8f5404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-ABSTIME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-ABSTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-ABSTIME.listructure#C_ABSTIME" id="arg1.C_ABSTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">003763198639354C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-2.listructure#CICS_GENERATED_CONSTANT_2" id="arg2.CICS_GENERATED_CONSTANT_2">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-3.listructure#CICS_GENERATED_CONSTANT_3" id="arg3.CICS_GENERATED_CONSTANT_3">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-4.listructure#CICS_GENERATED_CONSTANT_4" id="arg4.CICS_GENERATED_CONSTANT_4">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-DATE.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-DATE.listructure#C_DATE" id="arg5.C_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F260F0F460F1F9</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-6.listructure#CICS_GENERATED_CONSTANT_6" id="arg6.CICS_GENERATED_CONSTANT_6">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-7.listructure#CICS_GENERATED_CONSTANT_7" id="arg7.CICS_GENERATED_CONSTANT_7">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-8.listructure#CICS_GENERATED_CONSTANT_8" id="arg8.CICS_GENERATED_CONSTANT_8">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-9.listructure#CICS_GENERATED_CONSTANT_9" id="arg9.CICS_GENERATED_CONSTANT_9">
+        <properties:properties>
+          <properties:property name="value" type="string">60</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-10.listructure#CICS_GENERATED_CONSTANT_10" id="arg10.CICS_GENERATED_CONSTANT_10">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-11.listructure#CICS_GENERATED_CONSTANT_11" id="arg11.CICS_GENERATED_CONSTANT_11">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-12.listructure#CICS_GENERATED_CONSTANT_12" id="arg12.CICS_GENERATED_CONSTANT_12">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-13.listructure#CICS_GENERATED_CONSTANT_13" id="arg13.CICS_GENERATED_CONSTANT_13">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-14.listructure#CICS_GENERATED_CONSTANT_14" id="arg14.CICS_GENERATED_CONSTANT_14">
+        <properties:properties>
+          <properties:property name="value" type="string">0000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-TIME.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-TIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_C-TIME.listructure#C_TIME" id="arg15.C_TIME">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F27AF5F77AF1F9</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_CICS-GENERATED-CONSTANT-16.listructure#CICS_GENERATED_CONSTANT_16" id="arg16.CICS_GENERATED_CONSTANT_16">
+        <properties:properties>
+          <properties:property name="value" type="string">7A</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:statement type="EXEC CICS FORMATTIME">
+      <stub:text>      *EXEC CICS FORMATTIME ABSTIME(C-ABSTIME)
+      *    DATESEP('-') DDMMYY(C-DATE)
+      *    TIME(C-TIME) TIMESEP(':')
+      *END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_FORMATTIME1/KTXDDEMO_EXEC_CICS_FORMATTIME1_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D4A040000000000000000000000000000000000000000000040404040404040400000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>

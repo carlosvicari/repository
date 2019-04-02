@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/KTXDDEMO_EXEC_CICS_RETURN1.stub" nextCalltoken="110002" stubtype="CICS" target="" token="110000">
+  <stub:description>Created: 02/04/2019 12:57:41</stub:description>
+  <stub:stubdata callToken="110001" id="0" name="EXEC CICS RETURN">
+    <stub:interface>../Interfaces/KTXDDEMO_EXEC_CICS_RETURN1.interface#Unit%20Test/Interfaces/KTXDDEMO_EXEC_CICS_RETURN1.interface</stub:interface>
+    <stub:inputinterface>../Interfaces/KTXDDEMO_EXEC_CICS_RETURN1.interface#Unit%20Test/Interfaces/KTXDDEMO_EXEC_CICS_RETURN1.interface</stub:inputinterface>
+    <stub:input listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e0800000700001000f0f0f7f2f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:input>
+    <stub:output listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_CICS-GENERATED-CONSTANT-0.listructure#CICS_GENERATED_CONSTANT_0" id="arg0.CICS_GENERATED_CONSTANT_0">
+        <properties:properties>
+          <properties:property name="value" type="string">0e0800000700001000f0f0f7f2f2404040</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:statement type="EXEC CICS RETURN">
+      <stub:text>      *EXEC CICS RETURN END-EXEC.
+</stub:text>
+    </stub:statement>
+    <stub:eib listructure="../Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_dfheiblk.listructure#Unit%20Test/Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_dfheiblk.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CICS/KTXDDEMO_EXEC_CICS_RETURN1/KTXDDEMO_EXEC_CICS_RETURN1_dfheiblk.listructure#dfheiblk" id="arg0.dfheiblk">
+        <properties:properties>
+          <properties:property name="value" type="string">0125719F0119092FD2E3E7C40001169CC3F1F0F90000000400007D0A0600000000000000000000000000000000000000000000E3E3E360E6C5E2E30000000000000000000000000000000000000000000000000000</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:eib>
+  </stub:stubdata>
+</stub:stub>
