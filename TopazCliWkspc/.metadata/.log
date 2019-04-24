@@ -1,10 +1,10 @@
-!SESSION 2019-04-16 13:27:56.267 -----------------------------------------------
+!SESSION 2019-04-24 07:25:33.554 -----------------------------------------------
 eclipse.buildId=unknown
 java.version=1.8.0_201
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -application com.compuware.unittest.cli.TotalTestCLI
-Command-line arguments:  -data C:\Users\pfhsxk0\.jenkins\workspace\AA_CV_CICD\TopazCliWkspc -application com.compuware.unittest.cli.TotalTestCLI
+Command-line arguments:  -data C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\TopazCliWkspc -application com.compuware.unittest.cli.TotalTestCLI
 
-!ENTRY org.eclipse.core.resources 2 10035 2019-04-16 13:28:14.813
+!ENTRY org.eclipse.core.resources 2 10035 2019-04-24 07:25:50.213
 !MESSAGE The workspace will exit with unsaved changes in this session.
