@@ -1,0 +1,5023 @@
+
+***************** Output from TTTRUNNR *****************
+
+ CEE3740I The following messages pertain to the system default run-time options.
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.
+ CEE3768I The system default for the run-time option TEST could not be overridden.
+ STTR043I Initializing simulation environment for: COBOL V4
+ STTR043I Initializing simulation environment for: COBOL V5
+ STTR011I totaltest zTargetRunner v170200 on 2019-05-14 16:43.59��������������������������������������
+ STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
+ STTR013I Processing test suite CWKTDB2X
+ STTR014I Processing test scenario CWKTDB2X
+ STTR028I Processing test case CWKTDB2X
+ STTR006I Executing target CWKTDB2X
+ STTR008I All targets successfully executed
+
+***************** Output from TTOUT *****************
+
+ ---BNDTARGT---entry
+ --->>>modName = CWKTDB2X, epName = CWKTDB2X
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+ ---BNDTARGT---entry
+ --->>>modName = CWKTDB2X, epName = CWKTDB2X
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getE: rc, count = 3, rs = <0X83000800>.
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDTARGT---exit
+  2019-05-14 16:43:59  STTR245W SLPRTCOD SLPRTCOD: I\N---TARGET---entry
+ module: CWKTDB2X, csect: CWKTDB2X, entry: CWKTDB2X
+ ---TARGETcxx---entry
+ ---TARGETcxx---exit
+ ---TARGET---exit newTARGET: 38866028
+ ---TARGCALL---entry newTARGET: 38866028
+ ---T addTargetCall---entry
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---CC targetCall---entry
+ CC AV ptr: 0
+ CC AVb ptr: 0
+ ---CC targetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---addTargetCall---entry
+ AV ptr: 0
+ AVb ptr: 0
+ ---addTargetCall---exit
+ ---T addTargetCall---exit
+ ---~targetCall---entry
+ ---~targetCall---exit
+ ---TARGCALL---exit
+ ---TARGARG---entry
+ length: 14
+ ---T addTargetArg---entry
+ ---setData---entry
+ cL: 14
+ ---setData---exit
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---addTargetArg---entry
+ AV ptr: 0
+ AV #: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---CC TTArgVal---entry
+ CC TTArgVal exit--- avP ptr: 0
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ gDA
+ AV ptr: 388660A0
+ ---addTargetArg---workingArea: 38866088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---T addTargetArg---workingArea: 38866088
+ ---~TTArgVal---entry
+ ---~TTArgVal---exit
+ ---TARGARG--- workingArea: 38866088
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = CWKTDATE , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 140, rs = <0X83000800>.
+ --->>>class_offset: 00003F64
+ --->>>element_offset: 00003F64
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---SUBPGM---entry
+ name: CWKTDATE, #
+ token: 00000000, 0;
+ ---SUBPGMcxx---entry
+ token: 00000000, 0
+ assertYN: #
+ ---SUBPGMcxx---exit
+ ---SUBPGM---exit  newSubPgm: 388EF028
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ deleting AVsIn
+ deleting AVsOut
+ ---~subCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBCALL---entry
+ ---addSubCall---entry
+ ---addSubCall---entry
+ token: 00000000, 0; rc: 0
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSubCall---exit
+ ---addSubCall---exit
+ ---~subCall---entry
+ ---~subCall---exit
+ ---SUBCALL---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 0
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 0
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 1
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 1
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 2
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 2
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addOutArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvOut---entry
+ AVOut #: 3
+ ---addAvOut---exit
+ ---addOutArg---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addInArg---entry
+ ---addAvIn---entry
+ AVIn #: 3
+ ---addAvIn---exit
+ ---addInArg---exit
+ ---SUBIN---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = DSNHLIR  , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 140, rs = <0X83000800>.
+ --->>>element not found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = DSNHLI   , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 140, rs = <0X83000800>.
+ --->>>class_offset: 00003F60
+ --->>>element_offset: 00003F60
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---TTEXRE---entry
+ |Input EXEC (183 bytes):
+       *****EXEC SQL SELECT COUNT(*)
+       *****         INTO :NUMBER-OF-EMPLOYEES
+       *****        FROM KT_DEMOTAB1
+       *****        WHERE EMP_NUM > :EMP-NUM
+       *****END-EXEC.
+ 
+ |Reduced EXEC (83 bytes):
+ SELECT COUNT(*) INTO :NUMBER-OF-EMPLOYEES FROM KT_DEMOTAB1 WHERE EMP_NUM > :EMP-NUM
+ ---TTEXRE---exit  rc: 0
+ ---DB2SQL---entry
+ release: 3874619C  stmt: 387ADF36  stmtLength: 00000053  crsrName: 00000000  crsrLength: 00000000
+ storedProcName: 00000000
+ ---DB2SQLCxx---entry
+ release: 3874619C  stmt: 387ADF36  stmtLength: 00000053
+ token: 00007530
+ assertYN: Y
+ ---DB2SQLCxx---exit
+ ---DB2SQL---exit  Sel newStatement: 3897C028
+ ---DB2PLIST---entry
+ ---Sel setPlist---entry
+ Size of stubbedCalls: 0
+ ---Sel setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ ---Sel setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---Sel setDAin---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 60
+ ---Sel setDAout---entry
+ ---Sel setDAout---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Sel addSQLCA---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSQLCA---entry
+ token: 00007531
+ ---addSQLCA---exit
+ ---Sel addSQLCA---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 0 -- type: 452
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ O 0 -- type: 496
+ ---setData---entry
+ name: NUMBER-OF-EMPLOYEES
+ dataType: 496
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2SQL---entry
+ release: 3874619C  stmt: 387AE267  stmtLength: 00000014  crsrName: 387463E8  crsrLength: 0000000F
+ storedProcName: 00000000
+ ---DB2SQLCxx---entry
+ release: 3874619C  stmt: 387AE267  stmtLength: 00000014
+ token: 0000C350
+ assertYN: Y
+ ---DB2SQLCxx---exit
+ ---DB2SQL---exit  Csr newStatement: 3897C658
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 1
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C351
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C352
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 2
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C353
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C354
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 3
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C355
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C356
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 4
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C357
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C358
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 5
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C359
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C35A
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 6
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C35B
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C35C
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ deleting HVsOut
+ ---~SQLcall---exit
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 7
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C35D
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C35E
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (53 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+ 
+ |Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ new OFC
+ ---OFC constructor---entry
+ ---OFC constructor---exit
+ ---OFC copy---entry
+ ---OFC copy---exit
+ ---~OFC---entry
+ ---~OFC---exit
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 60
+ curOFC: -1, size: 8
+ ---addSQLDA---entry
+ call#: 1, io: I
+ ---setDAin---entry
+ sqlN: 1, sqlLd: 1
+   0 -- storing type: 452, storing length: 5
+ ---setDAin---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C35F
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (108 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+ 
+ |Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---DB2PLIST---entry
+ ---Csr setPlist---entry
+ ---OFC setPlist---entry
+ ---~SQLcall---entry
+ deleting HVsIn
+ ---~SQLcall---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---OFC setPlist---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---Csr setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: O
+ Length: 588
+ ---addSQLDA---entry
+ call#: 2, io: O
+ ---setDAout---entry
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 448, storing length: 15
+   4 -- storing type: 448, storing length: 15
+   5 -- storing type: 448, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 6
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+   11 -- storing type: 484, storing length: 1538
+   12 -- storing type: 484, storing length: 1538
+ ---setDAout---exit
+ ---addSQLDA---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Csr addSQLCA---entry
+ ---addSQLCA---entry
+ token: 0000C360
+ ---addSQLCA---exit
+ ---Csr addSQLCA---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 0
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: WAGE-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 1
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 2
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: FIRST-LAST-NAME
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 3
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STREET-ADDR
+ dataType: 448
+ rowsAffected: 0 mLength: 17
+ vLength: 0
+ cL: 17, mL: 17
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 4
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: CITY
+ dataType: 448
+ rowsAffected: 0 mLength: 10
+ vLength: 0
+ cL: 10, mL: 10
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 5
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 6
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 7
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 8
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 9
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: SALARY
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 10
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 11
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Csr addHv---entry
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---OFC addHVar---entry
+ ---addHVOut---entry
+ HVOut #: 12
+ ---addHVOut---exit
+ ---OFC addHVar---exit
+ ---Csr addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (505 bytes):
+       *****EXEC SQL SELECT COUNT(*)
+       *****         INTO :NUMBER-OF-EMPLOYEES
+       *****        FROM KT_DEMOTAB1
+       *****        WHERE EMP_NUM > :EMP-NUM
+       *****END-EXEC.
+-|Reduced EXEC (83 bytes):
+ SELECT COUNT(*) INTO :NUMBER-OF-EMPLOYEES FROM KT_DEMOTAB1 WHERE EMP_NUM > :EMP-NUM
+ ---TTEXRE---exit  rc: 0
+ ---DONONCUR---entry
+ statementlength: 83
+ ---Sel doCall---entry
+ ---Sel compareDAin---entry
+ ---Sel compareDAin---exit: 0
+ ---findSQLcall---entry
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findSQLcall---exit: 0
+ ---storeHVsIn---entry
+ sqlDAin: 949521728, sqlN: 1, HVsIn size: 1
+   sqlDAin size:0010 addr:38988D40
+ ---setData---entry
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---addHVInHLI---entry
+ HVInHLI #: 0
+ ---addHVInHLI---exit
+ ---storeHVsIn---exit
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---copyHVsOut---entry
+ sqlDAout: 949521788, sqlN: 1, HVsOut size: 1
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---Sel doCall---exit: 0
+ ---DONONCUR---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: -1
+ ---nextSubCallTemp---exit: 0
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 0
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 0
+ ---nextSubCallTemp---exit: 1
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 1
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 1
+ ---nextSubCallTemp---exit: 2
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 2
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 2
+ ---nextSubCallTemp---exit: 3
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 3
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 3
+ ---nextSubCallTemp---exit: 4
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 4
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 4
+ ---nextSubCallTemp---exit: 5
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 5
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 5
+ ---nextSubCallTemp---exit: 6
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 6
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DOSBCALL---entry
+ parmlist: X'3865F1C8'
+ ---doCall---entry
+ parmlist: X'3865F1C8'
+ ---nextSubCallTemp---entry
+ stubbedCalls: 8, callTemp: 6
+ ---nextSubCallTemp---exit: 7
+ ---storeAVsInLive---entry
+ Live size: 4, AVsIn size: 4
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 0
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 1
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 2
+ ---addAvInLive---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---addAvInLive---entry
+ AVInLive #: 3
+ ---addAvInLive---exit
+ ---storeAVsInLive---exit
+ ---copyAVsOut---entry
+ Live size: 4, AVsOut size: 4
+ ---copyAVsOut---exit
+ ---doCall---exit: 0
+ ---DOSBCALL---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (101 bytes):
+       *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+-|Reduced EXEC (20 bytes):
+ OPEN EMPLOYEE_CURSOR
+ ---TTEXRE---exit  rc: 0
+ ---CUROPEN---entry
+ ---cursorOpen---entry
+ ---findOFC---entry
+ ---compareDAin---entry
+ ---compareDAin---exit: 0
+ ---sqlHVComp---entry
+ ---compareData---entry
+ vLength: -1
+ cL: 5
+ sqlDAinVar.len: 5
+ type: 452, ind; stub: 0, live: 0
+ ---compareData---exit: 0
+ ---sqlHVComp---exit: 0
+ ---findOFC---exit: 7
+ ---OFC incrCallCount---entry
+ curSQLcall: 0
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 0
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 0
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 0
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---cursorOpen---exit: 0
+ ---CUROPEN---exit: 0
+ ---TTEXRE---entry
+ |Input EXEC (303 bytes):
+       *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+       *****        :KTDCL-DEMOTAB1
+       *****   END-EXEC
+-|Reduced EXEC (42 bytes):
+ FETCH EMPLOYEE_CURSOR INTO :KTDCL-DEMOTAB1
+ ---TTEXRE---exit  rc: 0
+ ---CURFETCH---entry
+ ---cursorFetch---entry
+ ---OFC incrCallCount---entry
+ curSQLcall: 1
+ ---OFC incrCallCount---exit
+ ---OFC setSequence---entry
+ curSQLcall: 1
+ ---OFC setSequence---exit
+ ---OFC setGSequence---entry
+ curSQLcall: 1
+ ---OFC setGSequence---exit
+ ---OFC copySQLCA---entry
+ curSQLcall: 1
+ ---copySQLCA---entry
+ ---copySQLCA---exit
+ ---OFC copySQLCA---exit
+ ---OFC copyHVsOut---entry
+ curSQLcall: 1
+ ---copyHVsOut---entry
+ sqlDAout: 949520552, sqlN: 13, HVsOut size: 13
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ iA in DA: 949519584
+ bitFlag 0
+ ---copyHVsOut---exit
+ ---OFC copyHVsOut---exit
+ ---cursorFetch---exit: 0
+ ---CURFETCH---exit: 0
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C351
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C352
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C353
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C354
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C355
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C356
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C357
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C358
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C359
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C35A
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C35B
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C35C
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C35D
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C35E
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C35F
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 0000C360
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 10
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Sel retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00007531
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 5
+ ---retrieveNextHV---exit: 1
+ ---Sel retrieveNext---exit: 10
+ ---DORTRV---exit
