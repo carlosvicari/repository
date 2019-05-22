@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite:testsuite xmlns:testsuite="http://www.compuware.com/model/xml/testsuite" id="Unit%20Test/Suites/Default%20Suite%20Entry.testsuite">
-  <testsuite:testscenario>../Scenarios/CWKTDB2X_Scenario.testscenario#Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario</testsuite:testscenario>
-</testsuite:testsuite>
