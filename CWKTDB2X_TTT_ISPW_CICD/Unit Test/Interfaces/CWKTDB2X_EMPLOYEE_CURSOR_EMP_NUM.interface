@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.4.1.v20190319-1916_877?>
+<!--Topaz for Total Test 19.4.1.v20190319-1916_877 21/05/2019 22:36:08-->
+<interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/CWKTDB2X_EMPLOYEE_CURSOR_EMP_NUM.interface">
+  <interface:description></interface:description>
+  <interface:argument listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+    <interface:baseTypeExtension baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+    <interface:baseTypeExtension baseType="listructure:stringType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM.EMP_NUM">
+      <properties:properties>
+        <properties:property name="usage" type="string">inout</properties:property>
+      </properties:properties>
+    </interface:baseTypeExtension>
+  </interface:argument>
+</interface:interface>
