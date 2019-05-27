@@ -2,7 +2,3 @@ autoEnabled=true
 eclipse.preferences.version=1
 extraProperties=
 fileExclusions=
-idePrefixKey=Unit Test OLD
-projectKey=BRASIL_MAINFRAME_CICD
-serverId=sonarqube.nasa.cpwr.corp
-sqPrefixKey=CWKTDB2X_TTT_ISPW_CICD/Unit Test
