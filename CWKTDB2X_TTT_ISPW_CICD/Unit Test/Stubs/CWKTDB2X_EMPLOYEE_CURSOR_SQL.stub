@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub" nextCalltoken="30032" stubtype="SQL CURSOR" target="Open" token="30000">
+  <stub:description>Created: 05/06/2019 16:31:51</stub:description>
+  <stub:stubdata id="0" name="Open">
+    <stub:interface>../Interfaces/CWKTDB2X_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F4F3F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="1" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F3F4F3F1</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0002</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000DC7C1C9D340D3C1E6D9C5D5C3C54040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000DF1F2F340D5D6D9E3C840C1E5C54040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0005D7D3C1D5D6404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">E3E7</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F5F7F0F1F040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F4F0F6F2F5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">038C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000250C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0009500C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlResults>
+          <stub:result id="2" name="Update">
+            <stub:interface>../Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#WAGES" id="arg0.WAGES">
+                <properties:properties>
+                  <properties:property name="value" type="string">0009500C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#COMM" id="arg2.COMM">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:checkconditions/>
+            <stub:sqlStatus>
+              <stub:statement type="Fetch Update">
+                <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE CURRENT OF EMPLOYEE_CURSOR
+      *****            END-EXEC
+</stub:text>
+              </stub:statement>
+              <stub:plist>
+                <stub:headerData>00404000001E43574B54444232581AC5D9971DD77F18000437B0A79037B0C6900000000004B800EA0000027D0000000000000000000000000000000000000000</stub:headerData>
+                <stub:varRawData>E2D8D3C4C1404008000000940003000301E4060237B0A86037B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86437B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+              </stub:plist>
+              <stub:sqlca callToken="30003">
+                <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+              </stub:sqlca>
+            </stub:sqlStatus>
+          </stub:result>
+        </stub:sqlResults>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30002">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="3" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30004">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="4" name="Open">
+    <stub:interface>../Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F5F2F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="5" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F2F5F2F3</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0001</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000DD1D6C8D540E2D4C9E3C84040404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000FF5F4F5F640C5D3D440E2E3D9C5C5E3</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0005E6C1E8D5C5404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">C9D3</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F7F7F9F0F240</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F1F1F0F1F5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">030C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000250C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlResults>
+          <stub:result id="6" name="Update">
+            <stub:interface>../Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#WAGES" id="arg0.WAGES">
+                <properties:properties>
+                  <properties:property name="value" type="string">0007500C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#COMM" id="arg2.COMM">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:checkconditions/>
+            <stub:sqlStatus>
+              <stub:statement type="Fetch Update">
+                <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE CURRENT OF EMPLOYEE_CURSOR
+      *****            END-EXEC
+</stub:text>
+              </stub:statement>
+              <stub:plist>
+                <stub:headerData>00404000001E43574B54444232581AC5D9971DD77F18000437B0A79037B0C6900000000004B800EA0000027D0000000000000000000000000000000000000000</stub:headerData>
+                <stub:varRawData>E2D8D3C4C1404008000000940003000301E4060237B0A86037B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86437B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+              </stub:plist>
+              <stub:sqlca callToken="30007">
+                <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+              </stub:sqlca>
+            </stub:sqlStatus>
+          </stub:result>
+        </stub:sqlResults>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30006">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="7" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30008">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30005">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="8" name="Open">
+    <stub:interface>../Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F5F6F8</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="9" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F1F5F6F8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0004</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000DE3C8D6D4C1E240D3D6D5C740404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000EF1F240D9C1C3C540E2E3D9C5C5E340</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0008E2C1D540D1D6E2C5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">C3C1</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F9F5F1F2F640</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">040C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000250C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlResults>
+          <stub:result id="10" name="Update">
+            <stub:interface>../Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#WAGES" id="arg0.WAGES">
+                <properties:properties>
+                  <properties:property name="value" type="string">0010000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#COMM" id="arg2.COMM">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:checkconditions/>
+            <stub:sqlStatus>
+              <stub:statement type="Fetch Update">
+                <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE CURRENT OF EMPLOYEE_CURSOR
+      *****            END-EXEC
+</stub:text>
+              </stub:statement>
+              <stub:plist>
+                <stub:headerData>00404000001E43574B54444232581AC5D9971DD77F18000437B0A79037B0C6900000000004B800EA0000027D0000000000000000000000000000000000000000</stub:headerData>
+                <stub:varRawData>E2D8D3C4C1404008000000940003000301E4060237B0A86037B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86437B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+              </stub:plist>
+              <stub:sqlca callToken="30011">
+                <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+              </stub:sqlca>
+            </stub:sqlStatus>
+          </stub:result>
+        </stub:sqlResults>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30010">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="11" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30012">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30009">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="Open">
+    <stub:interface>../Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F3F2F4F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="13" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F3F2F4F1</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0003</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000FD4C1D9C3C9C140E2E4D3D3C9E5C1D5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000FF5F540E2D6E4E3C840E2E3D9C5C5E3</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0008D5C5E640E8D6D9D2</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">D5E8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F1F0F0F1F740</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F9F3F0F4F0F5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">044C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000300C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlResults>
+          <stub:result id="14" name="Update">
+            <stub:interface>../Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#WAGES" id="arg0.WAGES">
+                <properties:properties>
+                  <properties:property name="value" type="string">0012000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+                <properties:properties>
+                  <properties:property name="value" type="string">0007200C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#COMM" id="arg2.COMM">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:checkconditions/>
+            <stub:sqlStatus>
+              <stub:statement type="Fetch Update">
+                <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE CURRENT OF EMPLOYEE_CURSOR
+      *****            END-EXEC
+</stub:text>
+              </stub:statement>
+              <stub:plist>
+                <stub:headerData>00404000001E43574B54444232581AC5D9971DD77F18000437B0A79037B0C6900000000004B800EA0000027D0000000000000000000000000000000000000000</stub:headerData>
+                <stub:varRawData>E2D8D3C4C1404008000000940003000301E4060237B0A86037B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86437B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+              </stub:plist>
+              <stub:sqlca callToken="30015">
+                <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+              </stub:sqlca>
+            </stub:sqlStatus>
+          </stub:result>
+        </stub:sqlResults>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30014">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="15" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30016">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30013">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="16" name="Open">
+    <stub:interface>../Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F1F3F4F3</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="17" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F1F3F4F3</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0003</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000FD1C1D4C5E240D4D6D9D9C9E2D6D540</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000FF1F160C140D4C1D7D3C540C1E5C540</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0008E2E8D9C1C3E4E2C5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">D5E8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F1F2F1F2F340</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F9F1F0F9F1F3</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">037C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000275C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlResults>
+          <stub:result id="18" name="Update">
+            <stub:interface>../Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#WAGES" id="arg0.WAGES">
+                <properties:properties>
+                  <properties:property name="value" type="string">0010175C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#COMM" id="arg2.COMM">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:checkconditions/>
+            <stub:sqlStatus>
+              <stub:statement type="Fetch Update">
+                <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE CURRENT OF EMPLOYEE_CURSOR
+      *****            END-EXEC
+</stub:text>
+              </stub:statement>
+              <stub:plist>
+                <stub:headerData>00404000001E43574B54444232581AC5D9971DD77F18000437B0A79037B0C6900000000004B800EA0000027D0000000000000000000000000000000000000000</stub:headerData>
+                <stub:varRawData>E2D8D3C4C1404008000000940003000301E4060237B0A86037B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86437B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+              </stub:plist>
+              <stub:sqlca callToken="30019">
+                <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+              </stub:sqlca>
+            </stub:sqlStatus>
+          </stub:result>
+        </stub:sqlResults>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30018">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="19" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30020">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30017">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="20" name="Open">
+    <stub:interface>../Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F1</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="21" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F2F1F7F1</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0004</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000EE2C1D4E4C5D340C1C4C4C1D4E24040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000EF9F0F040D3C9D5C3D6D3D540C3E340</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0004D9C5D5D640404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">D5E5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F2F4F3F340</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">042C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000275C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlResults>
+          <stub:result id="22" name="Update">
+            <stub:interface>../Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#WAGES" id="arg0.WAGES">
+                <properties:properties>
+                  <properties:property name="value" type="string">0011000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+                <properties:properties>
+                  <properties:property name="value" type="string">0003300C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure">
+              <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_COMM.listructure#COMM" id="arg2.COMM">
+                <properties:properties>
+                  <properties:property name="value" type="string">0000000C</properties:property>
+                </properties:properties>
+              </stub:data>
+            </stub:output>
+            <stub:checkconditions/>
+            <stub:sqlStatus>
+              <stub:statement type="Fetch Update">
+                <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE CURRENT OF EMPLOYEE_CURSOR
+      *****            END-EXEC
+</stub:text>
+              </stub:statement>
+              <stub:plist>
+                <stub:headerData>00404000001E43574B54444232581AC5D9971DD77F18000437B0A79037B0C6900000000004B800EA0000027D0000000000000000000000000000000000000000</stub:headerData>
+                <stub:varRawData>E2D8D3C4C1404008000000940003000301E4060237B0A86037B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86437B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+              </stub:plist>
+              <stub:sqlca callToken="30023">
+                <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+              </stub:sqlca>
+            </stub:sqlStatus>
+          </stub:result>
+        </stub:sqlResults>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30022">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="23" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30024">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30021">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="24" name="Open">
+    <stub:interface>../Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="25" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F0F2F1F7F5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0004</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000EE2C1D4E4C5D340C1C4C4C1D4E24040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000EF9F0F040D3C9D5C3D6D3D540C3E340</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0004D9C5D5D640404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">D5E5</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F2F4F3F340</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">042C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000275C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0011000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0003300C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30026">
+            <stub:rawData>E2D8D3C3C14040400000008800000064000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D5E7D9C6C6D3FFFFFF920000000000000000FFFFFFFF00000000000000004040404040404040404040F0F2F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="26" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30027">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30025">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:stubdata id="27" name="Open">
+    <stub:interface>../Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface#Unit%20Test/Interfaces/Open_EMPLOYEE_CURSOR_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Open_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F5F9F9F9F9</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlResults>
+      <stub:result id="28" name="Fetch">
+        <stub:interface>../Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface#Unit%20Test/Interfaces/Fetch_EMPLOYEE_CURSOR_COMM.interface</stub:interface>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_EMP-NUM.listructure#EMP_NUM" id="arg0.EMP_NUM">
+            <properties:properties>
+              <properties:property name="value" type="string">F5F9F9F9F9</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGE-TYPE.listructure#WAGE_TYPE" id="arg1.WAGE_TYPE">
+            <properties:properties>
+              <properties:property name="value" type="string">C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure#REGION" id="arg2.REGION">
+            <properties:properties>
+              <properties:property name="value" type="string">0004</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_FIRST-LAST-NAME.listructure#FIRST_LAST_NAME" id="arg3.FIRST_LAST_NAME">
+            <properties:properties>
+              <properties:property name="value" type="string">000ED4C1E740C540D4C9D3D3C9D6D54040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure#STREET_ADDR" id="arg4.STREET_ADDR">
+            <properties:properties>
+              <properties:property name="value" type="string">000EF1F0F040D4C1C9D540E2E340404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_CITY.listructure#CITY" id="arg5.CITY">
+            <properties:properties>
+              <properties:property name="value" type="string">0004D4C1C9D540404040</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure#STATE" id="arg6.STATE">
+            <properties:properties>
+              <properties:property name="value" type="string">D6C8</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_ZIP.listructure#ZIP" id="arg7.ZIP">
+            <properties:properties>
+              <properties:property name="value" type="string">F3F4F0F9F340</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HIREDATE.listructure#HIREDATE" id="arg8.HIREDATE">
+            <properties:properties>
+              <properties:property name="value" type="string">F9F1F0F2F0F3</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_HOURS.listructure#HOURS" id="arg9.HOURS">
+            <properties:properties>
+              <properties:property name="value" type="string">088C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_RATE.listructure#RATE" id="arg10.RATE">
+            <properties:properties>
+              <properties:property name="value" type="string">0000250C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_WAGES.listructure#WAGES" id="arg11.WAGES">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_OVERTIME.listructure#OVERTIME" id="arg12.OVERTIME">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+              <properties:property name="indicator" type="string">0000</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure">
+          <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_COMM.listructure#COMM" id="arg13.COMM">
+            <properties:properties>
+              <properties:property name="value" type="string">0000000C</properties:property>
+            </properties:properties>
+          </stub:data>
+        </stub:output>
+        <stub:checkconditions/>
+        <stub:sqlResults>
+          <stub:result id="29" name="Delete">
+            <stub:checkconditions/>
+            <stub:sqlStatus>
+              <stub:statement type="Fetch Delete">
+                <stub:text>      *****      EXEC SQL DELETE FBRCCV0_DEMO_TAB1
+      *****                WHERE CURRENT OF EMPLOYEE_CURSOR
+      *****      END-EXEC
+</stub:text>
+              </stub:statement>
+              <stub:plist>
+                <stub:headerData>00400000001E43574B54444232581AC5D9971DD77F18000237B0A790000000000000000004B800E9000002540000000000000000000000000000000000000000</stub:headerData>
+              </stub:plist>
+              <stub:sqlca callToken="30030">
+                <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+              </stub:sqlca>
+            </stub:sqlStatus>
+          </stub:result>
+        </stub:sqlResults>
+        <stub:sqlStatus>
+          <stub:statement type="Fetch">
+            <stub:text>      *****   EXEC SQL FETCH EMPLOYEE_CURSOR INTO
+      *****        :KTDCL-DEMOTAB:IKT-DEMOTAB.INDSTRUC
+      *****   END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400400001E43574B54444232581AC5D9971DD77F18000137B0A7900000000037B0CAC004B80004000003570000000000000000000000000000000000000000</stub:headerData>
+            <stub:varRawData>E2D8D3C4C140400800000278000E000E01C5000537B0A81837B0A870000040404040404040404040404040404040404040404040404040404040404001C5000137B0A81D37B0A872000040404040404040404040404040404040404040404040404040404040404001F5000237B0A81E37B0A874000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A82037B0A876000040404040404040404040404040404040404040404040404040404040404001C1000F37B0A83137B0A878000040404040404040404040404040404040404040404040404040404040404001C1000837B0A84237B0A87A000040404040404040404040404040404040404040404040404040404040404001C5000237B0A84C37B0A87C000040404040404040404040404040404040404040404040404040404040404001C5000637B0A84E37B0A87E000040404040404040404040404040404040404040404040404040404040404001C5000637B0A85437B0A880000040404040404040404040404040404040404040404040404040404040404001E5020037B0A85A37B0A882000040404040404040404040404040404040404040404040404040404040404001E5060237B0A85C37B0A884000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86037B0A886000040404040404040404040404040404040404040404040404040404040404001E5060237B0A86437B0A888000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+          </stub:plist>
+          <stub:sqlca callToken="30029">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+      <stub:result id="30" name="Close">
+        <stub:checkconditions/>
+        <stub:sqlStatus>
+          <stub:statement type="Close">
+            <stub:text>      *****        EXEC SQL CLOSE EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+          </stub:statement>
+          <stub:plist>
+            <stub:headerData>00400000002D43574B54444232581AC5D9971DD77F18000137B0A790000000000000000004B80005000001FB0000000000000000000000000000000000000000</stub:headerData>
+          </stub:plist>
+          <stub:sqlca callToken="30031">
+            <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+          </stub:sqlca>
+        </stub:sqlStatus>
+      </stub:result>
+    </stub:sqlResults>
+    <stub:sqlStatus>
+      <stub:statement type="Open">
+        <stub:text>      *****   EXEC SQL OPEN EMPLOYEE_CURSOR END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000003243574B54444232581AC5D9971DD77F18000137B0A79037B0CA400000000004B800030000034C0000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C14040080000003C0001000101C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="30028">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF000000000000000040D5404040F44040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+  <stub:query>
+    <stub:text>           EXEC SQL DECLARE EMPLOYEE_CURSOR CURSOR FOR
+                SELECT  
+                FROM FBRCCV0_DEMO_TAB1
+                WHERE EMP_NUM = :EMP-NUM
+                FOR UPDATE OF WAGES, OVERTIME, COMM
+           END-EXEC.
+</stub:text>
+  </stub:query>
+</stub:stub>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub" nextCalltoken="50002" stubtype="SQL" target="Update" token="50000">
+  <stub:description>Created: 05/06/2019 16:32:40</stub:description>
+  <stub:stubdata id="0" name="Update">
+    <stub:interface>../Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface#Unit%20Test/Interfaces/CWKTDB2X_Update_1_EMP_NUM.interface</stub:interface>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_WAGES.listructure#WAGES" id="arg0.WAGES">
+        <properties:properties>
+          <properties:property name="value" type="string">0088000C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_COMM.listructure#COMM" id="arg2.COMM">
+        <properties:properties>
+          <properties:property name="value" type="string">0000000C</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure">
+      <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_Update_EMP-NUM.listructure#EMP_NUM" id="arg3.EMP_NUM">
+        <properties:properties>
+          <properties:property name="value" type="string">F0F2F1F7F5</properties:property>
+        </properties:properties>
+      </stub:data>
+    </stub:output>
+    <stub:checkconditions/>
+    <stub:sqlStatus>
+      <stub:statement type="Update">
+        <stub:text>      *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+      *****                  SET (WAGES, OVERTIME, COMM)
+      *****                  = (:WAGES, :OVERTIME, :COMM)
+      *****                  WHERE EMP_NUM = :EMP-NUM
+      *****            END-EXEC
+</stub:text>
+      </stub:statement>
+      <stub:plist>
+        <stub:headerData>00404000001E43574B54444232581AC5D9971DD77F18000537B0A79037B0C7680000000004B800EA000002840000000000000000000000000000000000000000</stub:headerData>
+        <stub:varRawData>E2D8D3C4C1404008000000C00004000401E4060237B0A86037B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86437B0C4E0000040404040404040404040404040404040404040404040404040404040404001E4060237B0A86837B0C4E0000040404040404040404040404040404040404040404040404040404040404001C4000537B0A81837B0C4E00000404040404040404040404040404040404040404040404040404040404040</stub:varRawData>
+      </stub:plist>
+      <stub:sqlca callToken="50001">
+        <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000001FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
+      </stub:sqlca>
+    </stub:sqlStatus>
+  </stub:stubdata>
+  <stub:database version="1110"/>
+</stub:stub>
