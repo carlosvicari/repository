@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub" stubtype="Program" target="CWKTDATE" token="20000">
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub" stubtype="Program" target="CWKTDATE" token="100000">
   <properties:properties>
     <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
   </properties:properties>
-  <stub:description>Created: 05/06/2019 16:31:48</stub:description>
+  <stub:description>Created: 12/06/2019 21:29:02</stub:description>
   <stub:stubdata id="0" name="CWKTDATE">
     <stub:interface>../Interfaces/CWKTDB2X_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTDB2X_CWKTDATE.interface</stub:interface>
     <stub:inputinterface>../Interfaces/CWKTDB2X_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTDB2X_CWKTDATE.interface</stub:inputinterface>
@@ -24,7 +24,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F1F3</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -52,7 +52,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -84,7 +84,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -112,7 +112,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -144,7 +144,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -172,7 +172,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -204,7 +204,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -232,7 +232,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -264,7 +264,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -292,7 +292,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -324,7 +324,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -352,7 +352,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -384,7 +384,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -412,7 +412,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -444,7 +444,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>
@@ -472,7 +472,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F2</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
