@@ -24,7 +24,7 @@
     <stub:input listructure="../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F9F0F6F0F5</properties:property>
+          <properties:property name="value" type="string">F1F9F0F6F1F3</properties:property>
         </properties:properties>
       </stub:data>
     </stub:input>

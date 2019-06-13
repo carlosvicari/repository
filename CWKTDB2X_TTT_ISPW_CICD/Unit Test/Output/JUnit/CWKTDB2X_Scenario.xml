@@ -16,7 +16,7 @@
 
 Actual Value:    190612
 
-Expected Value:  = 190605</failure>
+Expected Value:  = 190613</failure>
     </testcase>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00004: Check for WA_EMP_HIRE_YY"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
