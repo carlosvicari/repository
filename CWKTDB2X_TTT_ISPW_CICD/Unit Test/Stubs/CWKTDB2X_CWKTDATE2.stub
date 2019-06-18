@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub" stubtype="Program" target="CWKTDATE" token="20000">
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_CWKTDATE2.stub" stubtype="Program" target="CWKTDATE" token="20000">
   <properties:properties>
     <properties:property name="programtype" type="string">ProgramStubAssertion</properties:property>
   </properties:properties>
