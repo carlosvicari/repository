@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.4.3.v20190520-0929_924?>
-<!--Topaz for Total Test 19.4.3.v20190520-0929_924 18/06/2019 10:26:00-->
+<!--Topaz for Total Test 19.4.3.v20190520-0929_924 21/06/2019 16:19:59-->
 <testExecutions version="1">
   <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.00001: Check for PARM_LTH"/>
@@ -11,7 +11,13 @@
   <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub">
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00001: Check for END_OF_MONTH_SW"/>
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00002: Check for YRS_OF_SERVICE"/>
-    <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: Check for TODAYS_DATE"/>
+    <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: Check for TODAYS_DATE">
+      <failure message="Check for TODAYS_DATE failed">Check for TODAYS_DATE failed
+
+Actual Value:    190621
+
+Expected Value:  = 190618</failure>
+    </testCase>
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00004: Check for WA_EMP_HIRE_YY"/>
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00005: Check for WA_EMP_HIRE_MM"/>
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00006: Check for WA_EMP_HIRE_DD"/>

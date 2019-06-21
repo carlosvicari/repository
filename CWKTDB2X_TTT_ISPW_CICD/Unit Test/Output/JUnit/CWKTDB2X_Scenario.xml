@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.4.3.v20190520-0929_924?>
-<!--Topaz for Total Test 19.4.3.v20190520-0929_924 18/06/2019 10:26:00-->
+<!--Topaz for Total Test 19.4.3.v20190520-0929_924 21/06/2019 16:19:59-->
 <testsuites>
   <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" tests="4">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00001: Check for PARM_LTH"/>
@@ -8,15 +8,21 @@
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00003: Check for GRAND_TOTAL"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00004: Check for TOTAL_RECORD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" tests="6">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" tests="6">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00003: Check for TODAYS_DATE">
+      <failure>Check for TODAYS_DATE failed
+
+Actual Value:    190621
+
+Expected Value:  = 190618</failure>
+    </testcase>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00004: Check for WA_EMP_HIRE_YY"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion" tests="12">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion" tests="12">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -24,7 +30,7 @@
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00002: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00003: CWKTDATE assertion" tests="18">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00003: CWKTDATE assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00003: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00003: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00003: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -32,7 +38,7 @@
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00003: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00003: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00004: CWKTDATE assertion" tests="24">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00004: CWKTDATE assertion" tests="24">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00004: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00004: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00004: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -40,7 +46,7 @@
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00004: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00004: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00005: CWKTDATE assertion" tests="30">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00005: CWKTDATE assertion" tests="30">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00005: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00005: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00005: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -48,7 +54,7 @@
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00005: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00005: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00006: CWKTDATE assertion" tests="36">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00006: CWKTDATE assertion" tests="36">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00006: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00006: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00006: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -56,7 +62,7 @@
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00006: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00006: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00007: CWKTDATE assertion" tests="42">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00007: CWKTDATE assertion" tests="42">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00007: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00007: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00007: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
@@ -64,7 +70,7 @@
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00007: CWKTDATE assertion" name="00005: Check for WA_EMP_HIRE_MM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00007: CWKTDATE assertion" name="00006: Check for WA_EMP_HIRE_DD"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion" tests="48">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion" tests="48">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion" name="00001: Check for END_OF_MONTH_SW"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion" name="00002: Check for YRS_OF_SERVICE"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion" name="00003: Check for TODAYS_DATE"/>
