@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.4.3.v20190520-0929_924?>
-<!--Topaz for Total Test 19.4.3.v20190520-0929_924 21/06/2019 16:19:59-->
+<!--Topaz for Total Test 19.4.3.v20190520-0929_924 01/07/2019 17:12:34-->
 <testExecutions version="1">
   <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.00001: Check for PARM_LTH"/>
@@ -14,7 +14,7 @@
     <testCase duration="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: Check for TODAYS_DATE">
       <failure message="Check for TODAYS_DATE failed">Check for TODAYS_DATE failed
 
-Actual Value:    190621
+Actual Value:    190701
 
 Expected Value:  = 190618</failure>
     </testCase>
