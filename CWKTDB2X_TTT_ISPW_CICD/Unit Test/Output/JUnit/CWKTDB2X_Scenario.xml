@@ -2,10 +2,16 @@
 <?totaltestVersion 19.4.3.v20190520-0929_924?>
 <!--Topaz for Total Test 19.4.3.v20190520-0929_924 02/07/2019 08:54:58-->
 <testsuites>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" tests="4">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" tests="4">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00001: Check for PARM_LTH"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00002: Check for PARM_DATA"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00003: Check for GRAND_TOTAL"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00003: Check for GRAND_TOTAL">
+      <failure>Check for GRAND_TOTAL failed
+
+Actual Value:    1586
+
+Expected Value:  = 1508</failure>
+    </testcase>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2" name="00004: Check for TOTAL_RECORD"/>
   </testsuite>
   <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion" tests="6">
@@ -209,7 +215,7 @@ Expected Value:  = 190618</failure>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00012: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00012: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" tests="129">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" tests="129">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -227,13 +233,25 @@ Expected Value:  = 190618</failure>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00015: Check for FILLER5"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00017: Check for FILLER6"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00018: Check for EMP_DTL_OT">
+      <failure>Check for EMP_DTL_OT failed
+
+Actual Value:    72.00
+
+Expected Value:  = 18.00</failure>
+    </testcase>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00019: Check for FILLER7"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00021: Check for FILLER8"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00013: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    192.00
+
+Expected Value:  = 138.00</failure>
+    </testcase>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00014: RPTFILE assertion" tests="151">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00014: RPTFILE assertion" tests="151">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00014: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00014: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00014: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -257,7 +275,7 @@ Expected Value:  = 190618</failure>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00014: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00014: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00015: RPTFILE assertion" tests="173">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00015: RPTFILE assertion" tests="173">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00015: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00015: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00015: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -281,7 +299,7 @@ Expected Value:  = 190618</failure>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00015: RPTFILE assertion" name="00021: Check for FILLER8"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00015: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" tests="195">
+  <testsuite errors="0" failures="4" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" tests="195">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00002: Check for EMP_DTL_NAME"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00003: Check for FILLER1"/>
@@ -299,20 +317,38 @@ Expected Value:  = 190618</failure>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00015: Check for FILLER5"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00016: Check for EMP_DTL_WAGES"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00017: Check for FILLER6"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00018: Check for EMP_DTL_OT"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00018: Check for EMP_DTL_OT">
+      <failure>Check for EMP_DTL_OT failed
+
+Actual Value:    33.00
+
+Expected Value:  = 8.25</failure>
+    </testcase>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00019: Check for FILLER7"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00020: Check for EMP_DTL_COMM"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00021: Check for FILLER8"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00016: RPTFILE assertion" name="00022: Check for EMP_DTL_TOTAL">
+      <failure>Check for EMP_DTL_TOTAL failed
+
+Actual Value:    143.00
+
+Expected Value:  = 118.25</failure>
+    </testcase>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00017: RPTFILE assertion" tests="196">
+  <testsuite errors="0" failures="4" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00017: RPTFILE assertion" tests="196">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00017: RPTFILE assertion" name="00001: Check for BLANK_LINE"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion" tests="200">
+  <testsuite errors="0" failures="5" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion" tests="200">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion" name="00001: Check for FILLER0"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion" name="00002: Check for FILLER1"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion" name="00003: Check for FILLER2"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion" name="00004: Check for EMP_GRAND_TOTAL"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion" name="00004: Check for EMP_GRAND_TOTAL">
+      <failure>Check for EMP_GRAND_TOTAL failed
+
+Actual Value:    1586.75
+
+Expected Value:  = 1508.00</failure>
+    </testcase>
   </testsuite>
   <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_Insert_1_SQL.00001: Insert assertion" tests="11">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_Insert_1_SQL.00001: Insert assertion" name="00001: Check for EMP_NUM"/>
@@ -387,61 +423,73 @@ Expected Value:  = 190618</failure>
   <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00014: Fetch assertion" tests="9">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00014: Fetch assertion" name="Fetch"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion" tests="12">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion" tests="12">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion" name="00001: Check for WAGES"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion" name="00002: Check for OVERTIME"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion" name="00002: Check for OVERTIME">
+      <failure>Check for OVERTIME failed
+
+Actual Value:    72.00
+
+Expected Value:  = 18.00</failure>
+    </testcase>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00015: Update assertion" name="00003: Check for COMM"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00016: Close assertion" tests="12">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00016: Close assertion" tests="12">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00016: Close assertion" name="Close"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00017: Open assertion" tests="12">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00017: Open assertion" tests="12">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00017: Open assertion" name="Open"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00018: Fetch assertion" tests="12">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00018: Fetch assertion" tests="12">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00018: Fetch assertion" name="Fetch"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion" tests="15">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion" tests="15">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion" name="00001: Check for WAGES"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion" name="00002: Check for OVERTIME"/>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00019: Update assertion" name="00003: Check for COMM"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00020: Close assertion" tests="15">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00020: Close assertion" tests="15">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00020: Close assertion" name="Close"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00021: Open assertion" tests="15">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00021: Open assertion" tests="15">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00021: Open assertion" name="Open"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00022: Fetch assertion" tests="15">
+  <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00022: Fetch assertion" tests="15">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00022: Fetch assertion" name="Fetch"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion" name="00001: Check for WAGES"/>
-    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion" name="00002: Check for OVERTIME"/>
+    <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion" name="00002: Check for OVERTIME">
+      <failure>Check for OVERTIME failed
+
+Actual Value:    33.00
+
+Expected Value:  = 8.25</failure>
+    </testcase>
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00023: Update assertion" name="00003: Check for COMM"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00024: Close assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00024: Close assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00024: Close assertion" name="Close"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00025: Open assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00025: Open assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00025: Open assertion" name="Open"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00026: Fetch assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00026: Fetch assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00026: Fetch assertion" name="Fetch"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00027: Close assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00027: Close assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00027: Close assertion" name="Close"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00028: Open assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00028: Open assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00028: Open assertion" name="Open"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00029: Fetch assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00029: Fetch assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00029: Fetch assertion" name="Fetch"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00030: Delete assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00030: Delete assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00030: Delete assertion" name="Delete"/>
   </testsuite>
-  <testsuite errors="0" failures="0" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00031: Close assertion" tests="18">
+  <testsuite errors="0" failures="2" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00031: Close assertion" tests="18">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase2.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00031: Close assertion" name="Close"/>
   </testsuite>
 </testsuites>
