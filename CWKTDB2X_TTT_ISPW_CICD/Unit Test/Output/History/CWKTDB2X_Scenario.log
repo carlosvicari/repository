@@ -3,7 +3,7 @@
 
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-07-02 09:23.03��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-08-01 14:18.45��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWKTDB2X
  STTR014I Processing test scenario CWKTDB2X
@@ -37,7 +37,7 @@
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDTARGT---exit
-  2019-07-02 09:23:03  STTR245W SLPRTCOD SLPRTCOD: 176
+  2019-08-01 14:18:45  STTR245W SLPRTCOD SLPRTCOD: 176
  ---TARGET---entry
  module: CWKTDB2X, csect: CWKTDB2X, entry: CWKTDB2X
  ---TARGETcxx---entry
