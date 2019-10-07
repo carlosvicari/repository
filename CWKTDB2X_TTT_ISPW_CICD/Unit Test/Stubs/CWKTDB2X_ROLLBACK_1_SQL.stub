@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub" nextCalltoken="140002" stubtype="SQL" target="ROLLBACK" token="140000">
-  <stub:description>Created: 12/06/2019 21:30:35</stub:description>
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub" nextCalltoken="70002" stubtype="SQL" target="ROLLBACK" token="70000">
+  <stub:description>Created: 07/10/2019 08:14:14</stub:description>
   <stub:stubdata id="0" name="ROLLBACK">
     <stub:checkconditions/>
     <stub:sqlStatus>
@@ -9,9 +9,9 @@
 </stub:text>
       </stub:statement>
       <stub:plist>
-        <stub:headerData>00400000009B43574B54444232581AC8739502B47888000037B0A790000000000000000004B80115000001D40000000000000000000000000000000000000000</stub:headerData>
+        <stub:headerData>00400000009B43574B54444232581AD9B2790579FE80000037C04790000000000000000004B80115000001D40000000000000000000000000000000000000000</stub:headerData>
       </stub:plist>
-      <stub:sqlca callToken="140001">
+      <stub:sqlca callToken="70001">
         <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>
       </stub:sqlca>
     </stub:sqlStatus>

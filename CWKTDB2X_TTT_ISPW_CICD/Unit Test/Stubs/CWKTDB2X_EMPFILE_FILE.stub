@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="Unit%20Test/Stubs/CWKTDB2X_EMPFILE_FILE.stub" stubtype="QSAM" target="EMPFILE" token="160000">
-  <stub:description>Created: 12/06/2019 21:31:26</stub:description>
+<?xml version="1.1" encoding="UTF-8"?>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" fileStatus="00" id="Unit%20Test/Stubs/CWKTDB2X_EMPFILE_FILE.stub" stubtype="QSAM" target="EMPFILE" token="90000">
+  <stub:description>Created: 07/10/2019 08:15:04</stub:description>
   <stub:stubdata id="0" name="EMPFILE">
     <stub:inputinterface>../Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface#Unit%20Test/Interfaces/CWKTDB2X_EMPFILE_EMPLOYEE_WORK_AREA.interface</stub:inputinterface>
     <stub:input listructure="../Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure#Unit%20Test/Structures/CWKTDB2X_EMPFILE_EMPLOYEE-WORK-AREA.listructure">

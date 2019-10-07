@@ -1,13 +1,16 @@
 
 ***************** Output from TTTRUNNR *****************
 
+ CEE3740I The following messages pertain to the system default run-time options.
+ CEE3768I The system default for the run-time option DEBUG could not be overridden.
+ CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-08-01 14:18.45��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-10-07 07:19.47��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
- STTR013I Processing test suite CWKTDB2X
- STTR014I Processing test scenario CWKTDB2X
- STTR028I Processing test case CWKTDB2X
+ STTR013I Processing test suite CWKTDB2X_Scenario
+ STTR014I Processing test scenario CWKTDB2X_Scenario
+ STTR028I Processing test case CWKTDB2XCase1
  STTR006I Executing target CWKTDB2X
  STTR008I All targets successfully executed
 
@@ -37,13 +40,13 @@
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDTARGT---exit
-  2019-08-01 14:18:45  STTR245W SLPRTCOD SLPRTCOD: 176
+  2019-10-07 07:19:48  STTR245W SLPRTCOD SLPRTCOD: 176
  ---TARGET---entry
  module: CWKTDB2X, csect: CWKTDB2X, entry: CWKTDB2X
  ---TARGETcxx---entry
  ---TARGETcxx---exit
- ---TARGET---exit newTARGET: 38604028
- ---TARGCALL---entry newTARGET: 38604028
+ ---TARGET---exit newTARGET: 38998028
+ ---TARGCALL---entry newTARGET: 38998028
  ---T addTargetCall---entry
  ---CC targetCall---entry
  CC AV ptr: 0
@@ -64,31 +67,31 @@
  ---~targetCall---exit
  ---TARGCALL---exit
  ---TARGARG---entry
- length: 14
+ beforeLength: 14
+ afterLength: 14
  ---T addTargetArg---entry
  ---setData---entry
- cL: 14
- ---setData---exit
+ bL: 14, aL: 14
+ ---setData---exit --- A(data): 38998090
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---addTargetArg---entry
  AV ptr: 0
  AV #: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---CC TTArgVal---entry
- CC TTArgVal exit--- avP ptr: 0
+ CC TTArgVal exit--- avP ptr: 0, avPA ptr: 0
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- gDA
- AV ptr: 386040A0
- ---addTargetArg---workingArea: 38604088
+ AV ptr: 389980A8
+ ---addTargetArg---workingArea: 38998090
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---T addTargetArg---workingArea: 38604088
+ ---T addTargetArg---workingArea: 38998090
  ---~TTArgVal---entry
  ---~TTArgVal---exit
- ---TARGARG--- workingArea: 38604088
+ ---TARGARG--- workingArea: 38998090
  ---BNDHOOK---entry
  --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = CWKTDATE , offset = 00000000
  ---openW_includeName---entry
@@ -110,13 +113,13 @@
  token: 00000000, 0
  assertYN: Y
  ---SUBPGMcxx---exit
- ---SUBPGM---exit  newSubPgm: 386F5028
+ ---SUBPGM---exit  newSubPgm: 38A21028
  ---SUBCALL---entry
  ---addSubCall---entry
  ---~subCall---entry
  ---~subCall---exit
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -124,84 +127,396 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
  ---~subCall---exit
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -209,88 +524,449 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
  ---~subCall---exit
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -298,92 +974,502 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
  ---~subCall---exit
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -391,96 +1477,555 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
  ---~subCall---exit
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -488,78 +2033,341 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -567,104 +2375,661 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
- deleting AVsIn
- deleting AVsOut
+ deleting AVsBefore
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsAfter
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ deleting AVsBeforeLive
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---~subCall---exit
  ---~subCall---entry
  ---~subCall---exit
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -672,78 +3037,341 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBCALL---entry
  ---addSubCall---entry
  ---addSubCall---entry
- token: 00000000, 0; rc: 0
+ token: 00000000, 0
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSubCall---exit
@@ -751,73 +3379,336 @@
  ---~subCall---entry
  ---~subCall---exit
  ---SUBCALL---exit
+ ---SUBRC---entry
+ ---addSubRC---entry
+ ---addSubRC---entry
+ rc: 0
+ ---addSubRC---exit
+ ---addSubRC---exit
+ ---SUBRC---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 1
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 1
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 0
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 0
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 1
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 2
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 2
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 1
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 1
- ---addAvIn---exit
- ---addInArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 2
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 1
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---SUBOUT---entry
- ---addOutArg---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBOUT---exit
+ ---SUBIN---entry
+ ---addBeforeArg---entry
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 2
- ---addAvOut---exit
- ---addOutArg---exit
- ---SUBOUT---exit
- ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 2
- ---addAvIn---exit
- ---addInArg---exit
- ---SUBIN---exit
- ---SUBOUT---entry
- ---addOutArg---entry
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---setData---entry
  cL: 6
  ---setData---exit
- ---addAvOut---entry
- AVOut #: 3
- ---addAvOut---exit
- ---addOutArg---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 2
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---SUBIN---exit
+ ---SUBOUT---entry
+ ---addAfterArg---entry
+ ---setData---entry
+ cL: 6
+ setting data
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvAfter---entry
+ AvAfter #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvAfter---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAfterArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBOUT---exit
  ---SUBIN---entry
- ---addInArg---entry
- ---addAvIn---entry
- AVIn #: 3
- ---addAvIn---exit
- ---addInArg---exit
+ ---addBeforeArg---entry
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBefore---entry
+ AvBefore #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBefore---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---setData---entry
+ cL: 6
+ ---setData---exit
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---addAvBeforeLive---entry
+ AvBeforeLive #: 3
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---CC argVal---entry
+ CC argVal exit--- avP ptr: 0
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addAvBeforeLive---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---addBeforeArg---exit
+ ---~argVal---entry
+ ---~argVal---exit
+ ---~argVal---entry
+ ---~argVal---exit
  ---SUBIN---exit
  ---BNDHOOK---entry
  --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = DSNHLIR  , offset = 00000000
@@ -847,365 +3738,6 @@
  ---closeW---exit
  ---BNDHOOK---exit
  ---TTEXRE---entry
- |Input EXEC (1167 bytes):
-       *****         EXEC SQL
-       *****            INSERT INTO FBRCCV0_DEMO_TAB1
-       *****            (
-       *****            EMP_NUM               ,
-       *****            WAGE_TYPE             ,
-       *****            REGION                ,
-       *****            FIRST_LAST_NAME       ,
-       *****            STREET_ADDR           ,
-       *****            CITY                  ,
-       *****            STATE                 ,
-       *****            ZIP                   ,
-       *****            HIREDATE              ,
-       *****            HOURS                 ,
-       *****            RATE   )
-       *****            VALUES (
-       *****           :EMP-NUM            ,
-       *****           :WA-EMP-TYPE     ,
-       *****           :REGION         ,
-       *****           :WA-EMP-NAME           ,
-       *****           :WA-EMP-STREET         ,
-       *****           :WA-EMP-CITY           ,
-       *****           :WA-EMP-STATE          ,
-       *****           :WA-EMP-ZIP            ,
-       *****           :HIREDATE              ,
-       *****           :HOURS                 ,
-       *****           :RATE           )
-       *****            END-EXEC
- 
- |Reduced EXEC (292 bytes):
- INSERT INTO FBRCCV0_DEMO_TAB1 ( EMP_NUM , WAGE_TYPE , REGION , FIRST_LAST_NAME , STREET_ADDR , CITY
- , STATE , ZIP , HIREDATE , HOURS , RATE ) VALUES ( :EMP-NUM , :WA-EMP-TYPE , :REGION , :WA-EMP-NAME
- , :WA-EMP-STREET , :WA-EMP-CITY , :WA-EMP-STATE , :WA-EMP-ZIP , :HIREDATE , :HOURS , :RATE )
- ---TTEXRE---exit  rc: 0
- ---DB2SQL---entry
- release: 3856140C  stmt: 38635010  stmtLength: 00000124  crsrName: 00000000  crsrLength: 00000000
- storedProcName: 00000000
- ---DB2SQLCxx---entry
- release: 3856140C  stmt: 38635010  stmtLength: 00000124
- token: 0001D4C0
- assertYN: Y
- ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 387B7028
- ---DB2PLIST---entry
- ---Sel setPlist---entry
- Size of stubbedCalls: 0
- ---Sel setPlist---exit
- ---DB2PLIST---exit
- ---DB2SQLDA---entry
- IO: I
- Length: 500
- ---Sel setDAin---entry
- sqlN: 11, sqlLd: 11
-   0 -- storing type: 452, storing length: 5
-   1 -- storing type: 452, storing length: 1
-   2 -- storing type: 500, storing length: 2
-   3 -- storing type: 452, storing length: 15
-   4 -- storing type: 452, storing length: 15
-   5 -- storing type: 452, storing length: 8
-   6 -- storing type: 452, storing length: 2
-   7 -- storing type: 452, storing length: 9
-   8 -- storing type: 452, storing length: 6
-   9 -- storing type: 484, storing length: 512
-   10 -- storing type: 484, storing length: 1538
- ---Sel setDAin---exit
- ---DB2SQLDA---exit
- ---DB2SQLCA---entry
- ---Sel addSQLCA---entry
- ---~SQLcall---entry
- ---~SQLcall---exit
- ---setPlist---entry
- ---setPlist---exit
- ---initAssertFlag---entry
- ---initAssertFlag---exit
- ---addSQLCA---entry
- token: 0001D4C1
- ---addSQLCA---exit
- ---Sel addSQLCA---exit
- ---~SQLcall---entry
- ---~SQLcall---exit
- ---DB2SQLCA---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 0 -- type: 452
- ---setData---entry
- name: EMP-NUM
- dataType: 452
- rowsAffected: 0 mLength: 5
- cL: 5, mL: 5
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 0
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 1 -- type: 452
- ---setData---entry
- name: WA-EMP-TYPE
- dataType: 452
- rowsAffected: 0 mLength: 1
- cL: 1, mL: 1
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 1
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 2 -- type: 500
- ---setData---entry
- name: REGION
- dataType: 500
- rowsAffected: 0 mLength: 2
- cL: 2, mL: 2
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 2
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 3 -- type: 452
- ---setData---entry
- name: WA-EMP-NAME
- dataType: 452
- rowsAffected: 0 mLength: 15
- cL: 15, mL: 15
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 3
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 4 -- type: 452
- ---setData---entry
- name: WA-EMP-STREET
- dataType: 452
- rowsAffected: 0 mLength: 15
- cL: 15, mL: 15
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 4
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 5 -- type: 452
- ---setData---entry
- name: WA-EMP-CITY
- dataType: 452
- rowsAffected: 0 mLength: 8
- cL: 8, mL: 8
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 5
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 6 -- type: 452
- ---setData---entry
- name: WA-EMP-STATE
- dataType: 452
- rowsAffected: 0 mLength: 2
- cL: 2, mL: 2
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 6
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 7 -- type: 452
- ---setData---entry
- name: WA-EMP-ZIP
- dataType: 452
- rowsAffected: 0 mLength: 9
- cL: 9, mL: 9
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 7
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 8 -- type: 452
- ---setData---entry
- name: HIREDATE
- dataType: 452
- rowsAffected: 0 mLength: 6
- cL: 6, mL: 6
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 8
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 9 -- type: 484
- ---setData---entry
- name: HOURS
- dataType: 484
- rowsAffected: 0 mLength: 2
- cL: 2, mL: 2
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 9
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 10 -- type: 484
- ---setData---entry
- name: RATE
- dataType: 484
- rowsAffected: 0 mLength: 4
- cL: 4, mL: 4
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 10
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---TTEXRE---entry
- |Input EXEC (258 bytes):
-       *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
-       *****                  SET (WAGES, OVERTIME, COMM)
-       *****                  = (:WAGES, :OVERTIME, :COMM)
-       *****                  WHERE EMP_NUM = :EMP-NUM
-       *****            END-EXEC
- 
- |Reduced EXEC (106 bytes):
- UPDATE FBRCCV0_DEMO_TAB1 SET (WAGES, OVERTIME, COMM) = (:WAGES, :OVERTIME, :COMM) WHERE EMP_NUM = :E
- MP-NUM
- ---TTEXRE---exit  rc: 0
- ---DB2SQL---entry
- release: 3856140C  stmt: 386353A3  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
- storedProcName: 00000000
- ---DB2SQLCxx---entry
- release: 3856140C  stmt: 386353A3  stmtLength: 0000006A
- token: 0001FBD0
- assertYN: Y
- ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 387B7898
- ---DB2PLIST---entry
- ---Sel setPlist---entry
- Size of stubbedCalls: 0
- ---Sel setPlist---exit
- ---DB2PLIST---exit
- ---DB2SQLDA---entry
- IO: I
- Length: 192
- ---Sel setDAin---entry
- sqlN: 4, sqlLd: 4
-   0 -- storing type: 484, storing length: 1538
-   1 -- storing type: 484, storing length: 1538
-   2 -- storing type: 484, storing length: 1538
-   3 -- storing type: 452, storing length: 5
- ---Sel setDAin---exit
- ---DB2SQLDA---exit
- ---DB2SQLCA---entry
- ---Sel addSQLCA---entry
- ---~SQLcall---entry
- ---~SQLcall---exit
- ---setPlist---entry
- ---setPlist---exit
- ---initAssertFlag---entry
- ---initAssertFlag---exit
- ---addSQLCA---entry
- token: 0001FBD1
- ---addSQLCA---exit
- ---Sel addSQLCA---exit
- ---~SQLcall---entry
- ---~SQLcall---exit
- ---DB2SQLCA---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 0 -- type: 484
- ---setData---entry
- name: WAGES
- dataType: 484
- rowsAffected: 0 mLength: 4
- cL: 4, mL: 4
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 0
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 1 -- type: 484
- ---setData---entry
- name: OVERTIME
- dataType: 484
- rowsAffected: 0 mLength: 4
- cL: 4, mL: 4
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 1
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 2 -- type: 484
- ---setData---entry
- name: COMM
- dataType: 484
- rowsAffected: 0 mLength: 4
- cL: 4, mL: 4
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 2
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---DB2SQLHV---entry
- ---Sel addHv---entry
- I 3 -- type: 452
- ---setData---entry
- name: EMP-NUM
- dataType: 452
- rowsAffected: 0 mLength: 5
- cL: 5, mL: 5
- ind: 0
- ---setData---exit
- ---addHVIn---entry
- HVIn #: 3
- ---addHVIn---exit
- ---Sel addHv---exit
- ---DB2SQLHV---exit
- ---TTEXRE---entry
  |Input EXEC (189 bytes):
        *****EXEC SQL SELECT COUNT(*)
        *****         INTO :NUMBER-OF-EMPLOYEES
@@ -1217,14 +3749,14 @@
  SELECT COUNT(*) INTO :NUMBER-OF-EMPLOYEES FROM FBRCCV0_DEMO_TAB1 WHERE EMP_NUM > :EMP-NUM
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3856140C  stmt: 3863567C  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
+ release: 38881C74  stmt: 388E1F36  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3856140C  stmt: 3863567C  stmtLength: 00000059
- token: 00015F90
+ release: 38881C74  stmt: 388E1F36  stmtLength: 00000059
+ token: 00002710
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 387B89B8
+ ---DB2SQL---exit  Sel newStatement: 38AAE028
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -1253,7 +3785,7 @@
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSQLCA---entry
- token: 00015F91
+ token: 00002711
  ---addSQLCA---exit
  ---Sel addSQLCA---exit
  ---~SQLcall---entry
@@ -1297,14 +3829,14 @@
  ROLLBACK
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3856140C  stmt: 38635944  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
+ release: 38881C74  stmt: 388E2267  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3856140C  stmt: 38635944  stmtLength: 00000008
- token: 000222E0
+ release: 38881C74  stmt: 388E2267  stmtLength: 00000008
+ token: 00011170
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Sel newStatement: 387B8DA8
+ ---DB2SQL---exit  Sel newStatement: 38AAE660
  ---DB2PLIST---entry
  ---Sel setPlist---entry
  Size of stubbedCalls: 0
@@ -1319,7 +3851,7 @@
  ---initAssertFlag---entry
  ---initAssertFlag---exit
  ---addSQLCA---entry
- token: 000222E1
+ token: 00011171
  ---addSQLCA---exit
  ---Sel addSQLCA---exit
  ---~SQLcall---entry
@@ -1333,14 +3865,14 @@
  OPEN EMPLOYEE_CURSOR
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 3856140C  stmt: 38635BBB  stmtLength: 00000014  crsrName: 38561780  crsrLength: 0000000F
+ release: 38881C74  stmt: 388E24DE  stmtLength: 00000014  crsrName: 388781A8  crsrLength: 0000000F
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 3856140C  stmt: 38635BBB  stmtLength: 00000014
- token: 0001ADB0
+ release: 38881C74  stmt: 388E24DE  stmtLength: 00000014
+ token: 00009C40
  assertYN: Y
  ---DB2SQLCxx---exit
- ---DB2SQL---exit  Csr newStatement: 387B7EB8
+ ---DB2SQL---exit  Csr newStatement: 38AAEA50
  ---DB2PLIST---entry
  ---Csr setPlist---entry
  new OFC
@@ -1381,7 +3913,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB1
+ token: 00009C41
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -1453,7 +3985,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB2
+ token: 00009C42
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -1733,7 +4265,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB3
+ token: 00009C43
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -1818,7 +4350,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB4
+ token: 00009C44
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -1884,7 +4416,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB5
+ token: 00009C45
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -1956,7 +4488,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB6
+ token: 00009C46
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -2236,7 +4768,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB7
+ token: 00009C47
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -2321,7 +4853,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB8
+ token: 00009C48
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -2402,7 +4934,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADB9
+ token: 00009C49
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -2474,7 +5006,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADBA
+ token: 00009C4A
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -2754,7 +5286,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADBB
+ token: 00009C4B
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -2839,7 +5371,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADBC
+ token: 00009C4C
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -2935,7 +5467,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADBD
+ token: 00009C4D
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3007,7 +5539,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADBE
+ token: 00009C4E
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3287,7 +5819,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADBF
+ token: 00009C4F
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3372,7 +5904,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC0
+ token: 00009C50
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3483,7 +6015,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC1
+ token: 00009C51
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3555,7 +6087,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC2
+ token: 00009C52
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3835,7 +6367,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC3
+ token: 00009C53
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3920,7 +6452,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC4
+ token: 00009C54
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -3967,7 +6499,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC5
+ token: 00009C55
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4039,7 +6571,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC6
+ token: 00009C56
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4319,7 +6851,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC7
+ token: 00009C57
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4404,7 +6936,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC8
+ token: 00009C58
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4545,7 +7077,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADC9
+ token: 00009C59
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4617,7 +7149,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADCA
+ token: 00009C5A
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4878,7 +7410,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADCB
+ token: 00009C5B
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4925,7 +7457,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADCC
+ token: 00009C5C
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -4997,7 +7529,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADCD
+ token: 00009C5D
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -5260,7 +7792,7 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADCE
+ token: 00009C5E
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
@@ -5296,10 +7828,436 @@
  ---DB2SQLCA---entry
  ---Csr addSQLCA---entry
  ---addSQLCA---entry
- token: 0001ADCF
+ token: 00009C5F
  ---addSQLCA---exit
  ---Csr addSQLCA---exit
  ---DB2SQLCA---exit
+ ---TTEXRE---entry
+ |Input EXEC (1167 bytes):
+       *****         EXEC SQL
+       *****            INSERT INTO FBRCCV0_DEMO_TAB1
+       *****            (
+       *****            EMP_NUM               ,
+       *****            WAGE_TYPE             ,
+       *****            REGION                ,
+       *****            FIRST_LAST_NAME       ,
+       *****            STREET_ADDR           ,
+       *****            CITY                  ,
+       *****            STATE                 ,
+       *****            ZIP                   ,
+       *****            HIREDATE              ,
+       *****            HOURS                 ,
+       *****            RATE   )
+       *****            VALUES (
+       *****           :EMP-NUM            ,
+       *****           :WA-EMP-TYPE     ,
+       *****           :REGION         ,
+       *****           :WA-EMP-NAME           ,
+       *****           :WA-EMP-STREET         ,
+       *****           :WA-EMP-CITY           ,
+       *****           :WA-EMP-STATE          ,
+       *****           :WA-EMP-ZIP            ,
+       *****           :HIREDATE              ,
+       *****           :HOURS                 ,
+       *****           :RATE           )
+       *****            END-EXEC
+ 
+ |Reduced EXEC (292 bytes):
+ INSERT INTO FBRCCV0_DEMO_TAB1 ( EMP_NUM , WAGE_TYPE , REGION , FIRST_LAST_NAME , STREET_ADDR , CITY
+ , STATE , ZIP , HIREDATE , HOURS , RATE ) VALUES ( :EMP-NUM , :WA-EMP-TYPE , :REGION , :WA-EMP-NAME
+ , :WA-EMP-STREET , :WA-EMP-CITY , :WA-EMP-STATE , :WA-EMP-ZIP , :HIREDATE , :HOURS , :RATE )
+ ---TTEXRE---exit  rc: 0
+ ---DB2SQL---entry
+ release: 38881C74  stmt: 388E2761  stmtLength: 00000124  crsrName: 00000000  crsrLength: 00000000
+ storedProcName: 00000000
+ ---DB2SQLCxx---entry
+ release: 38881C74  stmt: 388E2761  stmtLength: 00000124
+ token: 0000C350
+ assertYN: Y
+ ---DB2SQLCxx---exit
+ ---DB2SQL---exit  Sel newStatement: 38AAF268
+ ---DB2PLIST---entry
+ ---Sel setPlist---entry
+ Size of stubbedCalls: 0
+ ---Sel setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 500
+ ---Sel setDAin---entry
+ sqlN: 11, sqlLd: 11
+   0 -- storing type: 452, storing length: 5
+   1 -- storing type: 452, storing length: 1
+   2 -- storing type: 500, storing length: 2
+   3 -- storing type: 452, storing length: 15
+   4 -- storing type: 452, storing length: 15
+   5 -- storing type: 452, storing length: 8
+   6 -- storing type: 452, storing length: 2
+   7 -- storing type: 452, storing length: 9
+   8 -- storing type: 452, storing length: 6
+   9 -- storing type: 484, storing length: 512
+   10 -- storing type: 484, storing length: 1538
+ ---Sel setDAin---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Sel addSQLCA---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSQLCA---entry
+ token: 0000C351
+ ---addSQLCA---exit
+ ---Sel addSQLCA---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 0 -- type: 452
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 1 -- type: 452
+ ---setData---entry
+ name: WA-EMP-TYPE
+ dataType: 452
+ rowsAffected: 0 mLength: 1
+ cL: 1, mL: 1
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 1
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 2 -- type: 500
+ ---setData---entry
+ name: REGION
+ dataType: 500
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 2
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 3 -- type: 452
+ ---setData---entry
+ name: WA-EMP-NAME
+ dataType: 452
+ rowsAffected: 0 mLength: 15
+ cL: 15, mL: 15
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 3
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 4 -- type: 452
+ ---setData---entry
+ name: WA-EMP-STREET
+ dataType: 452
+ rowsAffected: 0 mLength: 15
+ cL: 15, mL: 15
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 4
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 5 -- type: 452
+ ---setData---entry
+ name: WA-EMP-CITY
+ dataType: 452
+ rowsAffected: 0 mLength: 8
+ cL: 8, mL: 8
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 5
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 6 -- type: 452
+ ---setData---entry
+ name: WA-EMP-STATE
+ dataType: 452
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 6
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 7 -- type: 452
+ ---setData---entry
+ name: WA-EMP-ZIP
+ dataType: 452
+ rowsAffected: 0 mLength: 9
+ cL: 9, mL: 9
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 7
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 8 -- type: 452
+ ---setData---entry
+ name: HIREDATE
+ dataType: 452
+ rowsAffected: 0 mLength: 6
+ cL: 6, mL: 6
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 8
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 9 -- type: 484
+ ---setData---entry
+ name: HOURS
+ dataType: 484
+ rowsAffected: 0 mLength: 2
+ cL: 2, mL: 2
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 9
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 10 -- type: 484
+ ---setData---entry
+ name: RATE
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 10
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---TTEXRE---entry
+ |Input EXEC (258 bytes):
+       *****            EXEC SQL UPDATE FBRCCV0_DEMO_TAB1
+       *****                  SET (WAGES, OVERTIME, COMM)
+       *****                  = (:WAGES, :OVERTIME, :COMM)
+       *****                  WHERE EMP_NUM = :EMP-NUM
+       *****            END-EXEC
+ 
+ |Reduced EXEC (106 bytes):
+ UPDATE FBRCCV0_DEMO_TAB1 SET (WAGES, OVERTIME, COMM) = (:WAGES, :OVERTIME, :COMM) WHERE EMP_NUM = :E
+ MP-NUM
+ ---TTEXRE---exit  rc: 0
+ ---DB2SQL---entry
+ release: 38881C74  stmt: 388E2AF4  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
+ storedProcName: 00000000
+ ---DB2SQLCxx---entry
+ release: 38881C74  stmt: 388E2AF4  stmtLength: 0000006A
+ token: 0000EA60
+ assertYN: Y
+ ---DB2SQLCxx---exit
+ ---DB2SQL---exit  Sel newStatement: 38AB19F0
+ ---DB2PLIST---entry
+ ---Sel setPlist---entry
+ Size of stubbedCalls: 0
+ ---Sel setPlist---exit
+ ---DB2PLIST---exit
+ ---DB2SQLDA---entry
+ IO: I
+ Length: 192
+ ---Sel setDAin---entry
+ sqlN: 4, sqlLd: 4
+   0 -- storing type: 484, storing length: 1538
+   1 -- storing type: 484, storing length: 1538
+   2 -- storing type: 484, storing length: 1538
+   3 -- storing type: 452, storing length: 5
+ ---Sel setDAin---exit
+ ---DB2SQLDA---exit
+ ---DB2SQLCA---entry
+ ---Sel addSQLCA---entry
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---setPlist---entry
+ ---setPlist---exit
+ ---initAssertFlag---entry
+ ---initAssertFlag---exit
+ ---addSQLCA---entry
+ token: 0000EA61
+ ---addSQLCA---exit
+ ---Sel addSQLCA---exit
+ ---~SQLcall---entry
+ ---~SQLcall---exit
+ ---DB2SQLCA---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 0 -- type: 484
+ ---setData---entry
+ name: WAGES
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 0
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 1 -- type: 484
+ ---setData---entry
+ name: OVERTIME
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 1
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 2 -- type: 484
+ ---setData---entry
+ name: COMM
+ dataType: 484
+ rowsAffected: 0 mLength: 4
+ cL: 4, mL: 4
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 2
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---DB2SQLHV---entry
+ ---Sel addHv---entry
+ I 3 -- type: 452
+ ---setData---entry
+ name: EMP-NUM
+ dataType: 452
+ rowsAffected: 0 mLength: 5
+ cL: 5, mL: 5
+ ind: 0
+ ---setData---exit
+ ---addHVIn---entry
+ HVIn #: 3
+ ---addHVIn---exit
+ ---Sel addHv---exit
+ ---DB2SQLHV---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = CEELOCT  , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 143, rs = <0X83000800>.
+ --->>>element not found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = CEEGMTO  , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 143, rs = <0X83000800>.
+ --->>>element not found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = IGZXLOCT , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 143, rs = <0X83000800>.
+ --->>>class_offset: 00004488
+ --->>>element_offset: 00004488
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = IGZXLOCT , offset = 00004488
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 143, rs = <0X83000800>.
+ --->>>class_offset: 00004488
+ --->>>no additional elements found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
+ ---BNDHOOK---entry
+ --->>>modName = CWKTDB2X, pgmName = CWKTDB2X, vName = IGZXCDT  , offset = 00000000
+ ---openW_includeName---entry
+ --->>>moduleName = CWKTDB2X
+  openW: rc = 0, rs = <0X00000000>.
+  includeName: rc = 0, rs = <0X00000000>.
+ ---openW_includeName---exit
+  getD: rc, count = 143, rs = <0X83000800>.
+ --->>>element not found
+ ---closeW---entry
+  closeW: rc = 0, rs = <0X00000000>
+ ---closeW---exit
+ ---BNDHOOK---exit
  ---TTEXRE---entry
  |Input EXEC (505 bytes):
        *****EXEC SQL SELECT COUNT(*)
@@ -5326,8 +8284,8 @@
  ---sqlHVComp---exit: 0
  ---findSQLcall---exit: 0
  ---storeHVsIn---entry
- sqlDAin: 947692208, sqlN: 1, HVsIn size: 1
-   sqlDAin size:0010 addr:387CA2B0
+ sqlDAin: 950795624, sqlN: 1, HVsIn size: 1
+   sqlDAin size:0010 addr:38ABFD68
  ---setData---entry
  dataType: 452
  rowsAffected: 0 mLength: 5
@@ -5341,49 +8299,48 @@
  ---copySQLCA---entry
  ---copySQLCA---exit
  ---copyHVsOut---entry
- sqlDAout: 947692268, sqlN: 1, HVsOut size: 1
- iA in DA: 947689440
+ sqlDAout: 950795684, sqlN: 1, HVsOut size: 1
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---Sel doCall---exit: 0
  ---DONONCUR---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: -1
+ stubbedCalls: 8, callTemp: 0
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 0
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -5449,76 +8406,75 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 0
+ stubbedCalls: 8, callTemp: 1
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 1
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -5554,8 +8510,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 947689872, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:387C9990
+ sqlDAin: 950793288, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:38ABF448
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5681,76 +8637,75 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 1
+ stubbedCalls: 8, callTemp: 2
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 2
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -5786,8 +8741,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 947689872, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:387C9990
+ sqlDAin: 950793288, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:38ABF448
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -5913,76 +8868,75 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 2
+ stubbedCalls: 8, callTemp: 3
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 3
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -6018,8 +8972,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 947689872, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:387C9990
+ sqlDAin: 950793288, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:38ABF448
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6145,76 +9099,75 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 3
+ stubbedCalls: 8, callTemp: 4
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 4
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -6250,8 +9203,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 947689872, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:387C9990
+ sqlDAin: 950793288, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:38ABF448
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6377,76 +9330,75 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 4
+ stubbedCalls: 8, callTemp: 5
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 5
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -6482,8 +9434,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 947689872, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:387C9990
+ sqlDAin: 950793288, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:38ABF448
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6609,76 +9561,75 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
  ---cursorFetch---exit: 0
  ---CURFETCH---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 5
+ stubbedCalls: 8, callTemp: 6
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 6
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -6714,8 +9665,8 @@
  ---OFC storeHVsIn---entry
  curSQLcall: 2
  ---storeHVsIn---entry
- sqlDAin: 947689872, sqlN: 3, HVsIn size: 3
-   sqlDAin size:0010 addr:387C9990
+ sqlDAin: 950793288, sqlN: 3, HVsIn size: 3
+   sqlDAin size:0010 addr:38ABF448
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -6841,34 +9792,34 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -6912,8 +9863,8 @@
  statementlength: 292
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 947691640, sqlN: 11, HVsIn size: 11
-   sqlDAin size:0010 addr:387CA078
+ sqlDAin: 950795056, sqlN: 11, HVsIn size: 11
+   sqlDAin size:0010 addr:38ABFB30
  ---setData---entry
  dataType: 452
  rowsAffected: 0 mLength: 5
@@ -7021,42 +9972,41 @@
  ---Sel doCall---exit: 0
  ---DONONCUR---exit: 0
  ---DOSBCALL---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---doCall---entry
- parmlist: X'3843A1D0'
+ parmlist: X'3878D1D0'
  ---nextSubCallTemp---entry
- stubbedCalls: 8, callTemp: 6
+ stubbedCalls: 8, callTemp: 7
+ acS: 4, acL: 4
  ---nextSubCallTemp---exit: 7
- ---storeAVsInLive---entry
- Live size: 4, AVsIn size: 4
- ---setData---entry
- cL: 1
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 0
- ---addAvInLive---exit
- ---setData---entry
- cL: 2
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 1
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 2
- ---addAvInLive---exit
- ---setData---entry
- cL: 6
- ---setData---exit
- ---addAvInLive---entry
- AVInLive #: 3
- ---addAvInLive---exit
- ---storeAVsInLive---exit
- ---copyAVsOut---entry
- Live size: 4, AVsOut size: 4
- ---copyAVsOut---exit
+ ---storeAVsBeforeLive---entry
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAvBeforeLive---entry
+ sz: 0
+ ---storeAvBeforeLive---exit
+ ---storeAVsBeforeLive---exit
+ ---copyAVsAfter---entry
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAvAfter---entry
+ sz: 0
+ ---copyAvAfter---exit
+ ---copyAVsAfter---exit
  ---doCall---exit: 0
  ---DOSBCALL---exit: 0
  ---TTEXRE---entry
@@ -7074,8 +10024,8 @@
  statementlength: 106
  ---Sel doCall---entry
  ---storeHVsIn---entry
- sqlDAin: 947690088, sqlN: 4, HVsIn size: 4
-   sqlDAin size:0010 addr:387C9A68
+ sqlDAin: 950793504, sqlN: 4, HVsIn size: 4
+   sqlDAin size:0010 addr:38ABF520
  ---setData---entry
  dataType: 484
  rowsAffected: 0 mLength: 4
@@ -7208,34 +10158,34 @@
  ---OFC copyHVsOut---entry
  curSQLcall: 1
  ---copyHVsOut---entry
- sqlDAout: 947690944, sqlN: 14, HVsOut size: 14
- iA in DA: 947682160
+ sqlDAout: 950794360, sqlN: 14, HVsOut size: 14
+ iA in DA: 950785576
  bitFlag 0
- iA in DA: 947682162
+ iA in DA: 950785578
  bitFlag 0
- iA in DA: 947682164
+ iA in DA: 950785580
  bitFlag 0
- iA in DA: 947682166
+ iA in DA: 950785582
  bitFlag 0
- iA in DA: 947682168
+ iA in DA: 950785584
  bitFlag 0
- iA in DA: 947682170
+ iA in DA: 950785586
  bitFlag 0
- iA in DA: 947682172
+ iA in DA: 950785588
  bitFlag 0
- iA in DA: 947682174
+ iA in DA: 950785590
  bitFlag 0
- iA in DA: 947682176
+ iA in DA: 950785592
  bitFlag 0
- iA in DA: 947682178
+ iA in DA: 950785594
  bitFlag 0
- iA in DA: 947682180
+ iA in DA: 950785596
  bitFlag 0
- iA in DA: 947682182
+ iA in DA: 950785598
  bitFlag 0
- iA in DA: 947682184
+ iA in DA: 950785600
  bitFlag 0
- iA in DA: 947689440
+ iA in DA: 950792856
  bitFlag 0
  ---copyHVsOut---exit
  ---OFC copyHVsOut---exit
@@ -7310,728 +10260,398 @@
  ---copyHVsOut---exit
  ---Sel doCall---exit: 0
  ---DONONCUR---exit: 0
+ ---TGTRTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---C retrieveNextAV---entry
+ ---buildAvRec---entry
+ length: 14, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---C retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 10
+ ---TGTRTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
- ---cxx retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
- ---cxx retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
- ---cxx retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
- ---cxx retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
- ---cxx retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
- ---cxx retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
- ---cxx retrieveNextAV---exit: 0
+ ---cxx retrieveNextAV---exit: 1
  ---DORTRV---exit
  ---DORTRV---entry
  ---cxx retrieveNextAV---entry
  ---call retrieveNextAV---entry
  token: 00000000
  ---buildAvRec---entry
- ---buildAvRec---exit: 1
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 2
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
- ---call retrieveNextAV---exit: 0
- ---cxx retrieveNextAV---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---cxx retrieveNextAV---entry
- ---call retrieveNextAV---entry
- token: 00000000
- ---buildAvRec---entry
- ---buildAvRec---exit: 6
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
  ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 1, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 2, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 1
+ ---cxx retrieveNextAV---exit: 1
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---cxx retrieveNextAV---entry
+ ---call retrieveNextAV---entry
+ token: 00000000
+ ---buildAvRec---entry
+ size: 0, index: -1
+ length: 6, ptrSz: 0
+ ---buildAvRec---exit: 10
+ ---call retrieveNextAV---exit: 10
  ---cxx retrieveNextAV---exit: 10
  ---DORTRV---exit
  ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADB1
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADB2
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADB3
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADB3
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADB3
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADB4
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADB5
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADB6
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADB7
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADB7
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADB7
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADB8
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADB9
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADBA
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADBB
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADBB
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADBB
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADBC
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADBD
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADBE
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADBF
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADBF
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADBF
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC0
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC1
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC2
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADC3
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADC3
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADC3
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC4
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC5
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC6
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADC7
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADC7
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001ADC7
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC8
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADC9
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADCA
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADCB
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADCC
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADCD
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADCE
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 0
- ---Csr retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Csr retrieveNext---entry
- ---OFC retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 0001ADCF
- ---retrieveCallNoHV---exit: 1
- ---OFC retrieveNext---exit: 10
- ---Csr retrieveNext---exit: 10
- ---DORTRV---exit
- ---DORTRV---entry
  ---Sel retrieveNext---entry
- ---retrieveCallNoHV---entry
- token: 000222E1
- ---retrieveCallNoHV---exit: 1
- ---Sel retrieveNext---exit: 10
+ ---retrieveNextHV---entry
+ token: 0000EA61
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---Sel retrieveNext---exit: 0
  ---DORTRV---exit
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 00015F91
+ token: 0000EA61
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---Sel retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Sel retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 0000EA61
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---Sel retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Sel retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 0000EA61
  ---buildHvRec---entry
  ---buildHvRec---exit: 5
  ---retrieveNextHV---exit: 1
@@ -8040,43 +10660,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001FBD1
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---Sel retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Sel retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001FBD1
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---Sel retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Sel retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001FBD1
- ---buildHvRec---entry
- ---buildHvRec---exit: 4
- ---retrieveNextHV---exit: 0
- ---Sel retrieveNext---exit: 0
- ---DORTRV---exit
- ---DORTRV---entry
- ---Sel retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001FBD1
- ---buildHvRec---entry
- ---buildHvRec---exit: 5
- ---retrieveNextHV---exit: 1
- ---Sel retrieveNext---exit: 10
- ---DORTRV---exit
- ---DORTRV---entry
- ---Sel retrieveNext---entry
- ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 5
  ---retrieveNextHV---exit: 0
@@ -8085,7 +10669,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 1
  ---retrieveNextHV---exit: 0
@@ -8094,7 +10678,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 2
  ---retrieveNextHV---exit: 0
@@ -8103,7 +10687,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 15
  ---retrieveNextHV---exit: 0
@@ -8112,7 +10696,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 15
  ---retrieveNextHV---exit: 0
@@ -8121,7 +10705,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 8
  ---retrieveNextHV---exit: 0
@@ -8130,7 +10714,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 2
  ---retrieveNextHV---exit: 0
@@ -8139,7 +10723,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 9
  ---retrieveNextHV---exit: 0
@@ -8148,7 +10732,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 6
  ---retrieveNextHV---exit: 0
@@ -8157,7 +10741,7 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 2
  ---retrieveNextHV---exit: 0
@@ -8166,9 +10750,448 @@
  ---DORTRV---entry
  ---Sel retrieveNext---entry
  ---retrieveNextHV---entry
- token: 0001D4C1
+ token: 0000C351
  ---buildHvRec---entry
  ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 1
+ ---Sel retrieveNext---exit: 10
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C41
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C42
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C43
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C43
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C43
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C44
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C45
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C46
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C47
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C47
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C47
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C48
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C49
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C4A
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C4B
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C4B
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C4B
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C4C
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C4D
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C4E
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C4F
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C4F
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C4F
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C50
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C51
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C52
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C53
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C53
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C53
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C54
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C55
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C56
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C57
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C57
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 0
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00009C57
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 4
+ ---retrieveNextHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C58
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C59
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C5A
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C5B
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C5C
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C5D
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C5E
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 0
+ ---Csr retrieveNext---exit: 0
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Csr retrieveNext---entry
+ ---OFC retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00009C5F
+ ---retrieveCallNoHV---exit: 1
+ ---OFC retrieveNext---exit: 10
+ ---Csr retrieveNext---exit: 10
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Sel retrieveNext---entry
+ ---retrieveCallNoHV---entry
+ token: 00011171
+ ---retrieveCallNoHV---exit: 1
+ ---Sel retrieveNext---exit: 10
+ ---DORTRV---exit
+ ---DORTRV---entry
+ ---Sel retrieveNext---entry
+ ---retrieveNextHV---entry
+ token: 00002711
+ ---buildHvRec---entry
+ ---buildHvRec---exit: 5
  ---retrieveNextHV---exit: 1
  ---Sel retrieveNext---exit: 10
  ---DORTRV---exit

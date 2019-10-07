@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.6.1.v20190917-0343_107?>
-<!--Topaz for Total Test 19.6.1.v20190917-0343_107 07/10/2019 08:12:39-->
-<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_REGION.listructure">
-  <listructure:struct id="REGION" name="REGION">
+<!--Topaz for Total Test 19.6.1.v20190917-0343_107 07/10/2019 08:15:04-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTDB2X_RETURN-CODE.listructure">
+  <listructure:struct id="RETURN_CODE" name="RETURN_CODE">
     <properties:properties>
       <properties:property name="displayLength" type="number">2</properties:property>
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">2</properties:property>
     </properties:properties>
-    <listructure:number id="REGION.REGION" length="4" name="REGION">
+    <listructure:number id="RETURN_CODE.RETURN_CODE" initial="0" length="4" name="RETURN_CODE">
       <properties:properties>
         <properties:property name="picture" type="string">S9(4)</properties:property>
-        <properties:property name="usage" type="string">computational</properties:property>
+        <properties:property name="usage" type="string">binary</properties:property>
         <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="value">zeros</properties:property>
         <properties:property name="displayLength" type="number">4</properties:property>
         <properties:property name="integerDigits" type="number">4</properties:property>
         <properties:property name="platform" type="string">mainframe</properties:property>
         <properties:property name="liType" type="string">binary</properties:property>
         <properties:property name="storageLength" type="number">2</properties:property>
-        <properties:property name="sqltype" type="number">501</properties:property>
       </properties:properties>
     </listructure:number>
   </listructure:struct>
