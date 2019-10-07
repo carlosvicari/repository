@@ -6,7 +6,7 @@
  CEE3768I The system default for the run-time option TEST could not be overridden.
  STTR043I Initializing simulation environment for: COBOL V4
  STTR043I Initializing simulation environment for: COBOL V5
- STTR011I totaltest zTargetRunner v170200 on 2019-10-07 07:19.47��������������������������������������
+ STTR011I totaltest zTargetRunner v170200 on 2019-10-07 08:25.34��������������������������������������
  STTR012I Options set to EXIT(),STUBS(ON),REPEAT(0),ARGTYPE(��������)
  STTR013I Processing test suite CWKTDB2X_Scenario
  STTR014I Processing test scenario CWKTDB2X_Scenario
@@ -40,7 +40,7 @@
   closeW: rc = 0, rs = <0X00000000>
  ---closeW---exit
  ---BNDTARGT---exit
-  2019-10-07 07:19:48  STTR245W SLPRTCOD SLPRTCOD: 176
+  2019-10-07 08:25:35  STTR245W SLPRTCOD SLPRTCOD: 176
  ---TARGET---entry
  module: CWKTDB2X, csect: CWKTDB2X, entry: CWKTDB2X
  ---TARGETcxx---entry
@@ -3749,10 +3749,10 @@
  SELECT COUNT(*) INTO :NUMBER-OF-EMPLOYEES FROM FBRCCV0_DEMO_TAB1 WHERE EMP_NUM > :EMP-NUM
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 38881C74  stmt: 388E1F36  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
+ release: 38881634  stmt: 388E1F36  stmtLength: 00000059  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 38881C74  stmt: 388E1F36  stmtLength: 00000059
+ release: 38881634  stmt: 388E1F36  stmtLength: 00000059
  token: 00002710
  assertYN: Y
  ---DB2SQLCxx---exit
@@ -3829,10 +3829,10 @@
  ROLLBACK
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 38881C74  stmt: 388E2267  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
+ release: 38881634  stmt: 388E2267  stmtLength: 00000008  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 38881C74  stmt: 388E2267  stmtLength: 00000008
+ release: 38881634  stmt: 388E2267  stmtLength: 00000008
  token: 00011170
  assertYN: Y
  ---DB2SQLCxx---exit
@@ -3865,10 +3865,10 @@
  OPEN EMPLOYEE_CURSOR
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 38881C74  stmt: 388E24DE  stmtLength: 00000014  crsrName: 388781A8  crsrLength: 0000000F
+ release: 38881634  stmt: 388E24DE  stmtLength: 00000014  crsrName: 38881880  crsrLength: 0000000F
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 38881C74  stmt: 388E24DE  stmtLength: 00000014
+ release: 38881634  stmt: 388E24DE  stmtLength: 00000014
  token: 00009C40
  assertYN: Y
  ---DB2SQLCxx---exit
@@ -7868,10 +7868,10 @@
  , :WA-EMP-STREET , :WA-EMP-CITY , :WA-EMP-STATE , :WA-EMP-ZIP , :HIREDATE , :HOURS , :RATE )
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 38881C74  stmt: 388E2761  stmtLength: 00000124  crsrName: 00000000  crsrLength: 00000000
+ release: 38881634  stmt: 388E2761  stmtLength: 00000124  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 38881C74  stmt: 388E2761  stmtLength: 00000124
+ release: 38881634  stmt: 388E2761  stmtLength: 00000124
  token: 0000C350
  assertYN: Y
  ---DB2SQLCxx---exit
@@ -8092,10 +8092,10 @@
  MP-NUM
  ---TTEXRE---exit  rc: 0
  ---DB2SQL---entry
- release: 38881C74  stmt: 388E2AF4  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
+ release: 38881634  stmt: 388E2AF4  stmtLength: 0000006A  crsrName: 00000000  crsrLength: 00000000
  storedProcName: 00000000
  ---DB2SQLCxx---entry
- release: 38881C74  stmt: 388E2AF4  stmtLength: 0000006A
+ release: 38881634  stmt: 388E2AF4  stmtLength: 0000006A
  token: 0000EA60
  assertYN: Y
  ---DB2SQLCxx---exit
