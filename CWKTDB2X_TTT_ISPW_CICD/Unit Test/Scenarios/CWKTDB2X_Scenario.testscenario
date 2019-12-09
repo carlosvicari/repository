@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.6.1.v20190917-0343_107?>
-<!--Topaz for Total Test 19.6.1.v20190917-0343_107 06/12/2019 17:35:36-->
+<!--Topaz for Total Test 19.6.1.v20190917-0343_107 09/12/2019 11:47:34-->
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
     <testscenario:testcase alias="" csect="CWKTDB2X" encoding="1047" entrypoint="CWKTDB2X#C" id="Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario%23CWKTDB2XCase1" target="CWKTDB2X">
       <testcase:description></testcase:description>
-      <testcase:ddio>SALESSUP.CCV1.DEV1.LOAD</testcase:ddio>
-      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1575649518000</testcase:targetCaptureCompileTime>
+      <testcase:ddio>SALESSUP.CCV1.DEV1.LOAD.DB</testcase:ddio>
+      <testcase:ddiotype>DDIO</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1575888064000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTDB2X.interface#Unit%20Test/Interfaces/CWKTDB2X.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWKTDB2X_PARMINFO.listructure#Unit%20Test/Structures/CWKTDB2X_PARMINFO.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWKTDB2X_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
