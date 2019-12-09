@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.6.1.v20190917-0343_107?>
-<!--Topaz for Total Test 19.6.1.v20190917-0343_107 09/12/2019 11:37:28-->
+<?totaltestVersion 19.6.1.v20190927-0347_118?>
+<!--Topaz for Total Test 19.6.1.v20190927-0347_118 Dec 9, 2019 9:37:40 AM-->
 <testsuites>
   <testsuite errors="0" failures="1" name="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" tests="5">
     <testcase classname="CWKTDB2X_TTT_ISPW_CICD.CWKTDB2X_Scenario.00001: CWKTDB2XCase1" name="00001: Check for RETURN_CODE"/>
