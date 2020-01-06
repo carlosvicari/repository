@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.1.1.v20191212-1740_83?>
-<!--Topaz for Total Test 20.1.1.v20191212-1740_83 06/01/2020 10:21:08-->
+<?xml version="1.1" encoding="UTF-8"?>
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
@@ -14,7 +12,7 @@
         <testcase:data baseType="listructure:structType ../Structures/CWKTDB2X_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
           <properties:properties>
             <properties:property name="value" type="string">0005F0F0F0F0F100000000000000</properties:property>
-            <properties:property name="expectedValue" type="string">0005F0F0F0F0F1000005E4F0F0F8</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F100000632F0F0F8</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
