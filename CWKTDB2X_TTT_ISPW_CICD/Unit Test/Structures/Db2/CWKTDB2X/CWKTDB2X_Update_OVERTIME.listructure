@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.6.1.v20190917-0343_107?>
-<!--Topaz for Total Test 19.6.1.v20190917-0343_107 09/12/2019 11:46:18-->
+<?totaltestVersion 20.1.1.v20191212-1740_83?>
+<!--Topaz for Total Test 20.1.1.v20191212-1740_83 06/01/2020 10:19:50-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Update_OVERTIME.listructure">
   <listructure:struct id="OVERTIME" name="OVERTIME">
     <properties:properties>
