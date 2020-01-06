@@ -1,217 +1,241 @@
-2019-12-09 09:37:27,873 INFO  com.compuware.unittest.cli.TotalTestCLI -  
-2019-12-09 09:37:27,889 INFO  com.compuware.unittest.cli.TotalTestCLI - Topaz for Total Test Command Line Interface (CLI) 19.6.1.v20190927-0347_118 
-2019-12-09 09:37:27,920 INFO  com.compuware.unittest.cli.TotalTestCLI - Validating project directory: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD 
-2019-12-09 09:37:28,139 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 50 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'listructure' 
-2019-12-09 09:37:28,139 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 18 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'interface' 
-2019-12-09 09:37:28,139 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 9 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'stub' 
-2019-12-09 09:37:28,139 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 1 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'testscenario' 
-2019-12-09 09:37:28,233 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.run.TestRunner - **************** Start processing: CWKTDB2X_Scenario.testscenario **************** 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.run.TestRunner -  
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.zos.builder.Builder - Processing 'builder' request with the following parameters. 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.zos.builder.Builder - Project folder: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.zos.builder.Builder - Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.zos.builder.Builder - Binary input file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.bininp 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.zos.builder.Builder - Binary reference file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binref 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.zos.builder.Builder - Target encoding: 1047 
-2019-12-09 09:37:28,967 INFO  com.compuware.unittest.cli.zos.builder.Builder - Building archive from testsuite: file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/.temp/CWKTDB2X_Scenario.testsuite 
-2019-12-09 09:37:29,795 INFO  com.compuware.unittest.cli.zos.builder.Builder - Saving archive to: file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/Output/Last%20Execution/CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:30,076 INFO  com.compuware.unittest.cli.zos.builder.Builder - Building binary. Saving binary input to C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.bininp. 
-2019-12-09 09:37:30,076 INFO  com.compuware.unittest.cli.zos.builder.Builder - Building binary. Saving binary reference to C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binref. 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Processing 'upload' request with the following parameters. 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Host: cwcc 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Port: 16196 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Encryption Protocol: None 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - User: FBRCCV0 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Password: <supplied by user> 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Target encoding: 1047 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary input file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.bininp' will be upload to the manframe. 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary reference file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binref' will be upload to the manframe. 
-2019-12-09 09:37:30,186 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Start upload of binary files. 
-2019-12-09 09:37:30,264 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Creating host connection for host cwcc:16196 
-2019-12-09 09:37:30,717 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Creating host credentials for FBRCCV0 
-2019-12-09 09:37:31,535 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Successfully conected to cwcc:16196. 
-2019-12-09 09:37:31,535 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Connected FBRCCV0 to host cwcc:16196 
-2019-12-09 09:37:31,551 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Uploading binary input data to dataset 'FBRCCV0.TOTALTST.ID250186.BININP.' 
-2019-12-09 09:37:31,551 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
-2019-12-09 09:37:31,551 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
-2019-12-09 09:37:31,695 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Allocated dataset 'FBRCCV0.TOTALTST.ID250186.BININP' PRIMARY=71 SECONDARY=15 
-2019-12-09 09:37:33,132 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Successfully wrote 1437696 bytes to dataset.FBRCCV0.TOTALTST.ID250186.BININP 
-2019-12-09 09:37:33,132 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Uploading binary reference data to dataset 'FBRCCV0.TOTALTST.ID250186.BINREF.' 
-2019-12-09 09:37:33,204 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Allocated dataset 'FBRCCV0.TOTALTST.ID250186.BINREF' PRIMARY=1 SECONDARY=1 
-2019-12-09 09:37:33,219 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Allocating binary result dataset 'FBRCCV0.TOTALTST.ID250186.BINRES.' 
-2019-12-09 09:37:33,219 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Allocated dataset 'FBRCCV0.TOTALTST.ID250186.BINRES' PRIMARY=500 SECONDARY=200 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Successfully uploaded files. 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario.testsuite'. 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Processing 'submit' request with the following parameters. 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Host: cwcc 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Port: 16196 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Encryption Protocol: None 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - User: FBRCCV0 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Password: <supplied by user> 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Target encoding: 1047 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Wait for job completion: true 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Minutes to wait for job completion: 20 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - JCL will be submitted from local file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\JCL\Runner_CICD.jcl 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - ${TOTALTEST_BININP} replacement value: FBRCCV0.TOTALTST.ID250186.BININP 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - ${TOTALTEST_BINREF} replacement value: FBRCCV0.TOTALTST.ID250186.BINREF 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - ${TOTALTEST_BINRES} replacement value: FBRCCV0.TOTALTST.ID250186.BINRES 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage Repository: FBRCCV0.DEMO.CC.REPOSIT 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage System: CWCC 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage test id: CWKTDB2X_TTT_ISPW_CICD 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage is for a program running TotalTest(TTTRUNNR) 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage clear statistics: true 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Use stubs: true 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Number of time to repeat test: 0 
-2019-12-09 09:37:33,279 INFO  com.compuware.unittest.cli.submit.Submit - Job card file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\JCL\JobCard.jcl 
-2019-12-09 09:37:33,417 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
-2019-12-09 09:37:33,433 INFO  com.compuware.unittest.mainframe.commands.internal.TTTCommands - Deleting user statistics in repository=FBRCCV0.DEMO.CC.REPOSIT. SYSTEM=CWCC, TESTID=CWKTDB2X_TTT_ISPW_CICD USERID=FBRCCV0 
-2019-12-09 09:37:33,995 DEBUG com.compuware.unittest.mainframe.commands.internal.TTTCommands - Created MBF record for Total Test(TTTRUNNR) as main program. JOB CVRUNTTT Step: RUNNER 
-2019-12-09 09:37:34,011 INFO  com.compuware.unittest.eclipse.hostservices.MBFUtilities - Created MBF record for Total Test(TTTRUNNR) as main program. JOB CVRUNTTT Step: RUNNER 
-2019-12-09 09:37:34,011 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Added notification listener: com.compuware.unittest.eclipse.hostservices.JESUtilities 
-2019-12-09 09:37:34,136 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Submitted JCL - JOB CVRUNTTT(J0812847) 
-2019-12-09 09:37:34,527 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Created connection to H2 for zAdviser: jdbc:h2:file:C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc//zadviser/zadviser 
-2019-12-09 09:37:34,652 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Created connection to H2 for zAdviser: jdbc:h2:file:C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc//zadviser/zadviser 
-2019-12-09 09:37:34,714 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushing 0 zAdviser events... 
-2019-12-09 09:37:34,714 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushed 0 zAdviser events. 
-2019-12-09 09:37:34,714 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - zAdviser flush failure count reset to 0. 
-2019-12-09 09:37:34,777 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Waiting for job CVRUNTTT(J0812847) to complete. 
-2019-12-09 09:37:38,808 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Processing HostServices event HCI_NOTIFY_EVENT 
-2019-12-09 09:37:38,808 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Notification message: 09:37:52 J0812847 HASP165 CVRUNTTT ENDED AT CWCC  MAXCC=0000 
-2019-12-09 09:37:39,355 DEBUG com.compuware.unittest.mainframe.commands.internal.TTTCommands - Deleted MBF record for: JOB CVRUNTTT Step: RUNNER Program: TTTRUNNR 
-2019-12-09 09:37:39,355 INFO  com.compuware.unittest.eclipse.hostservices.MBFUtilities - Deleted MBF record for: JOB CVRUNTTT Step: RUNNER Program: TTTRUNNR 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Processing 'download' request with the following parameters. 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Host: cwcc 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Port: 16196 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Encryption Protocol: None 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - User: FBRCCV0 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Password: <supplied by user> 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Target encoding: 1047 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary result from mainframe dataset will be written to local file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binres 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary result will be downloaded from: FBRCCV0.TOTALTST.ID250186.BINRES 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.internal.DownloadFiles - Start download of binary result data from dataset 'FBRCCV0.TOTALTST.ID250186.BINRES' to file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binres'. 
-2019-12-09 09:37:39,747 INFO  com.compuware.unittest.cli.transfer.internal.DownloadFiles - Download binary result data from dataset 'FBRCCV0.TOTALTST.ID250186.BINRES'. 
-2019-12-09 09:37:39,888 INFO  com.compuware.unittest.cli.transfer.internal.DownloadFiles - Successfully downloaded binary result data from dataset 'FBRCCV0.TOTALTST.ID250186.BINRES' to file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binres'. 
-2019-12-09 09:37:39,888 INFO  com.compuware.unittest.cli.zos.parser.Parser - Processing 'parser' request with the following parameters. 
-2019-12-09 09:37:39,888 INFO  com.compuware.unittest.cli.zos.parser.Parser - Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:39,888 INFO  com.compuware.unittest.cli.zos.parser.Parser - Binary result file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binres 
-2019-12-09 09:37:39,888 INFO  com.compuware.unittest.cli.zos.parser.Parser - Target encoding: 1047 
-2019-12-09 09:37:39,888 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
-2019-12-09 09:37:39,888 INFO  com.compuware.unittest.cli.zos.parser.Parser - Parsing binary output C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binres into archive file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/Output/Last%20Execution/CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:39,997 WARN  com.compuware.unittest.eclipse.builderparser.converter.parser.BinaryParser - Unknown version: totaltest zTargetRunner v170200  .2019092614564966-0400 on 2019-12-09 09:37.49 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Processing 'resultchecker' request with the following parameters. 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Project Folder: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Output Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Result file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\.results\CWKTDB2X_Scenario.result 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Report file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Reports\CWKTDB2X_Scenario.html 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - JUnit file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\JUnit\CWKTDB2X_Scenario.xml 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Target encoding: 1047 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - File encoding: UTF-8 
-2019-12-09 09:37:40,091 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Loading archive from: file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/Output/Last%20Execution/CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:40,185 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Computing results. 
-2019-12-09 09:37:40,232 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@260a3a5e (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.0, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@608bc8f8 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.1, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@5412bfea (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.2, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@44a6a68e (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.3, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@4743a322 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.4, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,247 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@79316f3a (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.5, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@381d7219 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.6, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@49fe3142 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.7, name: CWKTDATE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@13fed1ec (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.0, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@61c42416 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.1, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@329a1f8d (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.2, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@a565cbd (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.3, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 12 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@6fc29daa (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.4, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2f66f0d0 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.5, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,263 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@4d62f4c6 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.6, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 5 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@7569ea63 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.7, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 18 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@ebd06a9 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.8, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@16c587de (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.9, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@4cdb8504 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.10, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,279 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@76db540e (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.11, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@10358c32 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.12, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 2 failure(s). 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2af4129d (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.13, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@3a175162 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.14, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,294 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@1640190a (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.15, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 2 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2a2843ec (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.16, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2042ccce (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.17, name: RPTFILE, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 4 checkconditions. 0 error(s), 1 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@20de05e5 (callToken: <unset>, dateTimeType: <unset>, id: 2, name: Update, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@36c0d0bd (callToken: <unset>, dateTimeType: <unset>, id: 6, name: Update, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@5e1fc2aa (callToken: <unset>, dateTimeType: <unset>, id: 10, name: Update, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@688d411b (callToken: <unset>, dateTimeType: <unset>, id: 14, name: Update, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 1 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@382c90c2 (callToken: <unset>, dateTimeType: <unset>, id: 18, name: Update, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@859ea42 (callToken: <unset>, dateTimeType: <unset>, id: 22, name: Update, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 1 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Delete com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@28737371 (callToken: <unset>, dateTimeType: <unset>, id: 29, name: Delete, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 0 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Insert com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2af46afd (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL.stub.0, name: Insert, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 11 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@760245e1 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub.0, name: Update, selected: true, statementHasParmcount: false) 
-2019-12-09 09:37:40,310 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 4 checkconditions. 0 error(s), 0 failure(s). 
-2019-12-09 09:37:40,325 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Saving archive to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
-2019-12-09 09:37:40,388 INFO  com.compuware.unittest.eclipse.common.output.ResultsUtilts - Saving Result report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\.results\CWKTDB2X_Scenario.result 
-2019-12-09 09:37:40,404 INFO  com.compuware.unittest.eclipse.common.output.JUnitUtils - Saving JUnit report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\JUnit\CWKTDB2X_Scenario.xml 
-2019-12-09 09:37:40,450 INFO  com.compuware.unittest.eclipse.common.output.SonarUtils - Saving Sonar report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Sonar\CWKTDB2X_Scenario.xml 
-2019-12-09 09:37:40,544 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Saving report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Reports\CWKTDB2X_Scenario.html 
-2019-12-09 09:37:40,544 INFO  com.compuware.unittest.cli.run.TestRunner - Backing up archive 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive' to 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\History\CWKTDB2X_Scenario_20191209_093728.archive 
-2019-12-09 09:37:40,560 INFO  com.compuware.unittest.cli.post.run.CopyJUnit - Copied JUnit file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\JUnit\CWKTDB2X_Scenario.xml' to directory 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\TTTUnit'. 
-2019-12-09 09:37:40,560 INFO  com.compuware.unittest.cli.post.run.CopySonar - Copied Sonar file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Sonar\CWKTDB2X_Scenario.xml' to directory 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\TTTSonar'. 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.bininp'. 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binref'. 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20191209_093728.binres'. 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.transfer.Transfer - Processing 'delete' request with the following parameters. 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.transfer.Transfer - Host: cwcc 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.transfer.Transfer - Port: 16196 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.transfer.Transfer - Encryption Protocol: None 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.transfer.Transfer - User: FBRCCV0 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.transfer.Transfer - Password: <supplied by user> 
-2019-12-09 09:37:40,575 INFO  com.compuware.unittest.cli.transfer.Transfer - Target encoding: 1047 
-2019-12-09 09:37:40,638 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Deleted dataset 'FBRCCV0.TOTALTST.ID250186.BININP'. 
-2019-12-09 09:37:40,691 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Deleted dataset 'FBRCCV0.TOTALTST.ID250186.BINREF'. 
-2019-12-09 09:37:40,739 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Deleted dataset 'FBRCCV0.TOTALTST.ID250186.BINRES'. 
-2019-12-09 09:37:40,739 INFO  com.compuware.unittest.cli.run.TestRunner -  
-2019-12-09 09:37:40,739 INFO  com.compuware.unittest.cli.run.TestRunner - **************** End processing: CWKTDB2X_Scenario.testscenario **************** 
-2019-12-09 09:37:40,739 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Disconnected from host: 'cwcc:16196 
-2019-12-09 09:37:40,754 INFO  com.compuware.unittest.cli.run.TestRunner - Removed all files in directory: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\TopazCliWkspc\HostServices 
-2019-12-09 09:37:40,754 DEBUG com.compuware.zadviser.communications.api.impl.ZAdviserCommunicationServices - publishEvents - starting 
-2019-12-09 09:37:40,754 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Created connection to H2 for zAdviser: jdbc:h2:file:C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc//zadviser/zadviser 
-2019-12-09 09:37:40,978 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushing 3 zAdviser events... 
-2019-12-09 09:37:40,978 DEBUG com.compuware.zadviser.communications.api.impl.eventqueue.processor.hci.HCIEventProcessor - Connecting to an HCI to process zAdviser events... 
-2019-12-09 09:37:41,196 DEBUG com.compuware.zadviser.communications.api.impl.eventqueue.processor.hci.HCIEventProcessor - Processing zAdviser events... 
-2019-12-09 09:37:41,212 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushed 3 zAdviser events. 
-2019-12-09 09:37:41,212 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - zAdviser flush failure count reset to 0. 
-2019-12-09 09:37:43,759 INFO  com.compuware.unittest.cli.TotalTestCLI - TotalTestCLI return code: 0 
+2020-01-06 07:51:40,872 INFO  com.compuware.unittest.cli.TotalTestCLI -  
+2020-01-06 07:51:40,997 INFO  com.compuware.unittest.cli.TotalTestCLI - Topaz for Total Test Command Line Interface (CLI) 20.1.1.v20191212-1740_83 
+2020-01-06 07:51:41,028 INFO  com.compuware.unittest.cli.TotalTestCLI - Validating project directory: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD 
+2020-01-06 07:51:41,310 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 50 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'listructure' 
+2020-01-06 07:51:41,310 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 18 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'interface' 
+2020-01-06 07:51:41,310 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 9 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'stub' 
+2020-01-06 07:51:41,310 INFO  com.compuware.unittest.eclipse.common.util.UtilityFunctions - Found files 1 from project 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD' with extension 'testscenario' 
+2020-01-06 07:51:41,497 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Creating host connection for host cwcc:16196 
+2020-01-06 07:51:41,935 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Creating host credentials for FBRCCV0 
+2020-01-06 07:51:42,533 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Successfully conected to cwcc:16196. 
+2020-01-06 07:51:42,533 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Connected FBRCCV0 to host cwcc:16196 
+2020-01-06 07:51:42,689 ERROR com.compuware.unittest.eclipse.hostservices.ResourceUtilities - An exception occurred locating dataset 'SYS2.CW.&CWGACX..SLCXLOAD'.  Exception: An exception occurred while obtaining resource SYS2.CW.&CWGACX..SLCXLOAD(TTTRUNNR) on host cwcc:16196.
+Exception=The HCI encountered an error parsing the XML request. No ">" or "<" delimiters were found in the data stream. 
+2020-01-06 07:51:42,720 ERROR com.compuware.unittest.eclipse.hostservices.ResourceUtilities - An exception occurred locating dataset 'SALESSUP.CCV1.DEV1.LOAD'.  Exception: An exception occurred while obtaining resource SALESSUP.CCV1.DEV1.LOAD(TTTRUNNR) on host cwcc:16196.
+Exception=Resource SALESSUP.CCV1.DEV1.LOAD(TTTRUNNR) does not exist on host hci://cwcc:16196. 
+2020-01-06 07:51:42,736 ERROR com.compuware.unittest.eclipse.hostservices.ResourceUtilities - An exception occurred locating dataset 'SALESSUP.CCV1.QA1.LOAD'.  Exception: An exception occurred while obtaining resource SALESSUP.CCV1.QA1.LOAD(TTTRUNNR) on host cwcc:16196.
+Exception=Resource SALESSUP.CCV1.QA1.LOAD(TTTRUNNR) does not exist on host hci://cwcc:16196. 
+2020-01-06 07:51:42,767 ERROR com.compuware.unittest.eclipse.hostservices.ResourceUtilities - An exception occurred locating dataset 'SALESSUP.CCV1.STG.LOAD'.  Exception: An exception occurred while obtaining resource SALESSUP.CCV1.STG.LOAD(TTTRUNNR) on host cwcc:16196.
+Exception=Resource SALESSUP.CCV1.STG.LOAD(TTTRUNNR) does not exist on host hci://cwcc:16196. 
+2020-01-06 07:51:42,798 ERROR com.compuware.unittest.eclipse.hostservices.ResourceUtilities - An exception occurred locating dataset 'SALESSUP.CCV1.PRD.LOAD'.  Exception: An exception occurred while obtaining resource SALESSUP.CCV1.PRD.LOAD(TTTRUNNR) on host cwcc:16196.
+Exception=Resource SALESSUP.CCV1.PRD.LOAD(TTTRUNNR) does not exist on host hci://cwcc:16196. 
+2020-01-06 07:51:42,876 ERROR com.compuware.unittest.eclipse.hostservices.ResourceUtilities - An exception occurred locating dataset 'CEE.SCEERUN'.  Exception: An exception occurred while obtaining resource CEE.SCEERUN(TTTRUNNR) on host cwcc:16196.
+Exception=Resource CEE.SCEERUN(TTTRUNNR) does not exist on host hci://cwcc:16196. 
+2020-01-06 07:51:42,876 ERROR com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to determine STEPLIB dataset that contains TTTRUNNR in JCL template file C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\JCL\Runner_CICD.jcl  
+2020-01-06 07:51:42,892 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
+2020-01-06 07:51:43,767 INFO  com.compuware.unittest.cli.run.TestRunner - **************** Start processing: CWKTDB2X_Scenario.testscenario **************** 
+2020-01-06 07:51:43,767 INFO  com.compuware.unittest.cli.run.TestRunner -  
+2020-01-06 07:51:43,767 INFO  com.compuware.unittest.cli.zos.builder.Builder - Processing 'builder' request with the following parameters. 
+2020-01-06 07:51:43,767 INFO  com.compuware.unittest.cli.zos.builder.Builder - Project folder: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD 
+2020-01-06 07:51:43,767 INFO  com.compuware.unittest.cli.zos.builder.Builder - Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:43,767 INFO  com.compuware.unittest.cli.zos.builder.Builder - Binary input file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.bininp 
+2020-01-06 07:51:43,767 INFO  com.compuware.unittest.cli.zos.builder.Builder - Binary reference file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binref 
+2020-01-06 07:51:43,783 INFO  com.compuware.unittest.cli.zos.builder.Builder - Target encoding: 1047 
+2020-01-06 07:51:43,783 INFO  com.compuware.unittest.cli.zos.builder.Builder - Building archive from testsuite: file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/.temp/CWKTDB2X_Scenario.testsuite 
+2020-01-06 07:51:44,423 INFO  com.compuware.unittest.cli.zos.builder.Builder - Saving archive to: file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/Output/Last%20Execution/CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:44,642 INFO  com.compuware.unittest.cli.zos.builder.Builder - Building binary. Saving binary input to C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.bininp. 
+2020-01-06 07:51:44,642 INFO  com.compuware.unittest.cli.zos.builder.Builder - Building binary. Saving binary reference to C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binref. 
+2020-01-06 07:51:44,658 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to determine version of TTTRUNNR. JCL has not been processed. 
+2020-01-06 07:51:44,658 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to get TTTRUNNR version in dataset null. 
+2020-01-06 07:51:44,658 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to determine version of TTTRUNNR. JCL has not been processed. 
+2020-01-06 07:51:44,658 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to get TTTRUNNR version in dataset null. 
+2020-01-06 07:51:44,673 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to determine version of TTTRUNNR. JCL has not been processed. 
+2020-01-06 07:51:44,673 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to get TTTRUNNR version in dataset null. 
+2020-01-06 07:51:44,673 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to determine version of TTTRUNNR. JCL has not been processed. 
+2020-01-06 07:51:44,673 WARN  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Unable to get TTTRUNNR version in dataset null. 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Processing 'upload' request with the following parameters. 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Host: cwcc 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Port: 16196 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Encryption Protocol: None 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - User: FBRCCV0 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Password: <supplied by user> 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Target encoding: 1047 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary input file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.bininp' will be upload to the manframe. 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary reference file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binref' will be upload to the manframe. 
+2020-01-06 07:51:44,720 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Start upload of binary files. 
+2020-01-06 07:51:44,736 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Uploading binary input data to dataset 'FBRCCV0.TOTALTST.ID104720.BININP.' 
+2020-01-06 07:51:44,736 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
+2020-01-06 07:51:44,736 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
+2020-01-06 07:51:44,814 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Allocated dataset 'FBRCCV0.TOTALTST.ID104720.BININP' PRIMARY=69 SECONDARY=14 
+2020-01-06 07:51:46,079 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Successfully wrote 1404928 bytes to dataset.FBRCCV0.TOTALTST.ID104720.BININP 
+2020-01-06 07:51:46,079 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Uploading binary reference data to dataset 'FBRCCV0.TOTALTST.ID104720.BINREF.' 
+2020-01-06 07:51:46,136 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Allocated dataset 'FBRCCV0.TOTALTST.ID104720.BINREF' PRIMARY=1 SECONDARY=1 
+2020-01-06 07:51:46,136 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Allocating binary result dataset 'FBRCCV0.TOTALTST.ID104720.BINRES.' 
+2020-01-06 07:51:46,151 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Allocated dataset 'FBRCCV0.TOTALTST.ID104720.BINRES' PRIMARY=500 SECONDARY=200 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.transfer.internal.UploadFiles - Successfully uploaded files. 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario.testsuite'. 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Processing 'submit' request with the following parameters. 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Host: cwcc 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Port: 16196 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Encryption Protocol: None 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - User: FBRCCV0 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Password: <supplied by user> 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Target encoding: 1047 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Wait for job completion: true 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Minutes to wait for job completion: 20 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - JCL will be submitted from local file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\JCL\Runner_CICD.jcl 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - ${TOTALTEST_BININP} replacement value: FBRCCV0.TOTALTST.ID104720.BININP 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - ${TOTALTEST_BINREF} replacement value: FBRCCV0.TOTALTST.ID104720.BINREF 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - ${TOTALTEST_BINRES} replacement value: FBRCCV0.TOTALTST.ID104720.BINRES 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage Repository: FBRCCV0.DEMO.CC.REPOSIT 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage System: CWCC 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage test id: CWKTDB2X_TTT_ISPW_CICD 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage is for a program running TotalTest(TTTRUNNR) 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Code Coverage clear statistics: true 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Use stubs: true 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Number of time to repeat test: 0 
+2020-01-06 07:51:46,214 INFO  com.compuware.unittest.cli.submit.Submit - Job card file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\JCL\JobCard.jcl 
+2020-01-06 07:51:46,308 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
+2020-01-06 07:51:46,355 INFO  com.compuware.totaltest.common.hci.codecoverage.HciCodeCoverageServicesCommands - Deleting user statistics in repository=FBRCCV0.DEMO.CC.REPOSIT. SYSTEM=CWCC, TESTID=CWKTDB2X_TTT_ISPW_CICD USERID=FBRCCV0 
+2020-01-06 07:51:46,823 INFO  com.compuware.totaltest.common.hci.mbf.HciMbfServicesCommands - Created MBF record for TTTRUNNR as main program. JOB: CVRUNTTT STEP RUNNER 
+2020-01-06 07:51:46,823 INFO  com.compuware.unittest.eclipse.hostservices.hci.HciMbfServicesEclipse - Created MBF record for TTTRUNNR as main program. JOB: CVRUNTTT STEP RUNNER 
+2020-01-06 07:51:46,839 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Added notification listener: com.compuware.unittest.eclipse.hostservices.JESUtilities 
+2020-01-06 07:51:46,886 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Submitted JCL - JOB CVRUNTTT(J0820039) 
+2020-01-06 07:51:46,933 INFO  com.compuware.totaltest.common.zadviser.ZAdviser - Sending zAdviser event: EXECUTION(3200) 
+2020-01-06 07:51:47,261 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Created connection to H2 for zAdviser: jdbc:h2:file:C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc//zadviser/zadviser 
+2020-01-06 07:51:47,386 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Created connection to H2 for zAdviser: jdbc:h2:file:C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc//zadviser/zadviser 
+2020-01-06 07:51:47,589 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushing 0 zAdviser events... 
+2020-01-06 07:51:47,589 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushed 0 zAdviser events. 
+2020-01-06 07:51:47,589 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - zAdviser flush failure count reset to 0. 
+2020-01-06 07:51:47,605 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Waiting for job CVRUNTTT(J0820039) to complete. 
+2020-01-06 07:51:50,839 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Processing HostServices event HCI_NOTIFY_EVENT 
+2020-01-06 07:51:50,839 INFO  com.compuware.unittest.eclipse.hostservices.JESUtilities - Notification message: 07:51:52 J0820039 HASP165 CVRUNTTT ENDED AT CWCC  MAXCC=0000 
+2020-01-06 07:51:51,167 INFO  com.compuware.totaltest.common.hci.mbf.HciMbfServicesCommands - Deleted MBF record for: JOB: CVRUNTTT STEP: RUNNER PROGRAM TTTRUNNR  
+2020-01-06 07:51:51,167 INFO  com.compuware.unittest.eclipse.hostservices.hci.HciMbfServicesEclipse - Deleted MBF record for: JOB: CVRUNTTT STEP: RUNNER PROGRAM TTTRUNNR  
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Processing 'download' request with the following parameters. 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Host: cwcc 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Port: 16196 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Encryption Protocol: None 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - User: FBRCCV0 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Password: <supplied by user> 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Target encoding: 1047 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary result from mainframe dataset will be written to local file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binres 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.Transfer - Binary result will be downloaded from: FBRCCV0.TOTALTST.ID104720.BINRES 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.internal.DownloadFiles - Start download of binary result data from dataset 'FBRCCV0.TOTALTST.ID104720.BINRES' to file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binres'. 
+2020-01-06 07:51:51,234 INFO  com.compuware.unittest.cli.transfer.internal.DownloadFiles - Download binary result data from dataset 'FBRCCV0.TOTALTST.ID104720.BINRES'. 
+2020-01-06 07:51:51,433 INFO  com.compuware.unittest.cli.transfer.internal.DownloadFiles - Successfully downloaded binary result data from dataset 'FBRCCV0.TOTALTST.ID104720.BINRES' to file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binres'. 
+2020-01-06 07:51:51,433 INFO  com.compuware.unittest.cli.zos.parser.Parser - Processing 'parser' request with the following parameters. 
+2020-01-06 07:51:51,433 INFO  com.compuware.unittest.cli.zos.parser.Parser - Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:51,433 INFO  com.compuware.unittest.cli.zos.parser.Parser - Binary result file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binres 
+2020-01-06 07:51:51,433 INFO  com.compuware.unittest.cli.zos.parser.Parser - Target encoding: 1047 
+2020-01-06 07:51:51,433 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
+2020-01-06 07:51:51,433 INFO  com.compuware.unittest.cli.zos.parser.Parser - Parsing binary output C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binres into archive file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/Output/Last%20Execution/CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:51,558 WARN  com.compuware.unittest.eclipse.builderparser.converter.parser.BinaryParser - Unknown version: totaltest zTargetRunner v170200  .2019112515535266-0500 on 2020-01-06 07:51.50 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.eclipse.common.util.ProjectUtilities - Loaded properties file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Project.properties' 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Processing 'resultchecker' request with the following parameters. 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Project Folder: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Output Archive file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Result file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\.results\CWKTDB2X_Scenario.result 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Report file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Reports\CWKTDB2X_Scenario.html 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - JUnit file: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\JUnit\CWKTDB2X_Scenario.xml 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Target encoding: 1047 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - File encoding: UTF-8 
+2020-01-06 07:51:51,651 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Loading archive from: file:/C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CWKTDB2X_TTT_ISPW_CICD/Unit%20Test/Output/Last%20Execution/CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:51,761 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Computing results. 
+2020-01-06 07:51:51,808 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@648d0e6d (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.0, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,808 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,808 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@3b27b497 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.1, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@b1534d3 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.2, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@3c74aa0d (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.3, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@6c841199 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.4, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@6a818392 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.5, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@489091bd (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.6, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,823 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: CWKTDATE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@512d6e60 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.7, name: CWKTDATE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 6 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@1de9b505 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.0, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@7b122839 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.1, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@3743539f (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.2, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@d277579 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.3, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 12 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@5db6b845 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.4, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@378f002a (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.5, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@1afd72ef (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.6, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 5 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,839 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2cc75074 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.7, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 18 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@445bb139 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.8, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@b9a77c8 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.9, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@7a81065e (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.10, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@6cd3ad8a (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.11, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,854 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@75181b50 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.12, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2d64160c (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.13, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@5f254608 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.14, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2eeb0f9b (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.15, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 22 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@1b1c538d (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.16, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 1 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,870 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: RPTFILE com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@1645f294 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.17, name: RPTFILE, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 4 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@6325f352 (callToken: <unset>, dateTimeType: <unset>, id: 2, name: Update, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@15c4af7a (callToken: <unset>, dateTimeType: <unset>, id: 6, name: Update, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@6cbd0674 (callToken: <unset>, dateTimeType: <unset>, id: 10, name: Update, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@55d58825 (callToken: <unset>, dateTimeType: <unset>, id: 14, name: Update, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@19a64eae (callToken: <unset>, dateTimeType: <unset>, id: 18, name: Update, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@29a98d9f (callToken: <unset>, dateTimeType: <unset>, id: 22, name: Update, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 3 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Delete com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@2da3b078 (callToken: <unset>, dateTimeType: <unset>, id: 29, name: Delete, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 0 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Insert com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@544e8149 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL.stub.0, name: Insert, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 11 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlStubResultchecker - Checking checkconditions for: Update com.compuware.unittest.eclipse.core.model.xml.stub.impl.StubDataImpl@7fb66650 (callToken: <unset>, dateTimeType: <unset>, id: Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub.0, name: Update, selected: true, statementHasParmcount: false) 
+2020-01-06 07:51:51,886 INFO  com.compuware.unittest.eclipse.resultchecker.JexlResultchecker - Finished checking 4 checkconditions. 0 error(s), 0 failure(s). 
+2020-01-06 07:51:51,901 INFO  com.compuware.totaltest.common.zadviser.ZAdviser - Sending zAdviser event: EXECUTION_RESULTS_TESTCASES(3410) 
+2020-01-06 07:51:51,901 INFO  com.compuware.totaltest.common.zadviser.ZAdviser - Sending zAdviser event: EXECUTION_RESULTS(3400) 
+2020-01-06 07:51:51,901 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Saving archive to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive 
+2020-01-06 07:51:51,964 INFO  com.compuware.unittest.eclipse.common.output.ResultsUtilts - Saving Result report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\.results\CWKTDB2X_Scenario.result 
+2020-01-06 07:51:51,964 INFO  com.compuware.unittest.eclipse.common.output.JUnitUtils - Saving JUnit report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\JUnit\CWKTDB2X_Scenario.xml 
+2020-01-06 07:51:51,995 INFO  com.compuware.unittest.eclipse.common.output.SonarUtils - Saving Sonar report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Sonar\CWKTDB2X_Scenario.xml 
+2020-01-06 07:51:52,058 INFO  com.compuware.unittest.cli.resultchecker.ResultChecker - Saving report to: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Reports\CWKTDB2X_Scenario.html 
+2020-01-06 07:51:52,136 INFO  com.compuware.unittest.cli.run.TestRunner - Backing up archive 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Last Execution\CWKTDB2X_Scenario.archive' to 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\History\CWKTDB2X_Scenario_20200106_075143.archive 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.post.run.CopyJUnit - Copied JUnit file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\JUnit\CWKTDB2X_Scenario.xml' to directory 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\TTTUnit'. 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.post.run.CopySonar - Copied Sonar file 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Output\Sonar\CWKTDB2X_Scenario.xml' to directory 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\TTTSonar'. 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.bininp'. 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binref'. 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.run.TestRunner - Deleted file: 'C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\CWKTDB2X_TTT_ISPW_CICD\Unit Test\.temp\CWKTDB2X_Scenario_20200106_075143.binres'. 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.transfer.Transfer - Processing 'delete' request with the following parameters. 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.transfer.Transfer - Host: cwcc 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.transfer.Transfer - Port: 16196 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.transfer.Transfer - Encryption Protocol: None 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.transfer.Transfer - User: FBRCCV0 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.transfer.Transfer - Password: <supplied by user> 
+2020-01-06 07:51:52,151 INFO  com.compuware.unittest.cli.transfer.Transfer - Target encoding: 1047 
+2020-01-06 07:51:52,214 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Deleted dataset 'FBRCCV0.TOTALTST.ID104720.BININP'. 
+2020-01-06 07:51:52,276 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Deleted dataset 'FBRCCV0.TOTALTST.ID104720.BINREF'. 
+2020-01-06 07:51:52,370 INFO  com.compuware.unittest.eclipse.hostservices.ResourceUtilities - Deleted dataset 'FBRCCV0.TOTALTST.ID104720.BINRES'. 
+2020-01-06 07:51:52,370 INFO  com.compuware.unittest.cli.run.TestRunner -  
+2020-01-06 07:51:52,370 INFO  com.compuware.unittest.cli.run.TestRunner - **************** End processing: CWKTDB2X_Scenario.testscenario **************** 
+2020-01-06 07:51:52,386 INFO  com.compuware.unittest.eclipse.hostservices.HostUtilities - Disconnected from host: 'cwcc:16196 
+2020-01-06 07:51:52,386 INFO  com.compuware.unittest.cli.run.TestRunner - Removed all files in directory: C:\Users\pfhsxk0\.jenkins\workspace\BRASIL_MAINFRAME_CICD\TopazCliWkspc\HostServices 
+2020-01-06 07:51:52,386 DEBUG com.compuware.zadviser.communications.api.impl.ZAdviserCommunicationServices - publishEvents - starting 
+2020-01-06 07:51:52,386 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Created connection to H2 for zAdviser: jdbc:h2:file:C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc//zadviser/zadviser 
+2020-01-06 07:51:52,612 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushing 3 zAdviser events... 
+2020-01-06 07:51:52,627 DEBUG com.compuware.zadviser.communications.api.impl.eventqueue.processor.hci.HCIEventProcessor - Connecting to an HCI to process zAdviser events... 
+2020-01-06 07:51:52,830 DEBUG com.compuware.zadviser.communications.api.impl.eventqueue.processor.hci.HCIEventProcessor - Processing zAdviser events... 
+2020-01-06 07:51:52,862 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - Flushed 3 zAdviser events. 
+2020-01-06 07:51:52,862 INFO  com.compuware.zadviser.communications.api.impl.eventqueue.h2.H2EventQueue - zAdviser flush failure count reset to 0. 
+2020-01-06 07:51:55,393 INFO  com.compuware.unittest.cli.TotalTestCLI - TotalTestCLI return code: 0 
