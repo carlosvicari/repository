@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.1.1.v20191212-1740_83?>
-<!--Topaz for Total Test 20.1.1.v20191212-1740_83 06/01/2020 10:19:48-->
+<?totaltestVersion 20.1.2.v20200113-1234_111?>
+<!--Topaz for Total Test 20.1.2.v20200113-1234_111 20/01/2020 11:56:57-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-CITY.listructure">
   <listructure:struct id="WA_EMP_CITY" name="WA_EMP_CITY">
     <properties:properties>
