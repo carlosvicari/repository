@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 19.6.1.v20190917-0343_107?>
-<!--Topaz for Total Test 19.6.1.v20190917-0343_107 09/12/2019 11:45:38-->
+<?totaltestVersion 20.2.1.v20200331-1253_109?>
+<!--Topaz for Total Test 20.2.1.v20200331-1253_109 15/04/2020 17:21:09-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STATE.listructure">
   <listructure:struct id="STATE" name="STATE">
     <properties:properties>
