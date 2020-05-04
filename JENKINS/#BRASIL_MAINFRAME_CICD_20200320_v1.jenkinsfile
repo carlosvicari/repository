@@ -24,7 +24,6 @@ String Jenkins_CES       = "FBRCCV0_CES" // A secret text credential containing 
 String github_credentials = "1768efaa-35d9-4217-8b01-861a2b940d45"  // Username with Password Credential containing your github ID/PW
 String github_url         = "https://github.com/carlosvicari/repository.git" // The github URL where your TTT test is stored
 String github_token       = "5d5e48ee9ee9cd51e7350145b22b04e5fab3ba6e"
-// String git_commit		  = "https://carlosvicari:GRV91pev@github.com/carlosvicari/repository.git"		   		
 String git_commit		  = "https://oauth2:" + github_token + "@github.com/carlosvicari/repository.git"		   		
 String JENKINS_Path       = "C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc"
 String SOURCE_Path        = "C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CCV1/MF_Source"
