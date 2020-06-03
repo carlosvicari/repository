@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.2.1.v20200331-1253_109?>
-<!--Topaz for Total Test 20.2.1.v20200331-1253_109 15/04/2020 17:23:16-->
+<?xml version="1.1" encoding="UTF-8"?>
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
