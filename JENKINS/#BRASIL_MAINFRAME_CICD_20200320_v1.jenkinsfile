@@ -104,7 +104,7 @@ stage("Generate dos Programas")
     }
 }
 
-stage("Promote para Homologação")
+stage("Promote para Homologacao")
 {
     node
     {
@@ -125,7 +125,7 @@ stage("Promote para Homologação")
     }
 }
 
-stage("Execução dos Testes Unitários")
+stage("Execucao dos Testes Unitarios")
 {
     node{
 		//Download the test from github
@@ -196,7 +196,7 @@ stage("Execução dos Testes Unitários")
 		}
 }
 
-stage("Recuperação da Cobertura de Código")
+stage("Recuperacao da Cobertura de Codigo")
 {
     node
 		{
@@ -224,7 +224,7 @@ stage("Recuperação da Cobertura de Código")
 		}
 }
 
-stage("Análise da Qualidade do Código (SonarQube)") 
+stage("Analise da Qualidade do Codigo (SonarQube)") 
 {
     node
 		{
@@ -242,7 +242,7 @@ stage("Análise da Qualidade do Código (SonarQube)")
 			}
 		}
 }
-stage("Checagem das Métricas de Qualidade")
+stage("Checagem das Metricas de Qualidade")
 {
     node
 		{ 
@@ -277,7 +277,7 @@ stage("Checagem das Métricas de Qualidade")
 			}   
 		}
 }
-stage("Promote para Pré-Produção")
+stage("Promote para Pre-Producao")
 {
     node
 		{
@@ -298,7 +298,7 @@ stage("Promote para Pré-Produção")
         }
 }
 
-stage("Extração/Load e Nova Execução")
+stage("Extracao/Load e Nova Execucao")
 {
  node 
     {
@@ -329,7 +329,7 @@ stage("Extração/Load e Nova Execução")
     }
 }
 
-stage("Promote para Produção")
+stage("Promote para Producao")
 {
     node
     {
