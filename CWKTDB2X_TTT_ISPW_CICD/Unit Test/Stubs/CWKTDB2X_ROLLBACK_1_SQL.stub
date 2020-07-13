@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub" nextCalltoken="70002" stubtype="SQL" target="ROLLBACK" token="70000">
-  <stub:description>Created: 15/04/2020 17:22:26</stub:description>
+  <stub:description>Created: 13/07/2020 10:03:32</stub:description>
   <stub:stubdata id="0" name="ROLLBACK">
     <stub:checkconditions/>
     <stub:sqlStatus>
@@ -9,7 +9,7 @@
 </stub:text>
       </stub:statement>
       <stub:plist>
-        <stub:headerData>00400000009B43574B54444232581AF8D43017803338000038038790000000000000000004B80115000001D40000000000000000000000000000000000000000</stub:headerData>
+        <stub:headerData>00400000009B43574B54444232581B06C314187E9CA8000037E38790000000000000000004B80115000001D40000000000000000000000000000000000000000</stub:headerData>
       </stub:plist>
       <stub:sqlca callToken="70001">
         <stub:rawData>E2D8D3C3C14040400000008800000000000040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040404040C4E2D54040404040000000000000000000000000FFFFFFFF00000000000000004040404040404040404040F0F0F0F0F0</stub:rawData>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 20.2.1.v20200331-1253_109?>
-<!--Topaz for Total Test 20.2.1.v20200331-1253_109 15/04/2020 17:21:11-->
+<!--Topaz for Total Test 20.2.1.v20200331-1253_109 13/07/2020 10:02:27-->
 <interface:interface xmlns:interface="http://www.compuware.com/model/xml/interface" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" alias="" id="Unit%20Test/Interfaces/FetchUpdate_EMPLOYEE_CURSOR_COMM.interface">
   <interface:description></interface:description>
   <interface:argument listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure#Unit%20Test/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_WAGES.listructure">

@@ -1,12 +1,12 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTDB2X_DATETIME.stub" nextCalltoken="20002" stubtype="DATETIME" target="" token="20000">
-  <stub:description>Created: 15/04/2020 17:21:00</stub:description>
+  <stub:description>Created: 13/07/2020 10:02:17</stub:description>
   <stub:stubdata callToken="20001" dateTimeType="1" id="0" name="ACCEPT DATE">
     <stub:interface>../Interfaces/CWKTDB2X_TODAYS_DATE.interface#Unit%20Test/Interfaces/CWKTDB2X_TODAYS_DATE.interface</stub:interface>
     <stub:output listructure="../Structures/CWKTDB2X_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTDB2X_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_TODAYS-DATE.listructure#TODAYS_DATE" id="arg0.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F2F0F0F4F1F5</properties:property>
+          <properties:property name="value" type="string">F2F0F0F7F1F3</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -14,9 +14,9 @@
     <stub:dateTimeServiceList>
       <stub:dateTimeService>
         <stub:serviceName>IGZXLOCT</stub:serviceName>
-        <stub:serviceArg>00027033</stub:serviceArg>
-        <stub:serviceArg>49336EC226B7E76D</stub:serviceArg>
-        <stub:serviceArg>F2F0F2F0F0F4F1F5F1F6F2F0F5F9F4F9F4</stub:serviceArg>
+        <stub:serviceArg>0002708C</stub:serviceArg>
+        <stub:serviceArg>4933761111938937</stub:serviceArg>
+        <stub:serviceArg>F2F0F2F0F0F7F1F3F0F9F0F2F1F7F2F2F1</stub:serviceArg>
         <stub:serviceArg xsi:nil="true"/>
       </stub:dateTimeService>
     </stub:dateTimeServiceList>

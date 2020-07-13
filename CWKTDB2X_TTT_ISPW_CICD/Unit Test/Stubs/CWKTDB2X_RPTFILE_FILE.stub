@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="MOD" encoding="1047" fileStatus="00" id="Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub" stubtype="QSAM" target="RPTFILE" token="80000">
-  <stub:description>Created: 15/04/2020 17:23:16</stub:description>
+  <stub:description>Created: 13/07/2020 10:04:13</stub:description>
   <stub:stubdata id="0" name="RPTFILE">
     <stub:interface>../Interfaces/CWKTDB2X_RPTFILE_BLANK_LINE.interface#Unit%20Test/Interfaces/CWKTDB2X_RPTFILE_BLANK_LINE.interface</stub:interface>
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_BLANK-LINE.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_BLANK-LINE.listructure">
@@ -39,7 +39,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure#EMPLOYEE_HDR1" id="arg0.EMPLOYEE_HDR1">
         <properties:properties>
-          <properties:property name="value" type="string">40D9E4D540C4C1E3C54040F0F461F1F561F2F040404040404040C5D4D7D3D6E8C5C540C3D6D4D7C5D5E2C1E3C9D6D540D9C5D7D6D9E3404040404040404040404040404040404040D7C1C7C5404040F14040</properties:property>
+          <properties:property name="value" type="string">40D9E4D540C4C1E3C54040F0F761F1F361F2F040404040404040C5D4D7D3D6E8C5C540C3D6D4D7C5D5E2C1E3C9D6D540D9C5D7D6D9E3404040404040404040404040404040404040D7C1C7C5404040F14040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
@@ -116,7 +116,7 @@
     <stub:output listructure="../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure#EMPLOYEE_DTL" id="arg0.EMPLOYEE_DTL">
         <properties:properties>
-          <properties:property name="value" type="string">40C7C1C9D340D3C1E6D9C5D5C3C5404040E2D6E4E3C8404040C8404040F0F661F2F561F8F4404040F3F54040404040F9F54BF0F0404040F04BF0F04040404040404040F04BF0F040404040F9F54BF0F04040</properties:property>
+          <properties:property name="value" type="string">40C7C1C9D340D3C1E6D9C5D5C3C5404040E2D6E4E3C8404040C8404040F0F661F2F561F8F4404040F3F64040404040F9F54BF0F0404040F04BF0F04040404040404040F04BF0F040404040F9F54BF0F04040</properties:property>
         </properties:properties>
       </stub:data>
     </stub:output>
