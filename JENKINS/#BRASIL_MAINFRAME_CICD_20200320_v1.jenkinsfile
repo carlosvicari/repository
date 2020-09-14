@@ -19,6 +19,7 @@ String HCI_User_Access   = "81655732-c61c-4c4d-9af8-694652809d11"  	// Username 
 String Jenkins_Id        = "81655732-c61c-4c4d-9af8-694652809d11"  	// Username with Password Credential containing your CWCC ID/PW
 String Jenkins_CES       = "FBRCCV0_CES" // A secret text credential containing your CES token
 // String CES_Token         = "157e9b73-0120-495f-aa85-848a41519c87" 	// Your CES token
+// String CES_Token         = "674a8bde-1ccc-4ebc-bb00-07b25f1ddcdf" 	// Your CES token
 
 // Github specifications
 String github_credentials = "1768efaa-35d9-4217-8b01-861a2b940d45"  // Username with Password Credential containing your github ID/PW
