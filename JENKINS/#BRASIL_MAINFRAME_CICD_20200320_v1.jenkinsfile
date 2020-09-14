@@ -19,12 +19,12 @@ String HCI_User_Access   = "81655732-c61c-4c4d-9af8-694652809d11"  	// Username 
 String Jenkins_Id        = "81655732-c61c-4c4d-9af8-694652809d11"  	// Username with Password Credential containing your CWCC ID/PW
 String Jenkins_CES       = "FBRCCV0_CES" // A secret text credential containing your CES token
 // String CES_Token         = "157e9b73-0120-495f-aa85-848a41519c87" 	// Your CES token
-// String CES_Token         = "674a8bde-1ccc-4ebc-bb00-07b25f1ddcdf" 	// Your CES token
 
 // Github specifications
 String github_credentials = "1768efaa-35d9-4217-8b01-861a2b940d45"  // Username with Password Credential containing your github ID/PW
 String github_url         = "https://github.com/carlosvicari/repository.git" // The github URL where your TTT test is stored
 String github_token       = "5d5e48ee9ee9cd51e7350145b22b04e5fab3ba6e"
+// String git_commit		  = "https://carlosvicari:GRV91pev@github.com/carlosvicari/repository.git"		   		
 String git_commit		  = "https://oauth2:" + github_token + "@github.com/carlosvicari/repository.git"		   		
 String JENKINS_Path       = "C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/TopazCliWkspc"
 String SOURCE_Path        = "C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD/CCV1/MF_Source"
@@ -49,6 +49,8 @@ String TTT_PackageType    	= ".testscenario"       				// The suffix of your TTT
 String TTT_Jcl            	= "Runner_CICD.jcl"  				// The name of the JCL file
 String TTT_Dir				= "TTTUnit"
 String TTT_Sonar			= "TTTSonar"
+String TTT_Sonar_File		="${TTT_Project}_${TTT_TestPackage}.sonar.xml"
+String TTT_Junit_File		="${TTT_Project}_${TTT_TestPackage}.junit.xml"
 
 // CODE COVERAGE Parms used in CI process
 // String CC_system			= "${TTT_Project}"
@@ -105,7 +107,7 @@ stage("Generate dos Programas")
     }
 }
 
-stage("Promote para Homologacao")
+stage("Promote para Homologação")
 {
     node
     {
@@ -126,7 +128,7 @@ stage("Promote para Homologacao")
     }
 }
 
-stage("Execucao dos Testes Unitarios")
+stage("Execução dos Testes Unitários")
 {
     node{
 		//Download the test from github
@@ -142,17 +144,17 @@ stage("Execucao dos Testes Unitarios")
 					name: 'origin', 
 					url: github_url]]]
 		}
-    node
+    /* node
 		{
 			// "Set Up Environment"
 			// MUST RUN AFTER GIT!
 				bat """
 				rmdir /S /Q "${JENKINS_Path}"
 				rmdir /S /Q "${SOURCE_Path}"
-				REM dir   "${JENKINS_Path}"
+				dir   "${JENKINS_Path}"
 				exit 0
 				""" 
-		}
+		} */
     node
 		{
 			// Run Total Test Jenkins Plugin
@@ -197,7 +199,7 @@ stage("Execucao dos Testes Unitarios")
 		}
 }
 
-stage("Recuperacao da Cobertura de Codigo")
+stage("Recuperação da Cobertura de Código")
 {
     node
 		{
@@ -225,8 +227,15 @@ stage("Recuperacao da Cobertura de Codigo")
 		}
 }
 
-stage("Analise da Qualidade do Codigo (SonarQube)") 
+stage("Análise da Qualidade do Código (SonarQube)") 
 {
+    /* node
+		{
+				bat """
+				dir   "C:/Users/pfhsxk0/.jenkins/workspace/BRASIL_MAINFRAME_CICD" /S
+				exit 0
+				""" 
+		} */
     node
 		{
 			// Requires SonarQube Scanner 2.8+
@@ -234,7 +243,7 @@ stage("Analise da Qualidade do Codigo (SonarQube)")
 					withSonarQubeEnv('localhost') 
 			{
 				// Run SonarQube Scanner 
-					def SQ_Tests                = " -Dsonar.tests=${TTT_Project} -Dsonar.testExecutionReportPaths=${TTT_Sonar}/${TTT_TestPackage}.xml -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
+					def SQ_Tests                = " -Dsonar.tests=${TTT_Project} -Dsonar.testExecutionReportPaths=${TTT_Sonar}/${TTT_Sonar_File} -Dsonar.coverageReportPaths=Coverage/CodeCoverage.xml"
 					def SQ_ProjectKey           = " -Dsonar.projectKey=${SQ_Project} -Dsonar.projectName=${SQ_Project} -Dsonar.projectVersion=1.0"
 					def SQ_Source               = " -Dsonar.sources=${CC_sources}"
 					def SQ_Copybook             = " -Dsonar.cobol.copy.directories=${CC_sources}"
@@ -243,7 +252,7 @@ stage("Analise da Qualidade do Codigo (SonarQube)")
 			}
 		}
 }
-stage("Checagem das Metricas de Qualidade")
+stage("Checagem das Métricas de Qualidade")
 {
     node
 		{ 
@@ -278,7 +287,7 @@ stage("Checagem das Metricas de Qualidade")
 			}   
 		}
 }
-stage("Promote para Pre-Producao")
+stage("Promote para Pré-Produção")
 {
     node
 		{
@@ -299,7 +308,7 @@ stage("Promote para Pre-Producao")
         }
 }
 
-stage("Extracao/Load e Nova Execucao")
+stage("Extração/Load e Nova Execução")
 {
  node 
     {
@@ -330,7 +339,7 @@ stage("Extracao/Load e Nova Execucao")
     }
 }
 
-stage("Promote para Producao")
+stage("Promote para Produção")
 {
     node
     {
