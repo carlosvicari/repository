@@ -16,6 +16,9 @@
       <Value>DSNB10.SDSNLOAD</Value>
       <Value>CEE.SCEERUN</Value>
     </Parameter>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/Runner_CICD.jcl</Value>
+    </Parameter>
   </ExtensionData>
   <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="cwktdb2x" caseInsensitiveCompare="false" path="CWKTDB2X_Scenario.testscenario">
     <Test>
