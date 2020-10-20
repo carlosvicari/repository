@@ -2,14 +2,14 @@
 <?totaltestVersion 20.4.1.v20200918-0303_109?>
 <!--Topaz for Total Test 20.4.1.v20200918-0303_109 20/10/2020 09:18:54-->
 <testExecutions version="1">
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Scenarios\CWKTDB2X_Scenario.testscenario">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00001: Check for RETURN_CODE"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00002: Check for PARM_LTH"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00003: Check for PARM_DATA"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00004: Check for GRAND_TOTAL"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.00005: Check for TOTAL_RECORD"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_CWKTDATE.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00001: Check for END_OF_MONTH_SW"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00002: Check for YRS_OF_SERVICE"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00001: CWKTDATE assertion.00003: Check for TODAYS_DATE"/>
@@ -59,7 +59,7 @@
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion.00005: Check for WA_EMP_HIRE_MM"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_CWKTDATE.00008: CWKTDATE assertion.00006: Check for WA_EMP_HIRE_DD"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_RPTFILE_FILE.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_RPTFILE_FILE.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_FILE.00001: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_FILE.00002: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_FILE.00003: RPTFILE assertion.00001: Check for BLANK_LINE"/>
@@ -261,13 +261,13 @@
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion.00003: Check for FILLER2"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_RPTFILE_FILE.00018: RPTFILE assertion.00004: Check for EMP_GRAND_TOTAL"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_Select_1_SQL.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_Select_1_SQL.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_Select_1_SQL'.00027: 'Select' assertion.Select"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_ROLLBACK_1_SQL.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_ROLLBACK_1_SQL.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_ROLLBACK_1_SQL'.00028: 'ROLLBACK' assertion.ROLLBACK"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00029: 'Open' assertion.Open"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00030: 'Fetch' assertion.Fetch"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_EMPLOYEE_CURSOR_SQL.00003: Update assertion.00001: Check for WAGES"/>
@@ -312,7 +312,7 @@
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00058: 'Delete' assertion.Delete"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_EMPLOYEE_CURSOR_SQL'.00059: 'Close' assertion.Close"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_Insert_1_SQL.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_Insert_1_SQL.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00001: Check for EMP_NUM"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00002: Check for WA_EMP_TYPE"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00003: Check for REGION"/>
@@ -325,13 +325,13 @@
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00010: Check for HOURS"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Insert_1_SQL.00001: Insert assertion.00011: Check for RATE"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_Update_1_SQL.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_Update_1_SQL.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00001: Check for WAGES"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00002: Check for OVERTIME"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00003: Check for COMM"/>
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.CWKTDB2X_Update_1_SQL.00001: Update assertion.00004: Check for EMP_NUM"/>
   </file>
-  <file path="C:\Users\fbrccv0\Compuware\Workbench\workspace_20_4_1\CWKTDB2X_TTT_ISPW_CICD_LOCAL\Unit Test\Stubs\CWKTDB2X_DATETIME.stub">
+  <file path="C:\Users\fbrccv0\git\repository\CWKTDB2X_TTT_ISPW_CICD\Unit Test\Stubs\CWKTDB2X_DATETIME.stub">
     <testCase duration="0" name="Unit Test.CWKTDB2X_Scenario.00001: CWKTDB2XCase1.Stub: 'CWKTDB2X_DATETIME'.00062: 'ACCEPT DATE' assertion.ACCEPT DATE"/>
   </file>
 </testExecutions>
