@@ -1,4 +1,4 @@
-${TOTALTEST_JOBCARD}
+${JOBCARD}
 //********************************************************************
 //* Execute Target Runner
 //********************************************************************
@@ -23,12 +23,12 @@ STORAGE(00,00,00)
 *
 EXIT(NONE)
 *
-REPEAT(${TOTALTEST_REPEAT}),STUBS(${TOTALTEST_STUBS}),
-DEBUG(OFF)
+REPEAT(${runtime.repeat}),STUBS(${runtime.usestubs}),
+DEBUG(${runtime.usedebug})
 /*
-//BININP DD DSN=${TOTALTEST_BININP},DISP=OLD
-//BINREF DD DSN=${TOTALTEST_BINREF},DISP=OLD
-//BINRES DD DSN=${TOTALTEST_BINRES},DISP=OLD
+//BININP DD DSN=${runtime.bininp},DISP=OLD
+//BINREF DD DSN=${runtime.binref},DISP=OLD
+//BINRES DD DSN=${runtime.binres},DISP=OLD
 //*      Optionally add your custom DD statements
 //SYSPRINT DD SYSOUT=*
 //SYSOUT   DD SYSOUT=*
