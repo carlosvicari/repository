@@ -29,9 +29,9 @@ EXIT(NONE)
 REPEAT(${runtime.repeat}),STUBS(${runtime.usestubs}),
 DEBUG(${runtime.usedebug})
 /*
-//BININP DD DSN=${runtime.bininp},DISP=OLD
-//BINREF DD DSN=${runtime.binref},DISP=OLD
-//BINRES DD DSN=${runtime.binres},DISP=OLD
+//BININP DD DSN=${TOTALTEST_BININP},DISP=OLD
+//BINREF DD DSN=${TOTALTEST_BINREF},DISP=OLD
+//BINRES DD DSN=${TOTALTEST_BINRES},DISP=OLD
 //*      Optionally add your custom DD statements
 //SYSPRINT DD SYSOUT=*
 //SYSOUT   DD SYSOUT=*
