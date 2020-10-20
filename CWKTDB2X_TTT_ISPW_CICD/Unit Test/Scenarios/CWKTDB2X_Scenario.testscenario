@@ -1,4 +1,6 @@
-<?xml version="1.1" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.4.1.v20200918-0303_109?>
+<!--Topaz for Total Test 20.4.1.v20200918-0303_109 20/10/2020 09:35:50-->
 <testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario">
   <testscenario:description></testscenario:description>
   <testscenario:testcases>
@@ -6,13 +8,14 @@
       <testcase:description></testcase:description>
       <testcase:ddio>SALESSUP.CCV1.DEV1.LOAD</testcase:ddio>
       <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
-      <testcase:targetCaptureCompileTime>1594637254000</testcase:targetCaptureCompileTime>
+      <testcase:targetCaptureCompileTime>1603192869000</testcase:targetCaptureCompileTime>
       <testcase:interface>../Interfaces/CWKTDB2X.interface#Unit%20Test/Interfaces/CWKTDB2X.interface</testcase:interface>
       <testcase:input listructure="../Structures/CWKTDB2X_PARMINFO.listructure#Unit%20Test/Structures/CWKTDB2X_PARMINFO.listructure">
         <testcase:data baseType="listructure:structType ../Structures/CWKTDB2X_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
           <properties:properties>
             <properties:property name="value" type="string">0005F0F0F0F0F100000000000000</properties:property>
-            <properties:property name="expectedValue" type="string">0005F0F0F0F0F100000632F0F0F8</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F1000005E4F0F0F8</properties:property>
+            <properties:property name="address" type="string">37B99568</properties:property>
           </properties:properties>
         </testcase:data>
       </testcase:input>
@@ -21,13 +24,13 @@
       </testcase:checkconditions>
       <testcase:stubs>
         <testcase:stub>../Stubs/CWKTDB2X_CWKTDATE.stub#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub</testcase:stub>
-        <testcase:stub>../Stubs/CWKTDB2X_RPTFILE_FILE.stub#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub</testcase:stub>
         <testcase:stub>../Stubs/CWKTDB2X_EMPFILE_FILE.stub#Unit%20Test/Stubs/CWKTDB2X_EMPFILE_FILE.stub</testcase:stub>
-        <testcase:stub>../Stubs/CWKTDB2X_Insert_1_SQL.stub#Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL.stub</testcase:stub>
-        <testcase:stub>../Stubs/CWKTDB2X_Update_1_SQL.stub#Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTDB2X_RPTFILE_FILE.stub#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub</testcase:stub>
         <testcase:stub>../Stubs/CWKTDB2X_Select_1_SQL.stub#Unit%20Test/Stubs/CWKTDB2X_Select_1_SQL.stub</testcase:stub>
         <testcase:stub>../Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub#Unit%20Test/Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub</testcase:stub>
         <testcase:stub>../Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTDB2X_Insert_1_SQL.stub#Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTDB2X_Update_1_SQL.stub#Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub</testcase:stub>
         <testcase:stub>../Stubs/CWKTDB2X_DATETIME.stub#Unit%20Test/Stubs/CWKTDB2X_DATETIME.stub</testcase:stub>
       </testcase:stubs>
       <testcase:returncode listructure="../Structures/CWKTDB2X_RETURN-CODE.listructure#Unit%20Test/Structures/CWKTDB2X_RETURN-CODE.listructure">
@@ -37,6 +40,8 @@
           </properties:properties>
         </testcase:data>
       </testcase:returncode>
+      <testcase:ddioMemberName>CWKTDB2X</testcase:ddioMemberName>
+      <testcase:isNoLinkage>false</testcase:isNoLinkage>
     </testscenario:testcase>
   </testscenario:testcases>
 </testscenario:testscenario>

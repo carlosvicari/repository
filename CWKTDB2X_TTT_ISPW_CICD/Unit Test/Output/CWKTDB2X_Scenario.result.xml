@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result:DocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:result="http://www.compuware.com/model/xml/result">
+<?totaltestVersion 20.4.1.v20200918-0303_109?><!--Topaz for Total Test 20.4.1.v20200918-0303_109 20/10/2020 09:18:54-->  <result>
+    <testsuiteResult errorCount="0" failureCount="0" testCount="314">
+      <testscenarioResults errorCount="0" failureCount="0" testCount="314">
+        <testcaseResults errorCount="0" failureCount="0" testCount="314">
+          <results actualValue="0" expectedValue="0" name="Check for RETURN_CODE" result="Success"/>
+          <results actualValue="5" expectedValue="5" name="Check for PARM_LTH" result="Success"/>
+          <results actualValue="00001" expectedValue="00001" name="Check for PARM_DATA" result="Success"/>
+          <results actualValue="1508" expectedValue="1508" name="Check for GRAND_TOTAL" result="Success"/>
+          <results actualValue="8" expectedValue="8" name="Check for TOTAL_RECORD" result="Success"/>
+          <stubAssertion errorCount="0" failureCount="0" testCount="48">
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="84" expectedValue="84" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="6" expectedValue="6" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="25" expectedValue="25" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="36" expectedValue="36" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="15" expectedValue="15" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="87" expectedValue="87" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="3" expectedValue="3" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="33" expectedValue="33" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="93" expectedValue="93" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="4" expectedValue="4" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="27" expectedValue="27" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="91" expectedValue="91" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="13" expectedValue="13" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="29" expectedValue="29" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="86" expectedValue="86" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="6">
+              <results actualValue="N" expectedValue="N" name="Check for END_OF_MONTH_SW" result="Success"/>
+              <results actualValue="34" expectedValue="34" name="Check for YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="201020" expectedValue="201020" name="Check for TODAYS_DATE" result="Success"/>
+              <results actualValue="96" expectedValue="96" name="Check for WA_EMP_HIRE_YY" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for WA_EMP_HIRE_MM" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for WA_EMP_HIRE_DD" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub.7"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="200">
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="12">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="RUN DATE" expectedValue="RUN DATE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for EMP_RUN_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER2" result="Success"/>
+              <results actualValue="20" expectedValue="20" name="Check for EMP_RUN_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for FILLER3" result="Success"/>
+              <results actualValue="20" expectedValue="20" name="Check for EMP_RUN_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="EMPLOYEE COMPENSATION REPORT" expectedValue="EMPLOYEE COMPENSATION REPORT" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="PAGE" expectedValue="PAGE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_PAGE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="5">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="HIRE" expectedValue="HIRE" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="YRS OF" expectedValue="YRS OF" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="18">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="EMPLOYEE NAME" expectedValue="EMPLOYEE NAME" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="REGION" expectedValue="REGION" name="Check for FILLER3" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="TYPE" expectedValue="TYPE" name="Check for FILLER5" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="DATE" expectedValue="DATE" name="Check for FILLER7" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="SERVICE" expectedValue="SERVICE" name="Check for FILLER9" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER10" result="Success"/>
+              <results actualValue="SALARY" expectedValue="SALARY" name="Check for FILLER11" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER12" result="Success"/>
+              <results actualValue="O/T" expectedValue="O/T" name="Check for FILLER13" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER14" result="Success"/>
+              <results actualValue="COMMISSION" expectedValue="COMMISSION" name="Check for FILLER15" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER16" result="Success"/>
+              <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER17" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="JOHN SMITH" expectedValue="JOHN SMITH" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="NORTH" expectedValue="NORTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="15" expectedValue="15" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="81" expectedValue="81" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="39" expectedValue="39" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="75.00" expectedValue="75.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="75.00" expectedValue="75.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="GAIL LAWRENCE" expectedValue="GAIL LAWRENCE" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="6" expectedValue="6" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="25" expectedValue="25" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="84" expectedValue="84" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="36" expectedValue="36" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="95.00" expectedValue="95.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="95.00" expectedValue="95.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="KATIE WILLIAMS" expectedValue="KATIE WILLIAMS" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="SOUTH" expectedValue="SOUTH" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="10" expectedValue="10" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="96" expectedValue="96" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="24" expectedValue="24" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="880.00" expectedValue="880.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="880.00" expectedValue="880.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="MARCIA SULLIVAN" expectedValue="MARCIA SULLIVAN" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="4" expectedValue="4" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="5" expectedValue="5" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="93" expectedValue="93" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="27" expectedValue="27" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="120.00" expectedValue="120.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="18.00" expectedValue="18.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="138.00" expectedValue="138.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="JAMES MORRISON" expectedValue="JAMES MORRISON" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="EAST" expectedValue="EAST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="9" expectedValue="9" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="13" expectedValue="13" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="91" expectedValue="91" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="29" expectedValue="29" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="101.75" expectedValue="101.75" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="101.75" expectedValue="101.75" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.13"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="THOMAS LONG" expectedValue="THOMAS LONG" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="3" expectedValue="3" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="31" expectedValue="31" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="87" expectedValue="87" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="33" expectedValue="33" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="100.00" expectedValue="100.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="100.00" expectedValue="100.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.14"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="22">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="SAMUEL ADDAMS" expectedValue="SAMUEL ADDAMS" name="Check for EMP_DTL_NAME" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
+              <results actualValue="WEST" expectedValue="WEST" name="Check for EMP_DTL_REGION" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for EMP_DTL_TYPE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER3" result="Success"/>
+              <results actualValue="1" expectedValue="1" name="Check for EMP_DTL_HIRE_MM" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH1" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for EMP_DTL_HIRE_DD" result="Success"/>
+              <results actualValue="/" expectedValue="/" name="Check for EMP_DTL_SLASH2" result="Success"/>
+              <results actualValue="86" expectedValue="86" name="Check for EMP_DTL_HIRE_YY" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER4" result="Success"/>
+              <results actualValue="34" expectedValue="34" name="Check for EMP_DTL_YRS_OF_SERVICE" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
+              <results actualValue="110.00" expectedValue="110.00" name="Check for EMP_DTL_WAGES" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
+              <results actualValue="8.25" expectedValue="8.25" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
+              <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
+              <results actualValue="118.25" expectedValue="118.25" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.15"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="1">
+              <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.16"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="4">
+              <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
+              <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER1" result="Success"/>
+              <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
+              <results actualValue="1508.00" expectedValue="1508.00" name="Check for EMP_GRAND_TOTAL" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.17"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="1">
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_Select_1_SQL.stub.0"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_Select_1_SQL.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="1">
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub.0"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="43">
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.0"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.1"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="95.00" expectedValue="95.00" name="Check for WAGES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for OVERTIME" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.2"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.3"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.4"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.5"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="75.00" expectedValue="75.00" name="Check for WAGES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for OVERTIME" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.6"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.7"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.8"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.9"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="100.00" expectedValue="100.00" name="Check for WAGES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for OVERTIME" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.10"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.11"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.12"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.13"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="120.00" expectedValue="120.00" name="Check for WAGES" result="Success"/>
+              <results actualValue="18.00" expectedValue="18.00" name="Check for OVERTIME" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.14"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.15"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.16"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.17"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="101.75" expectedValue="101.75" name="Check for WAGES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for OVERTIME" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.18"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.19"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.20"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.21"/>
+            </stubdataassertions>
+            <stubdataassertions testCount="3">
+              <results actualValue="110.00" expectedValue="110.00" name="Check for WAGES" result="Success"/>
+              <results actualValue="8.25" expectedValue="8.25" name="Check for OVERTIME" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.22"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.23"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.24"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.25"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.26"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.27"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.28"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.29"/>
+            </stubdataassertions>
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.30"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="11">
+            <stubdataassertions testCount="11">
+              <results actualValue="02175" expectedValue="02175" name="Check for EMP_NUM" result="Success"/>
+              <results actualValue="H" expectedValue="H" name="Check for WA_EMP_TYPE" result="Success"/>
+              <results actualValue="2" expectedValue="2" name="Check for REGION" result="Success"/>
+              <results actualValue="KATIE WILLIAMS" expectedValue="KATIE WILLIAMS" name="Check for WA_EMP_NAME" result="Success"/>
+              <results actualValue="123 MAIN ST" expectedValue="123 MAIN ST" name="Check for WA_EMP_STREET" result="Success"/>
+              <results actualValue="COLUMBUS" expectedValue="COLUMBUS" name="Check for WA_EMP_CITY" result="Success"/>
+              <results actualValue="OH" expectedValue="OH" name="Check for WA_EMP_STATE" result="Success"/>
+              <results actualValue="43082" expectedValue="43082" name="Check for WA_EMP_ZIP" result="Success"/>
+              <results actualValue="961002" expectedValue="961002" name="Check for HIREDATE" result="Success"/>
+              <results actualValue="32" expectedValue="32" name="Check for HOURS" result="Success"/>
+              <results actualValue="27.50" expectedValue="27.50" name="Check for RATE" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL.stub.0"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_Insert_1_SQL.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="4">
+            <stubdataassertions testCount="4">
+              <results actualValue="880.00" expectedValue="880.00" name="Check for WAGES" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for OVERTIME" result="Success"/>
+              <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
+              <results actualValue="02175" expectedValue="02175" name="Check for EMP_NUM" result="Success"/>
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub.0"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_Update_1_SQL.stub"/>
+          </stubAssertion>
+          <stubAssertion errorCount="0" failureCount="0" testCount="1">
+            <stubdataassertions errorCount="0" failureCount="0" testCount="1">
+              <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_DATETIME.stub.0"/>
+            </stubdataassertions>
+            <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_DATETIME.stub"/>
+          </stubAssertion>
+          <testcase href="CWKTDB2X_Scenario.archive#Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario%23CWKTDB2XCase1"/>
+        </testcaseResults>
+        <testscenario href="CWKTDB2X_Scenario.archive#Unit%20Test/Scenarios/CWKTDB2X_Scenario.testscenario"/>
+      </testscenarioResults>
+      <testsuite href="CWKTDB2X_Scenario.archive#%5C.temp%5CCWKTDB2X_Scenario.testsuite"/>
+    </testsuiteResult>
+  </result>
+</result:DocumentRoot>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.2.1.v20200331-1253_109?>
-<!--Topaz for Total Test 20.2.1.v20200331-1253_109 13/07/2020 10:04:13-->
+<?totaltestVersion 20.4.1.v20200918-0303_109?>
+<!--Topaz for Total Test 20.4.1.v20200918-0303_109 20/10/2020 09:35:49-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-DTL.listructure">
   <listructure:struct id="EMPLOYEE_DTL" name="EMPLOYEE_DTL">
     <properties:properties>
