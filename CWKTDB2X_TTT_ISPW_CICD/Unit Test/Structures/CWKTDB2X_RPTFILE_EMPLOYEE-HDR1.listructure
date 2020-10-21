@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 20.4.1.v20200918-0303_109?>
-<!--Topaz for Total Test 20.4.1.v20200918-0303_109 20/10/2020 09:35:49-->
+<!--Topaz for Total Test 20.4.1.v20200918-0303_109 21/10/2020 08:18:56-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTDB2X_RPTFILE_EMPLOYEE-HDR1.listructure">
   <listructure:struct id="EMPLOYEE_HDR1" name="EMPLOYEE_HDR1">
     <properties:properties>
