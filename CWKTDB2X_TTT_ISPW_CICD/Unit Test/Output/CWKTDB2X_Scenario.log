@@ -1,10 +1,10 @@
-14:55:06.980 INFO      TOPAZ            ***************************************
-14:55:06.981 INFO      TOPAZ            ** Execution from Topaz with options **
-14:55:06.981 INFO      TOPAZ            ***************************************
-14:55:06.981 INFO      TOPAZ            Using repository: false
-14:55:06.981 INFO      TOPAZ            ***************************************
-14:55:06.982 INFO      Engine           Test Scenario execution started
-14:55:06.982 INFO      Engine           Using context settings:
+16:53:02.810 INFO      TOPAZ            ***************************************
+16:53:02.810 INFO      TOPAZ            ** Execution from Topaz with options **
+16:53:02.810 INFO      TOPAZ            ***************************************
+16:53:02.810 INFO      TOPAZ            Using repository: false
+16:53:02.810 INFO      TOPAZ            ***************************************
+16:53:02.810 INFO      Engine           Test Scenario execution started
+16:53:02.810 INFO      Engine           Using context settings:
   Engine Version                : 20.4
   Environment id                : 192.168.96.130:16196
   Environment type              : Batch
@@ -19,22 +19,22 @@
   Codepage                      : IBM-1047
   Host user Id                  : FBRCCV0
   Use Repository Server         : false
-14:55:06.982 INFO      Engine           Setting variables from context and context data extensions
-14:55:06.982 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-14:55:06.982 INFO      Engine             id: environmentType    value: BATCH
-14:55:06.982 INFO      Engine             id: userId             value: FBRCCV0
-14:55:06.983 INFO      Engine             id: accountingInfo     value: 
-14:55:06.983 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.CCV1.DEV1.LOAD, StringDataItem{value=SALESSUP.CCV1.DEV1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.QA1.LOAD, StringDataItem{value=SALESSUP.CCV1.QA1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.STG.LOAD, StringDataItem{value=SALESSUP.CCV1.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.PRD.LOAD, StringDataItem{value=SALESSUP.CCV1.PRD.LOAD}}, DataItem{name=Entry, getValue()=SYS2.CW.XTR17Z.SLXTLOAD, StringDataItem{value=SYS2.CW.XTR17Z.SLXTLOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}}
-14:55:06.983 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
-14:55:06.994 INFO      Unittest         Using local JCL skeleton to submit JCL
-14:55:20.962 INFO      CWCC             Sending Job execution request to Host 
-14:55:26.403 INFO      CWCC             Job execution completed with status:
+16:53:02.810 INFO      Engine           Setting variables from context and context data extensions
+16:53:02.810 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+16:53:02.810 INFO      Engine             id: environmentType    value: BATCH
+16:53:02.810 INFO      Engine             id: userId             value: FBRCCV0
+16:53:02.810 INFO      Engine             id: accountingInfo     value: 
+16:53:02.810 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.CCV1.DEV1.LOAD, StringDataItem{value=SALESSUP.CCV1.DEV1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.QA1.LOAD, StringDataItem{value=SALESSUP.CCV1.QA1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.STG.LOAD, StringDataItem{value=SALESSUP.CCV1.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.PRD.LOAD, StringDataItem{value=SALESSUP.CCV1.PRD.LOAD}}, DataItem{name=Entry, getValue()=SYS2.CW.XTR17Z.SLXTLOAD, StringDataItem{value=SYS2.CW.XTR17Z.SLXTLOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}}
+16:53:02.810 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
+16:53:02.818 INFO      Unittest         Using local JCL skeleton to submit JCL
+16:53:19.635 INFO      CWCC             Sending Job execution request to Host 
+16:53:25.000 INFO      CWCC             Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job FBRCCV0T(J0943168) ended with return code: 0000
+  Job status msg : Job FBRCCV0T(J0943464) ended with return code: 0000
   Job name       : FBRCCV0T
-  Job id         : J0943168
+  Job id         : J0943464
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-14:55:29.741 INFO      Unittest         Execution completed
-14:55:29.742 INFO      Engine           Test Scenario execution ended
+16:53:28.204 INFO      Unittest         Execution completed
+16:53:28.204 INFO      Engine           Test Scenario execution ended
