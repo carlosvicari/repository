@@ -1,10 +1,10 @@
-12:29:33.845 INFO      TOPAZ            ***************************************
-12:29:33.845 INFO      TOPAZ            ** Execution from Topaz with options **
-12:29:33.845 INFO      TOPAZ            ***************************************
-12:29:33.846 INFO      TOPAZ            Using repository: false
-12:29:33.846 INFO      TOPAZ            ***************************************
-12:29:33.846 INFO      Engine           Test Scenario execution started
-12:29:33.846 INFO      Engine           Using context settings:
+14:55:06.980 INFO      TOPAZ            ***************************************
+14:55:06.981 INFO      TOPAZ            ** Execution from Topaz with options **
+14:55:06.981 INFO      TOPAZ            ***************************************
+14:55:06.981 INFO      TOPAZ            Using repository: false
+14:55:06.981 INFO      TOPAZ            ***************************************
+14:55:06.982 INFO      Engine           Test Scenario execution started
+14:55:06.982 INFO      Engine           Using context settings:
   Engine Version                : 20.4
   Environment id                : 192.168.96.130:16196
   Environment type              : Batch
@@ -19,31 +19,22 @@
   Codepage                      : IBM-1047
   Host user Id                  : FBRCCV0
   Use Repository Server         : false
-12:29:33.846 INFO      Engine           Setting variables from context and context data extensions
-12:29:33.846 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-12:29:33.846 INFO      Engine             id: environmentType    value: BATCH
-12:29:33.846 INFO      Engine             id: userId             value: FBRCCV0
-12:29:33.846 INFO      Engine             id: accountingInfo     value: 
-12:29:33.846 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.CCV1.DEV1.LOAD, StringDataItem{value=SALESSUP.CCV1.DEV1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.QA1.LOAD, StringDataItem{value=SALESSUP.CCV1.QA1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.STG.LOAD, StringDataItem{value=SALESSUP.CCV1.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.PRD.LOAD, StringDataItem{value=SALESSUP.CCV1.PRD.LOAD}}, DataItem{name=Entry, getValue()=SYS2.CW.XTR17Z.SLXTLOAD, StringDataItem{value=SYS2.CW.XTR17Z.SLXTLOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.DEV1.LOAD, StringDataItem{value=SALESSUP.CCV1.DEV1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.QA1.LOAD, StringDataItem{value=SALESSUP.CCV1.QA1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.STG.LOAD, StringDataItem{value=SALESSUP.CCV1.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.PRD.LOAD, StringDataItem{value=SALESSUP.CCV1.PRD.LOAD}}, DataItem{name=Entry, getValue()=DSNB10.DBCC.RUNLIB.LOAD, StringDataItem{value=DSNB10.DBCC.RUNLIB.LOAD}}, DataItem{name=Entry, getValue()=DSNB10.SDSNLOAD, StringDataItem{value=DSNB10.SDSNLOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}}
-12:29:33.846 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
-12:29:33.851 DEBUG     Unittest         Getting TTTRUNNR loadlib version
-12:29:33.852 DEBUG     Unittest         Generic JCL skeleton used from environment/connection
-12:29:33.852 INFO      Unittest         Using local JCL skeleton to submit JCL
-12:29:33.852 DEBUG     Unittest         Building binary files for test scenario: CWKTDB2X_Scenario.testscenario in project Unit Test
-12:29:41.949 DEBUG     Unittest         Custom JCL skeleton used, since JobCard.jcl exists in the JCL directory relative to the execution context directory: ../JCL/
-12:29:43.293 INFO      CWCC             Sending Job execution request to Host 
-12:29:43.294 DEBUG     CWCC             Executing Job through HCI
-12:29:43.465 DEBUG     CWCC             Job submitted with jobId: J0940570 jobName:CVRUNTTT
-12:29:48.618 INFO      CWCC             Job execution completed with status:
+14:55:06.982 INFO      Engine           Setting variables from context and context data extensions
+14:55:06.982 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
+14:55:06.982 INFO      Engine             id: environmentType    value: BATCH
+14:55:06.982 INFO      Engine             id: userId             value: FBRCCV0
+14:55:06.983 INFO      Engine             id: accountingInfo     value: 
+14:55:06.983 INFO      Engine             id: unittest.loadlibraries  value: DataItem{name=unittest.loadlibraries, DataItem{name=Entry, getValue()=SALESSUP.CCV1.DEV1.LOAD, StringDataItem{value=SALESSUP.CCV1.DEV1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.QA1.LOAD, StringDataItem{value=SALESSUP.CCV1.QA1.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.STG.LOAD, StringDataItem{value=SALESSUP.CCV1.STG.LOAD}}, DataItem{name=Entry, getValue()=SALESSUP.CCV1.PRD.LOAD, StringDataItem{value=SALESSUP.CCV1.PRD.LOAD}}, DataItem{name=Entry, getValue()=SYS2.CW.XTR17Z.SLXTLOAD, StringDataItem{value=SYS2.CW.XTR17Z.SLXTLOAD}}, DataItem{name=Entry, getValue()=CEE.SCEERUN, StringDataItem{value=CEE.SCEERUN}}}
+14:55:06.983 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
+14:55:06.994 INFO      Unittest         Using local JCL skeleton to submit JCL
+14:55:20.962 INFO      CWCC             Sending Job execution request to Host 
+14:55:26.403 INFO      CWCC             Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job CVRUNTTT(J0940570) ended with return code: 0000
-  Job name       : CVRUNTTT
-  Job id         : J0940570
+  Job status msg : Job FBRCCV0T(J0943168) ended with return code: 0000
+  Job name       : FBRCCV0T
+  Job id         : J0943168
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-12:29:48.618 DEBUG     CWCC             Setting execution variable 'jobid' to J0940570
-12:29:48.618 DEBUG     CWCC             Setting execution variable 'jobname' to CVRUNTTT
-12:29:48.618 DEBUG     CWCC             Setting execution variable 'returncode' to 0000
-12:29:51.425 INFO      Unittest         Execution completed
-12:29:51.425 INFO      Engine           Test Scenario execution ended
+14:55:29.741 INFO      Unittest         Execution completed
+14:55:29.742 INFO      Engine           Test Scenario execution ended

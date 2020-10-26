@@ -1,4 +1,4 @@
-//${userId}A JOB ('${accountingInfo}'),'NAME',NOTIFY=&SYSUID,CLASS=A,
-//        MSGCLASS=R,REGION=0M
-//*
-//* Jobcard skeleton
+//${userId}T JOB ('FBRCCV0',6W),'BRAZIL CARLOS VICARI',
+//  CLASS=A,USER=FBRCCV0,REGION=0M,
+//  MSGCLASS=X,MSGLEVEL=(1,1),NOTIFY=&SYSUID
+//*JOBPARM SYSAFF=CWCC

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <result:DocumentRoot xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:result="http://www.compuware.com/model/xml/result">
-<?totaltestVersion 20.4.1.v20200918-0303_109?><!--Topaz for Total Test 20.4.1.v20200918-0303_109 21/10/2020 08:21:37-->  <result>
-    <testsuiteResult errorCount="0" failureCount="0" testCount="314">
-      <testscenarioResults errorCount="0" failureCount="0" testCount="314">
-        <testcaseResults errorCount="0" failureCount="0" testCount="314">
+<?totaltestVersion 20.4.1.v20200918-0303_109?><!--Topaz for Total Test 20.4.1.v20200918-0303_109 26/10/2020 14:45:04-->  <result>
+    <testsuiteResult errorCount="0" failureCount="8" testCount="314">
+      <testscenarioResults errorCount="0" failureCount="8" testCount="314">
+        <testcaseResults errorCount="0" failureCount="8" testCount="314">
           <results actualValue="0" expectedValue="0" name="Check for RETURN_CODE" result="Success"/>
           <results actualValue="5" expectedValue="5" name="Check for PARM_LTH" result="Success"/>
           <results actualValue="00001" expectedValue="00001" name="Check for PARM_DATA" result="Success"/>
-          <results actualValue="1586" expectedValue="1586" name="Check for GRAND_TOTAL" result="Success"/>
+          <results actualHex="00000632" actualValue="1586" dataID="input.arg0.PARMINFO.GRAND_TOTAL" expectedAssert="" expectedValue="1508" message="Check for GRAND_TOTAL failed" name="Check for GRAND_TOTAL" result="Failure"/>
           <results actualValue="8" expectedValue="8" name="Check for TOTAL_RECORD" result="Success"/>
           <stubAssertion errorCount="0" failureCount="0" testCount="48">
             <stubdataassertions testCount="6">
@@ -84,7 +84,7 @@
             </stubdataassertions>
             <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_CWKTDATE.stub"/>
           </stubAssertion>
-          <stubAssertion errorCount="0" failureCount="0" testCount="200">
+          <stubAssertion errorCount="0" failureCount="5" testCount="200">
             <stubdataassertions testCount="1">
               <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.0"/>
@@ -228,7 +228,7 @@
               <results actualValue="880.00" expectedValue="880.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.11"/>
             </stubdataassertions>
-            <stubdataassertions testCount="22">
+            <stubdataassertions failureCount="2" testCount="22">
               <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
               <results actualValue="MARCIA SULLIVAN" expectedValue="MARCIA SULLIVAN" name="Check for EMP_DTL_NAME" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
@@ -246,11 +246,11 @@
               <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
               <results actualValue="120.00" expectedValue="120.00" name="Check for EMP_DTL_WAGES" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
-              <results actualValue="72.00" expectedValue="72.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualHex="40F7F24BF0F0" actualValue="72.00" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="18.00" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
               <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
               <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
-              <results actualValue="192.00" expectedValue="192.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="40F1F9F24BF0F0" actualValue="192.00" dataID="output12.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="138.00" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.12"/>
             </stubdataassertions>
             <stubdataassertions testCount="22">
@@ -303,7 +303,7 @@
               <results actualValue="100.00" expectedValue="100.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.14"/>
             </stubdataassertions>
-            <stubdataassertions testCount="22">
+            <stubdataassertions failureCount="2" testCount="22">
               <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
               <results actualValue="SAMUEL ADDAMS" expectedValue="SAMUEL ADDAMS" name="Check for EMP_DTL_NAME" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER1" result="Success"/>
@@ -321,22 +321,22 @@
               <results actualValue="" expectedValue="" name="Check for FILLER5" result="Success"/>
               <results actualValue="110.00" expectedValue="110.00" name="Check for EMP_DTL_WAGES" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER6" result="Success"/>
-              <results actualValue="33.00" expectedValue="33.00" name="Check for EMP_DTL_OT" result="Success"/>
+              <results actualHex="40F3F34BF0F0" actualValue="33.00" dataID="output15.arg0.EMPLOYEE_DTL.EMP_DTL_OT" expectedAssert="" expectedValue="8.25" message="Check for EMP_DTL_OT failed" name="Check for EMP_DTL_OT" result="Failure"/>
               <results actualValue="" expectedValue="" name="Check for FILLER7" result="Success"/>
               <results actualValue="0.00" expectedValue="0.00" name="Check for EMP_DTL_COMM" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER8" result="Success"/>
-              <results actualValue="143.00" expectedValue="143.00" name="Check for EMP_DTL_TOTAL" result="Success"/>
+              <results actualHex="40F1F4F34BF0F0" actualValue="143.00" dataID="output15.arg0.EMPLOYEE_DTL.EMP_DTL_TOTAL" expectedAssert="" expectedValue="118.25" message="Check for EMP_DTL_TOTAL failed" name="Check for EMP_DTL_TOTAL" result="Failure"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.15"/>
             </stubdataassertions>
             <stubdataassertions testCount="1">
               <results actualValue="" expectedValue="" name="Check for BLANK_LINE" result="Success"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.16"/>
             </stubdataassertions>
-            <stubdataassertions testCount="4">
+            <stubdataassertions failureCount="1" testCount="4">
               <results actualValue="" expectedValue="" name="Check for FILLER0" result="Success"/>
               <results actualValue="TOTAL" expectedValue="TOTAL" name="Check for FILLER1" result="Success"/>
               <results actualValue="" expectedValue="" name="Check for FILLER2" result="Success"/>
-              <results actualValue="1586.75" expectedValue="1586.75" name="Check for EMP_GRAND_TOTAL" result="Success"/>
+              <results actualHex="404040F1F5F8F64BF7F5" actualValue="1586.75" dataID="output17.arg0.EMP_TOTAL_DTL.EMP_GRAND_TOTAL" expectedAssert="" expectedValue="1508.00" message="Check for EMP_GRAND_TOTAL failed" name="Check for EMP_GRAND_TOTAL" result="Failure"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub.17"/>
             </stubdataassertions>
             <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_RPTFILE_FILE.stub"/>
@@ -353,7 +353,7 @@
             </stubdataassertions>
             <stub href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_ROLLBACK_1_SQL.stub"/>
           </stubAssertion>
-          <stubAssertion errorCount="0" failureCount="0" testCount="43">
+          <stubAssertion errorCount="0" failureCount="2" testCount="43">
             <stubdataassertions errorCount="0" failureCount="0" testCount="1">
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.0"/>
             </stubdataassertions>
@@ -405,9 +405,9 @@
             <stubdataassertions errorCount="0" failureCount="0" testCount="1">
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.13"/>
             </stubdataassertions>
-            <stubdataassertions testCount="3">
+            <stubdataassertions failureCount="1" testCount="3">
               <results actualValue="120.00" expectedValue="120.00" name="Check for WAGES" result="Success"/>
-              <results actualValue="72.00" expectedValue="72.00" name="Check for OVERTIME" result="Success"/>
+              <results actualHex="0007200C" actualValue="72.00" dataID="output14.arg1.OVERTIME.OVERTIME" expectedAssert="" expectedValue="18.00" message="Check for OVERTIME failed" name="Check for OVERTIME" result="Failure"/>
               <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.14"/>
             </stubdataassertions>
@@ -435,9 +435,9 @@
             <stubdataassertions errorCount="0" failureCount="0" testCount="1">
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.21"/>
             </stubdataassertions>
-            <stubdataassertions testCount="3">
+            <stubdataassertions failureCount="1" testCount="3">
               <results actualValue="110.00" expectedValue="110.00" name="Check for WAGES" result="Success"/>
-              <results actualValue="33.00" expectedValue="33.00" name="Check for OVERTIME" result="Success"/>
+              <results actualHex="0003300C" actualValue="33.00" dataID="output22.arg1.OVERTIME.OVERTIME" expectedAssert="" expectedValue="8.25" message="Check for OVERTIME failed" name="Check for OVERTIME" result="Failure"/>
               <results actualValue="0" expectedValue="0" name="Check for COMM" result="Success"/>
               <stubdata href="CWKTDB2X_Scenario.archive#Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.Unit%20Test/Stubs/CWKTDB2X_EMPLOYEE_CURSOR_SQL.stub.22"/>
             </stubdataassertions>

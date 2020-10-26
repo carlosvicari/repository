@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.130:16196" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="FBRCCV0.DEMO.CC.REPOSIT" ccsystem="CWCC" cctestid="CWKTDB2X" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="true" ccshow="true">
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="192.168.96.130:16196" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
   <ExtensionData>
     <Parameter key="unittest.loadlibraries">
       <Value>SALESSUP.CCV1.DEV1.LOAD</Value>
@@ -7,13 +7,6 @@
       <Value>SALESSUP.CCV1.STG.LOAD</Value>
       <Value>SALESSUP.CCV1.PRD.LOAD</Value>
       <Value>SYS2.CW.XTR17Z.SLXTLOAD</Value>
-      <Value>CEE.SCEERUN</Value>
-      <Value>SALESSUP.CCV1.DEV1.LOAD</Value>
-      <Value>SALESSUP.CCV1.QA1.LOAD</Value>
-      <Value>SALESSUP.CCV1.STG.LOAD</Value>
-      <Value>SALESSUP.CCV1.PRD.LOAD</Value>
-      <Value>DSNB10.DBCC.RUNLIB.LOAD</Value>
-      <Value>DSNB10.SDSNLOAD</Value>
       <Value>CEE.SCEERUN</Value>
     </Parameter>
   </ExtensionData>
