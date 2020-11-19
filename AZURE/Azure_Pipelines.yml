@@ -6,13 +6,13 @@ pool:
 variables:
 - group: 'Mainframe_Pipeline_Parameters'
 - name: 'gitRepo'
-  value: 'FTSDEMO_$(ispwApplication)_Unit_Tests'
+  value: 'CWKTDB2X_TTT_ISPW_CICD'
 - name: 'ccSystem'
   value: 'AZURE_$(ispwContainerName)'
 - name: 'ccDdio'
   value: 'SALESSUP.$(ispwApplication).$(ispwLevel).LOAD.SSD'
 - name: 'sonarProjectName'
-  value: 'RNU_$(ispwApplication)_Azure'
+  value: 'BRASIL_$(ispwApplication)_Azure'
 - name: 'sonarSources'
   value: '.\$(ispwApplication)\MF_Source'
 
@@ -99,28 +99,28 @@ stages:
         filePath: '$(agentScriptsPath)\Sonar_Check_Quality_Gate.ps1'
         arguments: '$(sonarServer) $(sonarProjectName) $(sonarAuthorization)'
 
-  - job: triggerRelease
-    displayName: Trigger Release Pipeline
-    dependsOn: 
-    - checkQualityGate
-    condition: succeeded('checkQualityGate')
-    steps:
+#  - job: triggerRelease
+#    displayName: Trigger Release Pipeline
+#    dependsOn: 
+#    - checkQualityGate
+#    condition: succeeded('checkQualityGate')
+#    steps:
     # After promote ISPW passes the DEV level name, we need the QA level name, though
     # Determine QA level name from DEV level name and create a new pipeline variable
-    - task: PowerShell@2
-      name: setTargetLevel
-      displayName: Determine ISPW Target Level
-      inputs:
-        targetType: 'inline'
-        script: |
-          $ispwTargetLevel = 'QA' + '$(ispwLevel)'.Substring('$(ispwLevel)'.Length - 1, 1)
-          Write-Host 'Determined Level ' $ispwTargetLevel
-          echo "##vso[task.setvariable variable=ispwTargetLevel]$ispwTargetLevel"
-    - task: PowerShell@2
-      displayName: Trigger Release
-      inputs:
-        filePath: '$(agentScriptsPath)\Azure_Trigger_Release.ps1'
-        arguments: '$(azureRestAddress) $(azureOrganization) $(System.TeamProject) "$(azureRestAuthorization)" $(ispwApplication) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(releaseDefinitionId)'
+#    - task: PowerShell@2
+#      name: setTargetLevel
+#      displayName: Determine ISPW Target Level
+#      inputs:
+#        targetType: 'inline'
+#        script: |
+#          $ispwTargetLevel = 'QA' + '$(ispwLevel)'.Substring('$(ispwLevel)'.Length - 1, 1)
+#         Write-Host 'Determined Level ' $ispwTargetLevel
+#          echo "##vso[task.setvariable variable=ispwTargetLevel]$ispwTargetLevel"
+#    - task: PowerShell@2
+#      displayName: Trigger Release
+#      inputs:
+#        filePath: '$(agentScriptsPath)\Azure_Trigger_Release.ps1'
+#        arguments: '$(azureRestAddress) $(azureOrganization) $(System.TeamProject) "$(azureRestAuthorization)" $(ispwApplication) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(releaseDefinitionId)'
 
   - job: regressAssignment
     dependsOn: 
