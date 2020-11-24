@@ -41,13 +41,6 @@ stages:
         filePath: '$(agentScriptsPath)\Clear_Workspace.ps1'
         arguments: '$(workspaceRoot)'
 
-    # Execute Powershell Script to download sources from ISPW
-    - task: PowerShell@2
-      displayName: Download sources for assignment
-      inputs:
-        filePath: '$(agentScriptsPath)\ISPW_Download_Container.ps1'
-        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
-
     # List Dir ...
     - task: PowerShell@2
       displayName: List Dir
@@ -55,6 +48,13 @@ stages:
         targetType: 'inline'
         script: $Lista = Get-ChildItem
                 echo "$Lista"
+
+    # Execute Powershell Script to download sources from ISPW
+    - task: PowerShell@2
+      displayName: Download sources for assignment
+      inputs:
+        filePath: '$(agentScriptsPath)\ISPW_Download_Container.ps1'
+        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
 
     # Execute Powershell Script to clone TTT Assets from GitHub repo
     - task: PowerShell@2
