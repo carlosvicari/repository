@@ -48,7 +48,7 @@ stages:
         filePath: '$(agentScriptsPath)\ISPW_Download_Container.ps1'
         arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
 
-- exit
+- cmd dir /S
     # Execute Powershell Script to clone TTT Assets from GitHub repo
     - task: PowerShell@2
       displayName: Get Unit Tests
