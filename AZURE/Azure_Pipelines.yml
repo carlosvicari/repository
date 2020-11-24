@@ -49,7 +49,7 @@ stages:
         arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
 
 $Lista = Get-ChildItem
-echo $Lista
+echo "$Lista"
 
     # Execute Powershell Script to clone TTT Assets from GitHub repo
     - task: PowerShell@2
