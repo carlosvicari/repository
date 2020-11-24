@@ -49,6 +49,8 @@ stages:
         arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
 
     # List Dir ...
+    - task: PowerShell@2
+      displayName: List Dir
       inputs:
         targetType: 'inline'
         script: $Lista = Get-ChildItem
