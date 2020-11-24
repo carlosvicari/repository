@@ -41,15 +41,7 @@ stages:
         filePath: '$(agentScriptsPath)\Clear_Workspace.ps1'
         arguments: '$(workspaceRoot)'
 
-    # List Dir ...
-    - task: PowerShell@2
-      displayName: List Dir
-      inputs:
-        targetType: 'inline'
-        script: $Lista = Get-ChildItem
-                echo "$Lista"
-
-    # Execute Powershell Script to download sources from ISPW
+     # Execute Powershell Script to download sources from ISPW
     - task: PowerShell@2
       displayName: Download sources for assignment
       inputs:
