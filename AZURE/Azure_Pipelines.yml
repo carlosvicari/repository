@@ -6,13 +6,13 @@ pool:
 variables:
 - group: 'Mainframe_Pipeline_Parameters'
 - name: 'gitRepo'
-  value: 'FTSDEMO_$(ispwApplication)_Unit_Tests'
+  value: 'CWKTDB2X_TTT_ISPW_CICD'
 - name: 'ccSystem'
-  value: 'AZURE_$(ispwContainerName)'
+  value: 'CWCC'
 - name: 'ccDdio'
   value: 'SALESSUP.$(ispwApplication).$(ispwLevel).LOAD.SSD'
 - name: 'sonarProjectName'
-  value: 'RNU_$(ispwApplication)_Azure'
+  value: 'Azure_MF_CICD'
 - name: 'sonarSources'
   value: '.\$(ispwApplication)\MF_Source'
 
