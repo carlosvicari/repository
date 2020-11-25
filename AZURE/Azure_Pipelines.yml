@@ -8,7 +8,7 @@ variables:
 - name: 'gitRepo'
   value: 'repository/CWKTDB2X_TTT_ISPW_CICD'
 - name: 'ccSystem'
-  value: 'AZURE_$(ispwContainerName)'
+  value: 'CWCC'
 - name: 'ccDdio'
   value: 'SALESSUP.$(ispwApplication).$(ispwLevel).LOAD.SSD'
 - name: 'sonarProjectName'
@@ -41,7 +41,7 @@ stages:
         filePath: '$(agentScriptsPath)\Clear_Workspace.ps1'
         arguments: '$(workspaceRoot)'
 
-    # Execute Powershell Script to download sources from ISPW
+     # Execute Powershell Script to download sources from ISPW
     - task: PowerShell@2
       displayName: Download sources for assignment
       inputs:
@@ -99,6 +99,7 @@ stages:
         filePath: '$(agentScriptsPath)\Sonar_Check_Quality_Gate.ps1'
         arguments: '$(sonarServer) $(sonarProjectName) $(sonarAuthorization)'
 
+<<<<<<< HEAD
 #  - job: triggerRelease
 #    displayName: Trigger Release Pipeline
 #    dependsOn: 
@@ -122,6 +123,8 @@ stages:
 #        filePath: '$(agentScriptsPath)\Azure_Trigger_Release.ps1'
 #        arguments: '$(azureRestAddress) $(azureOrganization) $(System.TeamProject) "$(azureRestAuthorization)" $(ispwApplication) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(releaseDefinitionId)'
 
+=======
+>>>>>>> 38f298b51ac98bd58ea837044a1bd41f1c810d55
   - job: regressAssignment
     dependsOn: 
     - checkQualityGate
