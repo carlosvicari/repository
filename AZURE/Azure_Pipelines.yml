@@ -6,7 +6,7 @@ pool:
 variables:
 - group: 'Mainframe_Pipeline_Parameters'
 - name: 'gitRepo'
-  value: 'CWKTDB2X_TTT_ISPW_CICD'
+  value: 'repository/CWKTDB2X_TTT_ISPW_CICD'
 - name: 'ccSystem'
   value: 'AZURE_$(ispwContainerName)'
 - name: 'ccDdio'
