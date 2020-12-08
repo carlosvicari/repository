@@ -16,6 +16,16 @@ variables:
 - name: 'sonarSources'
   value: '.\$(ispwApplication)\MF_Source'
 
+- name: 'jobMaxCc'
+  value: '4'
+- name: 'jclDsn1'
+  value: '"SALESSUP.CCV1.STG.JOB(CVEXTLOD)"'
+- name: 'jclDsn2'
+  value: '"SALESSUP.CCV1.STG.JOB($4DB2BND)"'
+- name: 'jclDsn3'
+  value: '"SALESSUP.CCV1.STG.JOB($7RUNDB2)"'
+
+
 stages:
 - stage: preparation
   displayName: Preparation
@@ -46,7 +56,8 @@ stages:
       displayName: Download sources for assignment
       inputs:
         filePath: '$(agentScriptsPath)\ISPW_Download_Container.ps1'
-        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
+        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwConfig) 
+        $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(cliPath)'
 
     # Execute Powershell Script to clone TTT Assets from GitHub repo
     - task: PowerShell@2
@@ -66,14 +77,16 @@ stages:
       displayName: Execute Unit Tests
       inputs:
         filePath: '$(agentScriptsPath)\TTT_Run_Tests.ps1'
-        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwApplication) $(ispwLevel) $(ccRepo) $(ccSystem) $(ccTestId) $(cliPath)'
+        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) 
+        $(ispwApplication) $(ispwLevel) $(ccRepo) $(ccSystem) $(ccTestId) $(cliPath)'
 
     # Execute Powershell Script to download Code Coverage results
     - task: PowerShell@2
       displayName: Get Code Coverage Results
       inputs:
         filePath: '$(agentScriptsPath)\Code_Coverage_Download_Metrics.ps1'
-        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(ispwApplication) $(ccRepo) $(ccSystem) $(ccTestId) $(ccDdio) $(cliPath)'
+        arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) 
+        $(ispwApplication) $(ccRepo) $(ccSystem) $(ccTestId) $(ccDdio) $(cliPath)'
 
 - stage: qualityGate
   displayName: Quality Gate
@@ -99,29 +112,6 @@ stages:
         filePath: '$(agentScriptsPath)\Sonar_Check_Quality_Gate.ps1'
         arguments: '$(sonarServer) $(sonarProjectName) $(sonarAuthorization)'
 
-#  - job: triggerRelease
-#    displayName: Trigger Release Pipeline
-#    dependsOn: 
-#    - checkQualityGate
-#    condition: succeeded('checkQualityGate')
-#    steps:
-    # After promote ISPW passes the DEV level name, we need the QA level name, though
-    # Determine QA level name from DEV level name and create a new pipeline variable
-#    - task: PowerShell@2
-#      name: setTargetLevel
-#      displayName: Determine ISPW Target Level
-#      inputs:
-#        targetType: 'inline'
-#        script: |
-#          $ispwTargetLevel = 'QA' + '$(ispwLevel)'.Substring('$(ispwLevel)'.Length - 1, 1)
-#         Write-Host 'Determined Level ' $ispwTargetLevel
-#          echo "##vso[task.setvariable variable=ispwTargetLevel]$ispwTargetLevel"
-#    - task: PowerShell@2
-#      displayName: Trigger Release
-#      inputs:
-#        filePath: '$(agentScriptsPath)\Azure_Trigger_Release.ps1'
-#        arguments: '$(azureRestAddress) $(azureOrganization) $(System.TeamProject) "$(azureRestAuthorization)" $(ispwApplication) $(ispwContainerName) $(ispwContainerType) $(ispwTargetLevel) $(releaseDefinitionId)'
-
   - job: regressAssignment
     dependsOn: 
     - checkQualityGate
@@ -142,4 +132,48 @@ stages:
       displayName: Regress Assignment
       inputs:
         filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
-        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments regress $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication) $(ispwServer)'
+        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments regress 
+        $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication) 
+        $(ispwServer)'
+
+  - job: promoteAssignment
+    displayName: Promoção para STG
+    dependsOn: 
+    - checkQualityGate
+    condition: succeeded('checkQualityGate')
+    steps:
+    - task: PowerShell@2
+      displayName: Determine ISPW Target Level
+      name: setTargetLevel
+      inputs:
+        targetType: 'inline'
+        script: |
+          $ispwTargetLevel = 'QA' + '$(ispwLevel)'.Substring('$(ispwLevel)'.Length - 1, 1)
+          Write-Host 'Determined Level ' $ispwTargetLevel
+          echo "##vso[task.setvariable variable=ispwTargetLevel]$ispwTargetLevel"
+    - task: PowerShell@2
+      displayName: Job ISPW Promoção para STG
+      inputs:
+        filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
+        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments promote
+        $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication)
+        $(ispwServer)'
+
+    - task: PowerShell@2
+      displayName: Submissão de Jobs  
+      inputs:
+        filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
+        arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
+        $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn1)'"
+    - task: PowerShell@2
+      displayName: Submissão de Jobs  
+      inputs:
+        filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
+        arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
+        $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn2)'"
+    - task: PowerShell@2
+      displayName: Submissão de Jobs  
+      inputs:
+        filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
+        arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
+        $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn3)'"
