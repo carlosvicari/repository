@@ -136,6 +136,7 @@ stages:
         $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication) 
         $(ispwServer)'
 
+- stage: promoteSTG
   - job: promoteAssignment
     displayName: Promoção para STG
     dependsOn: 
@@ -178,6 +179,7 @@ stages:
         arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
         $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn3)'"
 
+- stage: promotePROD
   - job: promoteAssignment
     displayName: Promoção para PROD
     steps:
