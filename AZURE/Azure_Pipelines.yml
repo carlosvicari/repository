@@ -28,10 +28,10 @@ variables:
 
 stages:
 - stage: preparation
-  displayName: Preparation
+  displayName: Preparação
   jobs:
   - job: getAssets
-    displayName: Get Assets from Mainframe and GitHub
+    displayName: Obtendo os Fontes do Mainframe e os Testes Unitários do GitHub
     steps:
     # After promote ISPW passes the DEV level name, we need the QA level name, though
     # Determine QA level name from DEV level name and create a new pipeline variable
@@ -70,7 +70,7 @@ stages:
   displayName: Tests
   jobs:
   - job: runTests
-    displayName: Run unit tests and get results
+    displayName: Execução dos Testes Unitários
     steps:
     # Execute Powershell Script to run unit tests
     - task: PowerShell@2
@@ -80,6 +80,9 @@ stages:
         arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) 
         $(ispwApplication) $(ispwLevel) $(ccRepo) $(ccSystem) $(ccTestId) $(cliPath)'
 
+  - job: getCoverage
+    displayName: Recuperação da Cobertura de Código
+    steps:
     # Execute Powershell Script to download Code Coverage results
     - task: PowerShell@2
       displayName: Get Code Coverage Results
@@ -89,10 +92,10 @@ stages:
         $(ispwApplication) $(ccRepo) $(ccSystem) $(ccTestId) $(ccDdio) $(cliPath)'
 
 - stage: qualityGate
-  displayName: Quality Gate
+  displayName: Sonar & Quality Gate
   jobs:
   - job: sonar
-    displayName: run Sonar Scan, Check Quality Gate
+    displayName: Análise da Qualidade de Código
     steps:
     # Execute Powershell Script to run Sonar Scanner
     - task: PowerShell@2
@@ -102,7 +105,7 @@ stages:
         arguments: '$(workspaceRoot) $(ispwApplication) $(sonarProjectName) $(sonarSources)'
 
   - job: checkQualityGate
-    displayName: Check Quality Gate
+    displayName: Checagem das Métricas de Qualidade
     dependsOn: sonar
     steps:
     # Execute Powershell Script to check Sonar Quality Gate
@@ -113,6 +116,7 @@ stages:
         arguments: '$(sonarServer) $(sonarProjectName) $(sonarAuthorization)'
 
   - job: regressAssignment
+    displayName: Regressão em Caso de Inconformidade de Qualidade
     dependsOn: 
     - checkQualityGate
     condition: failed('checkQualityGate')
@@ -137,8 +141,10 @@ stages:
         $(ispwServer)'
 
 - stage: promoteSTG
+  displayName: Tarefas em Pré-Produção
+  jobs:
   - job: promoteAssignment
-    displayName: Promoção para STG
+    displayName: Promoção para Pré-Produção
     dependsOn: 
     - checkQualityGate
     condition: succeeded('checkQualityGate')
@@ -160,28 +166,32 @@ stages:
         $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication)
         $(ispwServer)'
 
+  - job: promoteAssignment
+    displayName: Extração/Carga e Nova Execução
     - task: PowerShell@2
-      displayName: Submissão de Jobs  
+      displayName: Extração e Carga  
       inputs:
         filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
         arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
         $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn1)'"
     - task: PowerShell@2
-      displayName: Submissão de Jobs  
+      displayName: Db2 Bind  
       inputs:
         filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
         arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
         $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn2)'"
     - task: PowerShell@2
-      displayName: Submissão de Jobs  
+      displayName: Execução de Testes Integrados  
       inputs:
         filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
         arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
         $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn3)'"
 
 - stage: promotePROD
+  displayName: Tarefas em Produção
+  jobs:
   - job: promoteAssignment
-    displayName: Promoção para PROD
+    displayName: Promoção para Produção
     steps:
     - task: PowerShell@2
       displayName: Job ISPW Promoção para STG
