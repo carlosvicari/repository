@@ -66,8 +66,8 @@ stages:
         filePath: '$(agentScriptsPath)\Git_Clone_TTT_Repo.ps1'
         arguments: '$(workspaceRoot) $(gitProject)/$(gitRepo)'
 
-- stage: tests
-  displayName: Tests
+- stage: Tests
+  displayName: Testes Unitários e Cobertura de Código
   jobs:
   - job: runTests
     displayName: Execução dos Testes Unitários
@@ -164,6 +164,7 @@ stages:
         $(ispwServer)'
 
   - job: integratedTests
+    dependsOn: promotePre
     displayName: Extração/Carga e Nova Execução
     steps:
     - task: PowerShell@2
