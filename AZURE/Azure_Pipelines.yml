@@ -66,6 +66,15 @@ stages:
         filePath: '$(agentScriptsPath)\Git_Clone_TTT_Repo.ps1'
         arguments: '$(workspaceRoot) $(gitProject)/$(gitRepo)'
 
+    # Generate Programs in Assignment
+    - task: PowerShell@2
+      displayName: Generate Assignment
+      inputs:
+        filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
+        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments generate 
+        $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication) 
+        $(ispwServer)'
+
 - stage: Tests
   displayName: Testes Unitários e Cobertura de Código
   jobs:
@@ -197,5 +206,5 @@ stages:
       inputs:
         filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
         arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments promote
-        $(ispwContainerName) PRD $(cesToken) FTSDEMO $(ispwApplication)
+        $(ispwContainerName) STG $(cesToken) FTSDEMO $(ispwApplication)
         $(ispwServer)'
