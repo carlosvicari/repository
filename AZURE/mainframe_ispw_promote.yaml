@@ -29,6 +29,6 @@ stages:
       displayName: Job ISPW Promoção para STG
       inputs:
         filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
-        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments promote \
-        $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication) \ 
+        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments promote
+        $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication)
         $(ispwServer)'
