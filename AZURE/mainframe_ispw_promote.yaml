@@ -8,7 +8,7 @@ variables:
 - name: 'gitRepo'
   value: 'repository'
 - name: 'ispwTargetLevel'
-  value: 'STG'
+  value: 'QA1'
 
 - name: 'ispwApplication'
   value: 'CCV1'  
