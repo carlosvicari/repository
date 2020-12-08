@@ -193,9 +193,9 @@ stages:
     displayName: Promoção para Produção
     steps:
     - task: PowerShell@2
-      displayName: Job ISPW Promoção para STG
+      displayName: Job ISPW Promoção para Proddução
       inputs:
         filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
         arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments promote
-        $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication)
+        $(ispwContainerName) PRD $(cesToken) FTSDEMO $(ispwApplication)
         $(ispwServer)'
