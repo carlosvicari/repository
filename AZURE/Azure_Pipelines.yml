@@ -177,3 +177,14 @@ stages:
         filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
         arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
         $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn3)'"
+
+  - job: promoteAssignment
+    displayName: Promoção para PROD
+    steps:
+    - task: PowerShell@2
+      displayName: Job ISPW Promoção para STG
+      inputs:
+        filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
+        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments promote
+        $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication)
+        $(ispwServer)'
