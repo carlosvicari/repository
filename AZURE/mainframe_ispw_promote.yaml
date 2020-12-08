@@ -10,8 +10,8 @@ variables:
 - name: 'ispwTargetLevel'
   value: 'STG'
 
-  - name: $(ispwApplication)
-	value: 'CCV1'  
+- name: $(ispwApplication)
+  value: 'CCV1'  
 - name: $(ispwContainerName)
   value: 'CCV1000028'
 - name: $(ispwContainerType)
