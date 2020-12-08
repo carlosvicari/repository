@@ -24,6 +24,7 @@ stages:
   displayName: ISPW Promoção para STG
   jobs:
   - job: promoteAssignment
+    -steps:
     - task: PowerShell@2
       displayName: Job ISPW Promoção para STG
       inputs:
