@@ -1,0 +1,22 @@
+trigger: none
+
+pool:
+  name: 'Default'
+
+variables:
+- group: 'Mainframe_Pipeline_Parameters'
+- name: 'jobMaxCc'
+  value: '4'
+- name: 'jclDsn1'
+  value: '"SALESSUP.CCV1.QA1.JOB(CVEXTLOD)"'
+- name: 'jclDsn2'
+  value: '"SALESSUP.CCV1.QA1.JOB($4DB2BND)"'
+- name: 'jclDsn3'
+  value: '"SALESSUP.CCV1.QA1.JOB($7RUNDB2)"'
+
+steps:
+- task: PowerShell@2
+  displayName: Submissão de Jobs  
+  inputs:
+    filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
+    arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn1)'"
