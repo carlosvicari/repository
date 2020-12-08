@@ -10,13 +10,13 @@ variables:
 - name: 'ispwTargetLevel'
   value: 'STG'
 
-- name: $(ispwApplication)
+- name: 'ispwApplication'
   value: 'CCV1'  
-- name: $(ispwContainerName)
+- name: 'ispwContainerName'
   value: 'CCV1000028'
-- name: $(ispwContainerType)
+- name: 'ispwContainerType'
   value: 'assignments'
-- name: $(azureRestAuthorization)
+- name: 'azureRestAuthorization'
   value: 'Basic a2o1eGJlazdzbDZ1M2NxYnE2ZXJxbTJoaXE3cGhoemNvYzJna3pmemJodHhhaG52bmx2cTprajV4YmVrN3NsNnUzY3FicTZlcnFtMmhpcTdwaGh6Y29jMmdremZ6Ymh0eGFobnZubHZx'
 
 stages:
