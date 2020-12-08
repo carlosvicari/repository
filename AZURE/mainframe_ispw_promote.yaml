@@ -1,0 +1,31 @@
+trigger: none
+
+pool:
+  name: 'Default'
+
+variables:
+- group: 'Mainframe_Pipeline_Parameters'
+- name: 'gitRepo'
+  value: 'repository'
+- name: 'ispwTargetLevel'
+  value: 'STG'
+
+  - name: $(ispwApplication)
+	value: 'CCV1'  
+- name: $(ispwContainerName)
+  value: 'CCV1000028'
+- name: $(ispwContainerType)
+  value: 'assignments'
+- name: $(azureRestAuthorization)
+  value: 'Basic a2o1eGJlazdzbDZ1M2NxYnE2ZXJxbTJoaXE3cGhoemNvYzJna3pmemJodHhhaG52bmx2cTprajV4YmVrN3NsNnUzY3FicTZlcnFtMmhpcTdwaGh6Y29jMmdremZ6Ymh0eGFobnZubHZx'
+
+stages:
+- stage: ISPW Promoção para STG
+  displayName: ISPW Promoção para STG
+  jobs:
+  - job: promoteAssignment
+    - task: PowerShell@2
+      displayName: Job ISPW Promoção para STG
+      inputs:
+        filePath: '$(agentScriptsPath)\ISPW_Operations.ps1'
+        arguments: 'ContainerOperation $(cesUri) $(ispwConfig) assignments promote $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication) $(ispwServer)'
