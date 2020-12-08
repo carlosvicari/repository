@@ -19,4 +19,5 @@ steps:
   displayName: Submissão de Jobs  
   inputs:
     filePath: '$(agentScriptsPath)\Topaz_Submit_JCL_Member.ps1'
-    arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn1)'"
+    arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
+    $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn1)'"
