@@ -140,10 +140,7 @@ stages:
         $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication) 
         $(ispwServer)'
 
-- stage: promoteSTG
-  displayName: Tarefas em Pré-Produção
-  jobs:
-  - job: promoteAssignment
+  - job: promotePre
     displayName: Promoção para Pré-Produção
     dependsOn: 
     - checkQualityGate
@@ -166,8 +163,9 @@ stages:
         $(ispwContainerName) $(ispwTargetLevel) $(cesToken) FTSDEMO $(ispwApplication)
         $(ispwServer)'
 
-  - job: promoteAssignment
+  - job: integratedTests
     displayName: Extração/Carga e Nova Execução
+    steps:
     - task: PowerShell@2
       displayName: Extração e Carga  
       inputs:
@@ -187,10 +185,10 @@ stages:
         arguments: "$(cliPath) $(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) 
         $(hostPassword) $(hostCodePage) $(jobMaxCc) '$(jclDsn3)'"
 
-- stage: promotePROD
+- stage: promoteProd
   displayName: Tarefas em Produção
   jobs:
-  - job: promoteAssignment
+  - job: promoteFinal
     displayName: Promoção para Produção
     steps:
     - task: PowerShell@2
