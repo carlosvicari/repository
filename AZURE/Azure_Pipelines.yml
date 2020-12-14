@@ -92,19 +92,17 @@ stages:
   - job: getCoverage
     displayName: Recuperação da Cobertura de Código
     steps:
-    # Execute Powershell Script to download Code Coverage results
- 
+    # Execute Powershell Script to solve DDIO Name
      - task: PowerShell@2
-      displayName: Determine DDIO Name
-      name: setDdioName
+      displayName: Solving DDIO Name
       inputs:
         targetType: 'inline'
         script:
           $ccDdio = 'SALESSUP.' + '$(ispwApplication)' + '.' + '$(ispwTargetLevel)' + '.LOAD.SSD'
           Write-Host 'ccDdio ==> ' $ccDdio
           echo "##vso[task.setvariable variable=ccDdio]$ccDdio"
-
-    - task: PowerShell@2
+   # Execute Powershell Script to download Code Coverage results
+     - task: PowerShell@2
       displayName: Get Code Coverage Results
       inputs:
         filePath: '$(agentScriptsPath)\Code_Coverage_Download_Metrics.ps1'
