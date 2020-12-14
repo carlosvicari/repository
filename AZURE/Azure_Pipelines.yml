@@ -93,6 +93,16 @@ stages:
     displayName: Recuperação da Cobertura de Código
     steps:
     # Execute Powershell Script to download Code Coverage results
+ 
+     - task: PowerShell@2
+      displayName: Determine DDIO Name
+      name: setDdioName
+      inputs:
+        targetType: 'inline'
+        script:
+          ccDdio = 'SALESSUP.' + '$(ispwApplication)' + '.' + '$(ispwTargetLevel)' + '.LOAD.SSD'
+          Write-Host 'ccDdio ==> ' $ccDdio
+
     - task: PowerShell@2
       displayName: Get Code Coverage Results
       inputs:
