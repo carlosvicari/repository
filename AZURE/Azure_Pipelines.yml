@@ -98,13 +98,16 @@ stages:
        inputs:
         targetType: 'inline'
         script: |
+          $ispwTargetLevel = 'QA' + '$(ispwLevel)'.Substring('$(ispwLevel)'.Length - 1, 1)
+          Write-Host 'Determined Level ==> ' $ispwTargetLevel
+          echo "##vso[task.setvariable variable=ispwTargetLevel]$ispwTargetLevel"
           $ccDdio = 'SALESSUP.' + '$(ispwApplication)' + '.' + '$(ispwTargetLevel)' + '.LOAD.SSD'
           Write-Host 'ccDdio ==> ' $ccDdio
           echo "##vso[task.setvariable variable=ccDdio]$ccDdio"
     # Execute Powershell Script to download Code Coverage results
      - task: PowerShell@2
-      displayName: Get Code Coverage Results
-      inputs:
+       displayName: Get Code Coverage Results
+       inputs:
         filePath: '$(agentScriptsPath)\Code_Coverage_Download_Metrics.ps1'
         arguments: '$(workspaceRoot) $(hostUri) $(hostPort) $(hostUser) $(hostPassword) $(hostCodePage) 
         $(ispwApplication) $(ccRepo) $(ccSystem) $(ccTestId) $(ccDdio) $(cliPath)'
