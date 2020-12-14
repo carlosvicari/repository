@@ -101,7 +101,7 @@ stages:
           $ispwTargetLevel = 'QA' + '$(ispwLevel)'.Substring('$(ispwLevel)'.Length - 1, 1)
           Write-Host 'Determined Level ==> ' $ispwTargetLevel
           echo "##vso[task.setvariable variable=ispwTargetLevel]$ispwTargetLevel"
-          $ccDdio = 'SALESSUP.' + '$(ispwApplication)' + '.' + ispwTargetLevel + '.LOAD.SSD'
+          $ccDdio = 'SALESSUP.' + '$(ispwApplication)' + '.' +  '$(ispwTargetLevel)' + '.LOAD.SSD'
           echo "##vso[task.setvariable variable=ccDdio]$ccDdio"
           Write-Host 'ccDdio ==> ' $ccDdio
     # Execute Powershell Script to download Code Coverage results
