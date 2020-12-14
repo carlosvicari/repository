@@ -101,7 +101,7 @@ stages:
           $ccDdio = 'SALESSUP.' + '$(ispwApplication)' + '.' + '$(ispwTargetLevel)' + '.LOAD.SSD'
           Write-Host 'ccDdio ==> ' $ccDdio
           echo "##vso[task.setvariable variable=ccDdio]$ccDdio"
-   # Execute Powershell Script to download Code Coverage results
+    # Execute Powershell Script to download Code Coverage results
      - task: PowerShell@2
       displayName: Get Code Coverage Results
       inputs:
