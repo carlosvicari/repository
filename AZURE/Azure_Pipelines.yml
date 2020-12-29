@@ -91,6 +91,7 @@ stages:
 
   - job: getCoverage
     displayName: Recuperação da Cobertura de Código
+    dependsOn: runTests
     steps:
     # Execute Powershell Script to solve DDIO Name
      - task: PowerShell@2
