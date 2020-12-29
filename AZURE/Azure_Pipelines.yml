@@ -10,7 +10,7 @@ variables:
 - name: 'ccSystem'
   value: 'CWCC'
 - name: 'ccDdio'
-  value: 'SALESSUP.$(ispwApplication).$(ispwTargetLevel).LOAD.SSD' #DSNAME ALTERADO ABAIXO!!
+  value: 'SALESSUP.$(ispwApplication).$(ispwTargetLevel).LOAD.SSD' #DSNAME ALTERADO ABAIXO!!!
 - name: 'sonarProjectName'
   value: 'BRASIL_$(ispwApplication)_Azure'
 - name: 'sonarSources'
