@@ -1,130 +1,66 @@
 <Connections>
   <Connection>
-    <id>10.10.0.200:16196</id>
+    <id>0e51b1c0-afe0-4293-8ba5-ee7c39ae8a1f</id>
+    <ipaddress>192.168.96.142</ipaddress>
+    <port>26196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>DSC2MSTR</databaseName>
+    <description>CWC2 17.02 HCI</description>
+    <label>CWC2 17.02 HCI</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17Q.SLCXLOAD" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>79161366-7654-4b4d-853a-2505a8273d94</id>
     <ipaddress>10.10.0.200</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://10.10.0.200:&lt;port&gt;/${database}</databaseUri>
+    <databaseUri>jdbc:db2://10.10.0.200:746/${database}</databaseUri>
     <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
+    <databaseName>DB01CW01</databaseName>
     <description>CW01</description>
     <label>CW01</label>
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+      <property key="lpar_tttrunner_lib" value="CX.R170000.SMPE.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
-    <id>192.168.0.62:16196</id>
-    <ipaddress>192.168.0.62</ipaddress>
-    <port>16196</port>
-    <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://192.168.0.62:&lt;port&gt;/${database}</databaseUri>
-    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>S0W1</description>
-    <label>S0W1</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
-    <datasethlq />
-    <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
-    </jclproperties>
-  </Connection>
-  <Connection>
-    <id>10.10.0.205:16196</id>
-    <ipaddress>10.10.0.205</ipaddress>
-    <port>16196</port>
-    <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://10.10.0.205:&lt;port&gt;/${database}</databaseUri>
-    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>CW09</description>
-    <label>CW09</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
-    <datasethlq />
-    <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
-    </jclproperties>
-  </Connection>
-  <Connection>
-    <id>192.168.96.142:16196</id>
+    <id>d6a9b505-ae69-4e3c-91cf-65b2ed2af190</id>
     <ipaddress>192.168.96.142</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://192.168.96.142:&lt;port&gt;/${database}</databaseUri>
+    <databaseUri>jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database</databaseUri>
     <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>CWC2</description>
-    <label>CWC2</label>
+    <databaseName>DSC2MSTR</databaseName>
+    <description>CWC2 18.02 HCI</description>
+    <label>CWC2 18.02 HCI</label>
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+      <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17Q.SLCXLOAD" />
     </jclproperties>
   </Connection>
   <Connection>
-    <id>192.168.96.130:16196</id>
+    <id>b09ebde4-200b-4868-8469-8b71babf9efa</id>
     <ipaddress>192.168.96.130</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://192.168.96.130:&lt;port&gt;/${database}</databaseUri>
+    <databaseUri>jdbc:db2://cwcc.compuware.com:546/${database}</databaseUri>
     <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
+    <databaseName>DBCCCWCC</databaseName>
     <description>CWCC</description>
     <label>CWCC</label>
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
       <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
-    </jclproperties>
-  </Connection>
-  <Connection>
-    <id>cwc2.nasa.cpwr.corp:16196</id>
-    <ipaddress>cwc2.nasa.cpwr.corp</ipaddress>
-    <port>16196</port>
-    <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://cwc2.nasa.cpwr.corp:&lt;port&gt;/${database}</databaseUri>
-    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>CWC2</description>
-    <label>CWC2</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
-    <datasethlq />
-    <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
-    </jclproperties>
-  </Connection>
-  <Connection>
-    <id>cw01.compuware.com:16196</id>
-    <ipaddress>cw01.compuware.com</ipaddress>
-    <port>16196</port>
-    <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://cw01.compuware.com:&lt;port&gt;/${database}</databaseUri>
-    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>CW01</description>
-    <label>CW01</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
-    <datasethlq />
-    <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
-    </jclproperties>
-  </Connection>
-  <Connection>
-    <id>cw09:16196</id>
-    <ipaddress>cw09</ipaddress>
-    <port>16196</port>
-    <socketType>HCI</socketType>
-    <databaseUri>jdbc:db2://cw09:&lt;port&gt;/${database}</databaseUri>
-    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
-    <databaseName>&lt;database&gt;</databaseName>
-    <description>CW09</description>
-    <label>CW09</label>
-    <skeletonDir>JCLSkeletons</skeletonDir>
-    <datasethlq />
-    <jclproperties>
-      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
     </jclproperties>
   </Connection>
 </Connections>
