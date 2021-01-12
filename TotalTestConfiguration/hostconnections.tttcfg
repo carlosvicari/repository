@@ -16,7 +16,7 @@
     </jclproperties>
   </Connection>
   <Connection>
-    <id>79161366-7654-4b4d-853a-2505a8273d94</id>
+    <id>10.10.0.200:16196</id>
     <ipaddress>10.10.0.200</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
@@ -32,15 +32,15 @@
     </jclproperties>
   </Connection>
   <Connection>
-    <id>d6a9b505-ae69-4e3c-91cf-65b2ed2af190</id>
+    <id>192.168.96.142:16196</id>
     <ipaddress>192.168.96.142</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
     <databaseUri>jdbc:db2://cwc2.nasa.cpwr.corp:2846/${database</databaseUri>
     <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
     <databaseName>DSC2MSTR</databaseName>
-    <description>CWC2 18.02 HCI</description>
-    <label>CWC2 18.02 HCI</label>
+    <description>CWC2</description>
+    <label>CWC2</label>
     <skeletonDir>JCLSkeletons</skeletonDir>
     <datasethlq />
     <jclproperties>
@@ -48,7 +48,7 @@
     </jclproperties>
   </Connection>
   <Connection>
-    <id>b09ebde4-200b-4868-8469-8b71babf9efa</id>
+    <id>192.168.96.130:16196</id>
     <ipaddress>192.168.96.130</ipaddress>
     <port>16196</port>
     <socketType>HCI</socketType>
@@ -61,6 +61,38 @@
     <datasethlq />
     <jclproperties>
       <property key="lpar_tttrunner_lib" value="SYS2.CW.CXR17B.SLCXLOAD" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>192.168.0.62:16196</id>
+    <ipaddress>192.168.0.62</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://192.168.0.62:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>S0W1</description>
+    <label>S0W1</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+    </jclproperties>
+  </Connection>
+  <Connection>
+    <id>10.10.0.205:16196</id>
+    <ipaddress>10.10.0.205</ipaddress>
+    <port>16196</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://10.10.0.205:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>CW09</description>
+    <label>CW09</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
     </jclproperties>
   </Connection>
 </Connections>
