@@ -1,12 +1,12 @@
-16:08:37.936 INFO      TOPAZ            ***************************************
-16:08:37.937 INFO      TOPAZ            ** Execution from Topaz with options **
-16:08:37.937 INFO      TOPAZ            ***************************************
-16:08:37.937 INFO      TOPAZ            Using repository: false
-16:08:37.938 INFO      TOPAZ            ***************************************
-16:08:37.938 INFO      Engine           Test Scenario execution started
-16:08:37.939 INFO      Engine           Using context settings:
-  Engine Version                : 20.5
-  Environment id                : 192.168.96.130:16196
+10:41:44.636 INFO      TOPAZ            ***************************************
+10:41:44.637 INFO      TOPAZ            ** Execution from Topaz with options **
+10:41:44.637 INFO      TOPAZ            ***************************************
+10:41:44.637 INFO      TOPAZ            Using repository: false
+10:41:44.637 INFO      TOPAZ            ***************************************
+10:41:44.637 INFO      Engine           Test Scenario execution started
+10:41:44.637 INFO      Engine           Using context settings:
+  Engine Version                : 20.6
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
@@ -19,21 +19,21 @@
   Codepage                      : IBM-1047
   Host user Id                  : FBRCCV0
   Use Repository Server         : false
-16:08:37.940 INFO      Engine           Setting variables from context and context data extensions
-16:08:37.940 INFO      Engine             id: environmentId      value: 192.168.96.130:16196
-16:08:37.940 INFO      Engine             id: environmentType    value: BATCH
-16:08:37.940 INFO      Engine             id: userId             value: FBRCCV0
-16:08:37.940 INFO      Engine             id: accountingInfo     value: 
-16:08:37.940 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
-16:08:37.951 INFO      Unittest         Static JCL is being used, path is: C:/Users/cvicari/git/repository/CWKTDB2X_TTT_ISPW_CICD/Tests/JCL/Runner_CICD.jcl
-16:08:55.639 INFO      CWCC             Sending Job execution request to Host 
-16:09:01.011 INFO      CWCC             Job execution completed with status:
+10:41:44.638 INFO      Engine           Setting variables from context and context data extensions
+10:41:44.638 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+10:41:44.638 INFO      Engine             id: environmentType    value: BATCH
+10:41:44.638 INFO      Engine             id: userId             value: FBRCCV0
+10:41:44.638 INFO      Engine             id: accountingInfo     value: 
+10:41:44.638 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
+10:41:44.646 INFO      Unittest         Static JCL is being used, path is: C:/Users/cvicari/git/repository/CWKTDB2X_TTT_ISPW_CICD/Tests/JCL/Runner_CICD.jcl
+10:42:01.826 INFO      CWCC - Demo System Sending Job execution request to Host 
+10:42:07.203 INFO      CWCC - Demo System Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job CVRUNTTT(J0110302) ended with return code: 0000
+  Job status msg : Job CVRUNTTT(J0129226) ended with return code: 0000
   Job name       : CVRUNTTT
-  Job id         : J0110302
+  Job id         : J0129226
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-16:09:03.821 INFO      Unittest         Execution completed
-16:09:03.821 INFO      Engine           Test Scenario execution ended
+10:42:10.013 INFO      Unittest         Execution completed
+10:42:10.014 INFO      Engine           Test Scenario execution ended

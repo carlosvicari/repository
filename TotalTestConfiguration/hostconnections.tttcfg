@@ -63,4 +63,20 @@
       <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
     </jclproperties>
   </Connection>
+  <Connection>
+    <id>aa7c97de-cbb0-4d10-8423-b9e3a35fb52b</id>
+    <ipaddress>192.168.96.130</ipaddress>
+    <port>16198</port>
+    <socketType>HCI</socketType>
+    <databaseUri>jdbc:db2://192.168.96.130:&lt;port&gt;/${database}</databaseUri>
+    <databaseDriver>com.ibm.db2.jcc.DB2Driver</databaseDriver>
+    <databaseName>&lt;database&gt;</databaseName>
+    <description>CWCC - Test Drive Port</description>
+    <label>CWCC - Test Drive Port</label>
+    <skeletonDir>JCLSkeletons</skeletonDir>
+    <datasethlq />
+    <jclproperties>
+      <property key="lpar_tttrunner_lib" value="&lt;value&gt;" />
+    </jclproperties>
+  </Connection>
 </Connections>
