@@ -1,39 +1,40 @@
-15:36:25.969 INFO      TOPAZ            ***************************************
-15:36:25.969 INFO      TOPAZ            ** Execution from Topaz with options **
-15:36:25.969 INFO      TOPAZ            ***************************************
-15:36:25.969 INFO      TOPAZ            Using repository: false
-15:36:25.969 INFO      TOPAZ            ***************************************
-15:36:25.970 INFO      Engine           Test Scenario execution started
-15:36:25.970 INFO      Engine           Using context settings:
+14:44:36.291 INFO      TOPAZ            ***************************************
+14:44:36.291 INFO      TOPAZ            ** Execution from Topaz with options **
+14:44:36.291 INFO      TOPAZ            ***************************************
+14:44:36.291 INFO      TOPAZ            Using repository: true
+14:44:36.291 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
+14:44:36.291 INFO      TOPAZ            ***************************************
+14:44:36.291 INFO      Engine           Test Scenario execution started
+14:44:36.291 INFO      Engine           Using context settings:
   Engine Version                : 20.6
-  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment id                : 5b508b8a787be73b59238d38
   Environment type              : Batch
   Operating system              : ZOS
   zOS agent version             : NEWEST
-  Server address                : 192.168.96.130
+  Server address                : cwcc.nasa.cpwr.corp
   Server port                   : 16196
-  Job execution timeout seconds : 300
+  Job execution timeout seconds : 600
   Job info interval seconds     : 3
   Socket read timeout           : 30
   Encoding                      : ISO8859-1
   Codepage                      : IBM-1047
   Host user Id                  : FBRCCV0
   Use Repository Server         : false
-15:36:25.970 INFO      Engine           Setting variables from context and context data extensions
-15:36:25.970 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-15:36:25.970 INFO      Engine             id: environmentType    value: BATCH
-15:36:25.970 INFO      Engine             id: userId             value: FBRCCV0
-15:36:25.970 INFO      Engine             id: accountingInfo     value: 
-15:36:25.971 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
-15:36:25.987 INFO      Unittest         Static JCL is being used, path is: C:/Users/cvicari/git/repository/CWKTDB2X_TTT_ISPW_CICD/Tests/JCL/Runner_CICD.jcl
-15:36:40.188 INFO      CWCC - Demo System Sending Job execution request to Host 
-15:36:45.542 INFO      CWCC - Demo System Job execution completed with status:
+14:44:36.291 INFO      Engine           Setting variables from context and context data extensions
+14:44:36.291 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+14:44:36.291 INFO      Engine             id: environmentType    value: BATCH
+14:44:36.291 INFO      Engine             id: userId             value: FBRCCV0
+14:44:36.291 INFO      Engine             id: accountingInfo     value: 
+14:44:36.291 INFO      Unittest         Interpreting Unittest of module: CWKTDB2X testscenario path: CWKTDB2X_Scenario.testscenario
+14:44:36.323 INFO      Unittest         Static JCL is being used, path is: C:/Users/cvicari/Compuware/Workbench/workspace_20_6_2_140/CWKTDB2X_TTT_ISPW_CICD_LOCAL_NEW/Tests/JCL/Runner_CICD.jcl
+14:44:46.817 INFO      CWCC Batch       Sending Job execution request to Host 
+14:44:52.378 INFO      CWCC Batch       Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job CVRUNTTT(J0129601) ended with return code: 0000
+  Job status msg : Job CVRUNTTT(J0140277) ended with return code: 0000
   Job name       : CVRUNTTT
-  Job id         : J0129601
+  Job id         : J0140277
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-15:36:52.240 INFO      Unittest         Execution completed
-15:36:52.240 INFO      Engine           Test Scenario execution ended
+14:44:55.796 INFO      Unittest         Execution completed
+14:44:55.796 INFO      Engine           Test Scenario execution ended

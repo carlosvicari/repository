@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 20.5.1.v20201214-0405_74?>
-<!--Topaz for Total Test 20.5.1.v20201214-0405_74 06/01/2021 11:52:18-->
+<?totaltestVersion 20.6.2.v20210503-0527_148?>
+<!--Topaz for Total Test 20.6.2.v20210503-0527_148 14/05/2021 14:36:06-->
 <listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_WA-EMP-STATE.listructure">
   <listructure:struct id="WA_EMP_STATE" name="WA_EMP_STATE">
     <properties:properties>
