@@ -20,7 +20,7 @@
       <Value>../JCL/Runner_CICD.jcl</Value>
     </Parameter>
   </ExtensionData>
-  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTDB2X" caseInsensitiveCompare="false" path="CWKTDB2X_Scenario.context">
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTDB2X" caseInsensitiveCompare="false" path="CWKTDB2X_Scenario.testscenario">
     <Test>
       <Unittest testscenariopath="CWKTDB2X_Scenario.testscenario" moduleName="CWKTDB2X" />
     </Test>
