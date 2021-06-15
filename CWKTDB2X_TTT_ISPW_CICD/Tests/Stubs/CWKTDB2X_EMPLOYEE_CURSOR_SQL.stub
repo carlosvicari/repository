@@ -784,7 +784,7 @@
             <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Tests/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
               <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
                 <properties:properties>
-                  <properties:property name="value" type="string">0007200C</properties:property>
+                  <properties:property name="value" type="string">0001800C</properties:property>
                 </properties:properties>
               </stub:data>
             </stub:output>
@@ -1214,7 +1214,7 @@
             <stub:output listructure="../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#Tests/Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure">
               <stub:data baseType="listructure:structType ../Structures/Db2/CWKTDB2X/CWKTDB2X_FetchUpdate_OVERTIME.listructure#OVERTIME" id="arg1.OVERTIME">
                 <properties:properties>
-                  <properties:property name="value" type="string">0003300C</properties:property>
+                  <properties:property name="value" type="string">0000825C</properties:property>
                 </properties:properties>
               </stub:data>
             </stub:output>
