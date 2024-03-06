@@ -1,6 +1,6 @@
 ${TOTALTEST_JOBCARD}
 //********************************************************************
-//* Execute Target Runner 
+//* Execute Target Runner
 //********************************************************************
 //RUNNER EXEC PGM=TTTRUNNR
 //STEPLIB  DD DISP=SHR,DSN=SYS2.CW.&CWGACX..SLCXLOAD
