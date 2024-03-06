@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 28/09/2022 12:09:17-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/Db2/CWKTDB2X/CWKTDB2X_Insert_RATE.listructure">
+  <listructure:struct id="RATE" name="RATE">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">4</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">4</properties:property>
+    </properties:properties>
+    <listructure:number id="RATE.RATE" length="6" name="RATE">
+      <properties:properties>
+        <properties:property name="picture" type="string">S9(4)V9(2)</properties:property>
+        <properties:property name="usage" type="string">computational-3</properties:property>
+        <properties:property name="signed" type="boolean">true</properties:property>
+        <properties:property name="scale" type="number">2</properties:property>
+        <properties:property name="displayLength" type="number">6</properties:property>
+        <properties:property name="integerDigits" type="number">4</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="liType" type="string">packed</properties:property>
+        <properties:property name="storageLength" type="number">4</properties:property>
+        <properties:property name="sqltype" type="number">484</properties:property>
+      </properties:properties>
+    </listructure:number>
+  </listructure:struct>
+</listructure:listructure>
