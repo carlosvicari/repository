@@ -8,13 +8,8 @@
       <Value>SALESSUP.CCV1.PRD.LOAD</Value>
       <Value>SYS2.CW.XTR17Z.SLXTLOAD</Value>
       <Value>CEE.SCEERUN</Value>
-      <Value>SALESSUP.CCV1.DEV1.LOAD</Value>
-      <Value>SALESSUP.CCV1.QA1.LOAD</Value>
-      <Value>SALESSUP.CCV1.STG.LOAD</Value>
-      <Value>SALESSUP.CCV1.PRD.LOAD</Value>
       <Value>DSNB10.DBCC.RUNLIB.LOAD</Value>
       <Value>DSNB10.SDSNLOAD</Value>
-      <Value>CEE.SCEERUN</Value>
     </Parameter>
   </ExtensionData>
   <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTDB2X" caseInsensitiveCompare="false" path="CWKTDB2X_Scenario.context">
