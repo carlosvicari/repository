@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.12.1.v20220909-1355_70?>
+<!--Topaz for Total Test 20.12.1.v20220909-1355_70 28/09/2022 12:08:31-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Tests/Structures/Db2/CWKTDB2X/CWKTDB2X_Fetch_STREET-ADDR.listructure">
+  <listructure:struct id="STREET_ADDR" name="STREET_ADDR">
+    <properties:properties>
+      <properties:property name="displayLength" type="number">17</properties:property>
+      <properties:property name="platform" type="string">mainframe</properties:property>
+      <properties:property name="storageLength" type="number">17</properties:property>
+    </properties:properties>
+    <listructure:struct id="STREET_ADDR.STREET_ADDR" name="STREET_ADDR">
+      <properties:properties>
+        <properties:property name="displayLength" type="number">17</properties:property>
+        <properties:property name="platform" type="string">mainframe</properties:property>
+        <properties:property name="storageLength" type="number">17</properties:property>
+        <properties:property name="sqltype" type="number">449</properties:property>
+      </properties:properties>
+      <listructure:number id="STREET_ADDR.STREET_ADDR.STREET_ADDR_LEN" length="4" name="STREET_ADDR_LEN">
+        <properties:properties>
+          <properties:property name="picture" type="string">S9(4)</properties:property>
+          <properties:property name="usage" type="string">computational</properties:property>
+          <properties:property name="signed" type="boolean">true</properties:property>
+          <properties:property name="displayLength" type="number">4</properties:property>
+          <properties:property name="integerDigits" type="number">4</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">binary</properties:property>
+          <properties:property name="storageLength" type="number">2</properties:property>
+          <properties:property name="sqltype" type="number">449</properties:property>
+        </properties:properties>
+      </listructure:number>
+      <listructure:string id="STREET_ADDR.STREET_ADDR.STREET_ADDR_TEXT" length="15" name="STREET_ADDR_TEXT">
+        <properties:properties>
+          <properties:property name="picture" type="string">X(15)</properties:property>
+          <properties:property name="displayLength" type="number">15</properties:property>
+          <properties:property name="platform" type="string">mainframe</properties:property>
+          <properties:property name="liType" type="string">char</properties:property>
+          <properties:property name="mask" type="string">X(15)</properties:property>
+          <properties:property name="storageLength" type="number">15</properties:property>
+          <properties:property name="sqltype" type="number">449</properties:property>
+        </properties:properties>
+      </listructure:string>
+    </listructure:struct>
+  </listructure:struct>
+</listructure:listructure>
